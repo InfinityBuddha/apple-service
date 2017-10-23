@@ -1,0 +1,51 @@
+.container {
+	display: block;
+	margin: 0 auto;
+	width: 320px;
+}
+
+.circles {
+	margin-top: 36px;
+}
+
+.item {
+	position: relative;
+}
+
+.circle {
+	position: relative;
+	background: #0070D2;
+	box-shadow: 0 1px 2px 0 rgba(0,112,210,0.63);
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	margin-left: 110px;
+}
+
+.circle span {
+	position: absolute;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 13px;
+}
+
+.title {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	color: #333333;
+	position: absolute;
+	max-width: 40px;
+	text-align: right;
+	top: 50%;
+	left: 70%;
+	transform: translate(-100%, -50%);
+}
+
+.line {
+	width: 1px;
+	height: 45px;
+	border-left: 1px solid #328CDB;
+	margin-left: 127px;
+}
