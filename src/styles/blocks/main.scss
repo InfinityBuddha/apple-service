@@ -1,0 +1,97 @@
+* {
+	font-family: Helvetica, sans-serif;
+}
+
+.container {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.title {
+	font-size: 21px;
+	padding-left: 26px;
+	margin: 0;
+	margin-top: 50px;
+	font-weight: 400;
+}
+
+.text {
+	display: block;
+	font-size: 15px;
+	padding-left: 26px;
+	margin-top: 8px;
+	max-width: 310px;
+}
+
+.button {
+	display: inline-block;
+	background-color: #0070D2;
+	border-radius: 3px;
+	text-decoration: none;
+	margin-left: 25px;
+	margin-top: 20px;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+}
+
+.button__title {
+	color: #fff;
+	font-size: 13px;
+	padding: 8px 15px 8px 13px;
+}
+
+@media (max-width: 1200px) { // desktop
+	.container {
+		width: 970px;
+	}
+}
+
+@media (max-width: 992px) { // laptop
+	.container {
+		width: 750px;
+	}
+}
+
+@media (max-width: 768px) { // tablets
+	.container {
+		width: 87%;
+	}
+
+	.title {
+		font-size: 24px;
+		margin-top: 158px;
+	}
+
+	.text {
+		max-width: 555px;
+	}
+
+	.button {
+		margin-bottom: 158px;
+	}
+
+}
+
+@media (max-width: 480px) { // phones
+	.container {
+		width: 100%;
+	}
+
+	.title {
+		margin-top: 50px;
+	}
+
+	.text {
+		display: block;
+		font-size: 15px;
+		padding-left: 26px;
+		margin-top: 8px;
+		max-width: 310px;
+	}
+
+	.button {
+		margin-bottom: 56px;
+	}
+
+
+}
