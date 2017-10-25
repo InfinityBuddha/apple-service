@@ -5,21 +5,18 @@
   min-width: 100%; }
 
 .cover {
-  background: url("../img/main-bg.png") no-repeat top;
+  background: url("../../img/main-bg.png") no-repeat top;
   background-size: cover;
   width: 100%;
   display: block;
   margin: 0 auto; }
 
 .container {
-  position: relative;
-  display: block;
-  margin: 0 auto;
-  width: 100%; }
-
-.contacts {
-  padding-top: 16px;
-  padding-left: 24px; }
+  display: flex;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-top: 18px;
+  padding-right: 24px; }
 
 .phone {
   color: #4A4A4A;
@@ -30,21 +27,10 @@
   font-size: 9px;
   color: #333333; }
 
-@media (max-width: 1200px) {
-  .container {
-    width: 970px; } }
-
-@media (max-width: 992px) {
-  .container {
-    width: 750px; } }
-
 @media (max-width: 768px) {
   .header {
     box-shadow: 0 1px 2px 0 #9B9B9B;
     background-color: #fff; }
-  .container {
-    width: 670px;
-    display: flex; }
   .contacts {
     display: none; }
   .contacts__tablet {
@@ -53,20 +39,10 @@
     padding-bottom: 17px;
     margin-right: 24px; }
   .cover {
-    background: url("../img/main-bg-tablet.png") no-repeat top;
-    background-size: contain; }
-  .nav {
-    position: absolute;
-    background: url("../img/hamburger.png") no-repeat;
-    width: 26px;
-    height: 16px;
-    cursor: pointer;
-    top: 29px;
-    right: 0; } }
+    background: url("../../img/main-bg-tablet.png") no-repeat top;
+    background-size: contain; } }
 
 @media (max-width: 480px) {
-  .container {
-    width: 100%; }
   .header {
     box-shadow: none;
     background: transparent; }
@@ -75,12 +51,4 @@
   .contacts {
     display: block; }
   .contacts__tablet {
-    display: none; }
-  .nav {
-    position: absolute;
-    background: url("../img/hamburger.png") no-repeat;
-    width: 26px;
-    height: 16px;
-    cursor: pointer;
-    top: 25px;
-    right: 25px; } }
+    display: none; } }

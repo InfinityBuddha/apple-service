@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import HamburgerIcon from './img/icons/HamburgerIcon'
+
 import './styles/App.css'
 import head from './styles/blocks/header.css'
 import main from './styles/blocks/main.css'
@@ -35,7 +37,9 @@ class App extends Component {
 								</div>
 
 								<nav className={head.nav}>
-
+                                    <button className={head.hamburger}>
+                                        <HamburgerIcon/>
+                                    </button>
 								</nav>
 							</div>
 						</header>
@@ -44,9 +48,9 @@ class App extends Component {
 							<h1 className={main.title}>Да, мы это исправим</h1>
 							<div className={main.text}>Обращайтесь к нам, если у вас возникли проблемы с вашими девайсами.<br />
 								Мы знаем толк в ремонте.</div>
-							<a href="#" className={main.button}>
+							<button  className={main.button}>
 								<div className={main.button__title}>Нужен ремонт</div>
-							</a>
+							</button>
 						</section>
 
 					</div>
