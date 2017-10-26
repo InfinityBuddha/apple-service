@@ -44,11 +44,10 @@ class App extends Component {
 							<h1 className={main.title}>Да, мы это исправим</h1>
 							<div className={main.text}>Обращайтесь к нам, если у вас возникли проблемы с вашими девайсами.<br />
 								Мы знаем толк в ремонте.</div>
-							<a href="#" className={main.button}>
+							<button className={main.button}>
 								<div className={main.button__title}>Нужен ремонт</div>
-							</a>
+							</button>
 						</section>
-
 					</div>
 
 							<section className={dev.container}>
@@ -92,19 +91,45 @@ class App extends Component {
 							<section className={dis.displays}>
 								<div className={dis.overlay}>
 								<div className={dis.container}>
+									<div className={dis.wrapper}>
 										<span className={dis.title}>Дисплеи для iPhone</span>
-										<a href="#" className={dis.button}>
+										<button className={dis.button}>
 											<div className={dis.button__title}>Открыть каталог</div>
-										</a>
+										</button>
 									</div>
 								</div>
+								</div>
 							</section>
-
 
 							<section className={s.slider}>
 								<div className={s.container}>
 									<div className={s.title}>5 лет качества</div>
 									<div className={s.text}>За это время через наши руки прошло  более 5000 устройств.</div>
+									<div className={s.cards__wrapper}>
+										<ul className={s.cards}>
+											<li className={s.card}>
+												<div className={s.section__pic_iphone}></div>
+												<div className={s.section__text}>
+													<div className={s.text__title}>5 лет качества</div>
+													<div className={s.description}>За это время через наши руки прошло  более 5000 устройств.</div>
+												</div>
+											</li>
+											<li className={s.card}>
+												<div className={s.section__pic_turbine}></div>
+												<div className={s.section__text}>
+													<div className={s.text__title}>Экспресс ремонт</div>
+													<div className={s.description}>Накопленный опыт в области ремонта техники Apple позволяет нам быстро устранять неполадки</div>
+												</div>
+											</li>
+											<li className={s.card}>
+												<div className={s.section__pic_shield}></div>
+												<div className={s.section__text}>
+													<div className={s.text__title}>Гарантия 2 месяца</div>
+													<div className={s.description}>Мы используем только качественные запчасти для ремонта продукции Apple. Это позволяет нам давать длительную гарантию на все виды ремонта</div>
+												</div>
+											</li>
+										</ul>
+									</div>
 								</div>
 							</section>
 

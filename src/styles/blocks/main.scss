@@ -25,20 +25,23 @@
 }
 
 .button {
-	display: inline-block;
 	background-color: #0070D2;
-	border-radius: 3px;
-	text-decoration: none;
+	border-radius: 20px;
 	margin-left: 25px;
 	margin-top: 20px;
 	margin-bottom: 56px;
 	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+	border: 0px solid transparent;
+	padding: 5px 11px;
+	outline: none;
+	cursor: pointer;
 }
 
 .button__title {
+	display: inline-block;
+	text-decoration: none;
 	color: #fff;
 	font-size: 13px;
-	padding: 8px 15px 8px 13px;
 }
 
 @media (min-width: 768px) { // tablets
@@ -52,7 +55,7 @@
 	}
 
 	.text {
-		max-width: 555px;
+		max-width: 460px;
 	}
 
 	.button {
