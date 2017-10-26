@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aeb288c6-1cc7-4a30-b9c1-28e41cecaa09" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/img/iphoneicons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/img/iphoneicons.svg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/blocks/displays.css" afterPath="$PROJECT_DIR$/src/styles/blocks/displays.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/blocks/displays.scss" afterPath="$PROJECT_DIR$/src/styles/blocks/displays.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/blocks/main.css" afterPath="$PROJECT_DIR$/src/styles/blocks/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/blocks/main.scss" afterPath="$PROJECT_DIR$/src/styles/blocks/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/blocks/slider.css" afterPath="$PROJECT_DIR$/src/styles/blocks/slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/blocks/slider.scss" afterPath="$PROJECT_DIR$/src/styles/blocks/slider.scss" />
-    </list>
+    <list default="true" id="aeb288c6-1cc7-4a30-b9c1-28e41cecaa09" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -61,8 +49,8 @@
       <file leaf-file-name="slider.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/blocks/slider.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            <state relative-caret-position="387">
+              <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -266,12 +254,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507985698425</updated>
-      <workItem from="1507985702756" duration="47384000" />
+      <workItem from="1507985702756" duration="47984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47758000" />
+    <option name="totallyTimeSpent" value="48358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="857" extended-state="0" />
@@ -488,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/blocks/slider.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="387">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding />
         </state>
       </provider>
