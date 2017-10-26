@@ -9,7 +9,7 @@
 	box-shadow: 0 1px 2px 0 #9B9B9B;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	background: url("../../img/iphoneicons.png") no-repeat;
+	background: url("../icons/iphoneicons.svg") no-repeat;
 	background-position: 87% 50%;
 }
 
@@ -23,30 +23,82 @@
 .text {
 	color: #333333;
 	font-size: 13px;
-	width: 155px;
+	width: 45%;
 	padding-left: 10%;
 }
 
-@media (max-width: 1200px) { // desktop
-	.container {
-		width: 970px;
-	}
+.cards {
+	display: none;
 }
 
-@media (max-width: 992px) { // laptop
-	.container {
-		width: 750px;
-	}
-}
-
-@media (max-width: 768px) { // tablets
+@media (min-width: 768px) { // tablets
 	.container {
 		width: 670px;
+		background: none;
+		box-shadow: none;
+		padding: 0;
 	}
-}
 
-@media (max-width: 480px) { // phones
-	.container {
-		width: 100%;
+	.title {
+		 display: none;
+	 }
+
+	.text {
+		display: none;
+	}
+
+	.cards__wrapper {
+		margin-top: 24px;
+	}
+
+	.cards {
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		padding: 0;
+	}
+
+	.card {
+		display: flex;
+		flex-flow: column;
+		box-shadow: 0 1px 2px 0 #9B9B9B;
+		width: 33%;
+
+		&:not(:last-child) {
+			margin-right: 12px;
+		}
+	}
+
+	.section__pic_iphone {
+		background: url("../icons/iphoneicon.svg") no-repeat;
+		background-position: 50% 50%;
+		padding-top: 169px;
+	}
+
+	.section__pic_turbine {
+		background: url("../icons/turbina.svg") no-repeat;
+		background-position: 50% 50%;
+		padding-top: 169px;
+	}
+
+	.section__pic_shield {
+		background: url("../icons/shield.svg") no-repeat;
+		background-position: 50% 50%;
+		padding-top: 169px;
+	}
+
+	.section__text {
+		background: linear-gradient(to right, #32BADB, #328CDB);
+		height: 100%;
+		padding: 15px 22px 24px 24px;
+		color: #fff;
+		font-size: 11px;
+		font-weight: 300;
+	}
+
+	.text__title {
+		font-size: 18px;
+		font-weight: 300;
+		margin-bottom: 20px;
 	}
 }
