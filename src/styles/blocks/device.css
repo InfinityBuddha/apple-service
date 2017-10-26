@@ -25,7 +25,27 @@
 
 .card {
   box-shadow: 0 1px 2px 0 #9B9B9B;
-  list-style: none; }
+  list-style: none;
+  height: 127px;
+  margin-bottom: 5px; }
+
+.iphone {
+  background: url("../img/iphone.png") no-repeat bottom right; }
+
+.samsung {
+  background: url("../img/samsung.png") no-repeat bottom right; }
+
+.other {
+  background: url("../img/other.png") no-repeat bottom right; }
+
+.ipad {
+  background: url("../img/ipad.png") no-repeat bottom right; }
+
+.macbook {
+  background: url("../img/macbook.png") no-repeat bottom right; }
+
+.imac {
+  background: url("../img/imac.png") no-repeat bottom right; }
 
 .iphone,
 .ipad,
@@ -45,15 +65,11 @@
   width: 100%;
   height: 100%; }
 
-@media (max-width: 1200px) {
-  .container {
-    width: 970px; } }
+.name {
+  padding-top: 75px;
+  padding-left: 24px; }
 
-@media (max-width: 992px) {
-  .container {
-    width: 750px; } }
-
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .container {
     width: 670px; }
   .title {
@@ -77,25 +93,3 @@
     background: url("../img/macbook-tablet.png") no-repeat bottom right; }
   .imac {
     background: url("../img/imac-tablet.png") no-repeat bottom right; } }
-
-@media (max-width: 480px) {
-  .container {
-    width: 100%; }
-  .card {
-    height: 127px;
-    margin-bottom: 5px; }
-  .name {
-    padding-top: 75px;
-    padding-left: 24px; }
-  .iphone {
-    background: url("../img/iphone.png") no-repeat bottom right; }
-  .samsung {
-    background: url("../img/samsung.png") no-repeat bottom right; }
-  .other {
-    background: url("../img/other.png") no-repeat bottom right; }
-  .ipad {
-    background: url("../img/ipad.png") no-repeat bottom right; }
-  .macbook {
-    background: url("../img/macbook.png") no-repeat bottom right; }
-  .imac {
-    background: url("../img/imac.png") no-repeat bottom right; } }

@@ -31,6 +31,7 @@
 	text-decoration: none;
 	margin-left: 25px;
 	margin-top: 20px;
+	margin-bottom: 56px;
 	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
 }
 
@@ -40,21 +41,9 @@
 	padding: 8px 15px 8px 13px;
 }
 
-@media (max-width: 1200px) { // desktop
+@media (min-width: 768px) { // tablets
 	.container {
-		width: 970px;
-	}
-}
-
-@media (max-width: 992px) { // laptop
-	.container {
-		width: 750px;
-	}
-}
-
-@media (max-width: 768px) { // tablets
-	.container {
-		width: 87%;
+		width: 670px;
 	}
 
 	.title {
@@ -69,29 +58,5 @@
 	.button {
 		margin-bottom: 158px;
 	}
-
-}
-
-@media (max-width: 480px) { // phones
-	.container {
-		width: 100%;
-	}
-
-	.title {
-		margin-top: 50px;
-	}
-
-	.text {
-		display: block;
-		font-size: 15px;
-		padding-left: 26px;
-		margin-top: 8px;
-		max-width: 310px;
-	}
-
-	.button {
-		margin-bottom: 56px;
-	}
-
 
 }

@@ -11,6 +11,10 @@
   display: block;
   margin: 0 auto; }
 
+.header {
+  box-shadow: none;
+  background: transparent; }
+
 .container {
   position: relative;
   display: block;
@@ -18,8 +22,12 @@
   width: 100%; }
 
 .contacts {
+  display: block;
   padding-top: 16px;
   padding-left: 24px; }
+
+.contacts__tablet {
+  display: none; }
 
 .phone {
   color: #4A4A4A;
@@ -30,15 +38,16 @@
   font-size: 9px;
   color: #333333; }
 
-@media (max-width: 1200px) {
-  .container {
-    width: 970px; } }
+.nav {
+  position: absolute;
+  background: url("../img/hamburger.png") no-repeat;
+  width: 26px;
+  height: 16px;
+  cursor: pointer;
+  top: 25px;
+  right: 25px; }
 
-@media (max-width: 992px) {
-  .container {
-    width: 750px; } }
-
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .header {
     box-shadow: 0 1px 2px 0 #9B9B9B;
     background-color: #fff; }
@@ -63,24 +72,3 @@
     cursor: pointer;
     top: 29px;
     right: 0; } }
-
-@media (max-width: 480px) {
-  .container {
-    width: 100%; }
-  .header {
-    box-shadow: none;
-    background: transparent; }
-  .cover {
-    background-size: cover; }
-  .contacts {
-    display: block; }
-  .contacts__tablet {
-    display: none; }
-  .nav {
-    position: absolute;
-    background: url("../img/hamburger.png") no-repeat;
-    width: 26px;
-    height: 16px;
-    cursor: pointer;
-    top: 25px;
-    right: 25px; } }

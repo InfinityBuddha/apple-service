@@ -30,18 +30,6 @@
   background: url("../img/vk.png") no-repeat;
   padding-bottom: 12px; }
 
-@media (max-width: 1200px) {
-  .container {
-    width: 970px; } }
-
-@media (max-width: 992px) {
-  .container {
-    width: 750px; } }
-
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .container {
     width: 670px; } }
-
-@media (max-width: 480px) {
-  .container {
-    width: 100%; } }
