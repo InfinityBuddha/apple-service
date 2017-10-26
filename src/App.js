@@ -49,10 +49,7 @@ class App extends Component {
 									<a href="tel:8(800)-200-00-56" className={head.phone}>8 800 200 00 56</a>
 									<div className={head.schedule}>10:00 - 18:00</div>
 								</div>
-
-								<div className={head.nav}>
-                                    <HamburgerIcon onClick={this.toggleMenu}/>
-								</div>
+                                <HamburgerIcon className={head.hamburger} onClick={this.toggleMenu}/>
                                 <Menu visibility={this.state.visibility}/>
 							</div>
 						</header>

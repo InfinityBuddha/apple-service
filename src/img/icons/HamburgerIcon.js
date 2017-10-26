@@ -1,7 +1,7 @@
 import React from 'react'
 const HamburgerIcon = (props) => {
     return (
-        <svg onClick={props.onClick} width="26px" height="16px" viewBox="0 0 26 16" version="1.1">
+        <svg className={props.className} onClick={props.onClick} width="26px" height="16px" viewBox="0 0 26 16" version="1.1">
             <g id="Page-1" stroke="none" fill="none">
                 <g id="iPhone-7" transform="translate(-325.000000, -22.000000)" fill="#333333">
                     <g id="Что-мы-делаем?" transform="translate(-10.000000, -2.000000)">
