@@ -30,22 +30,22 @@
   margin-bottom: 5px; }
 
 .iphone {
-  background: url("../img/iphone.png") no-repeat bottom right; }
+  background: url("../../img/iphone.png") no-repeat bottom right; }
 
 .samsung {
-  background: url("../img/samsung.png") no-repeat bottom right; }
+  background: url("../../img/samsung.png") no-repeat bottom right; }
 
 .other {
-  background: url("../img/other.png") no-repeat bottom right; }
+  background: url("../../img/other.png") no-repeat bottom right; }
 
 .ipad {
-  background: url("../img/ipad.png") no-repeat bottom right; }
+  background: url("../../img/ipad.png") no-repeat bottom right; }
 
 .macbook {
-  background: url("../img/macbook.png") no-repeat bottom right; }
+  background: url("../../img/macbook.png") no-repeat bottom right; }
 
 .imac {
-  background: url("../img/imac.png") no-repeat bottom right; }
+  background: url("../../img/imac.png") no-repeat bottom right; }
 
 .iphone,
 .ipad,
@@ -82,14 +82,36 @@
     padding-top: 124px;
     padding-left: 18px; }
   .iphone {
-    background: url("../img/iphone-tablet.png") no-repeat bottom right; }
+    background: url("../../img/iphone-tablet.png") no-repeat bottom right; }
   .samsung {
-    background: url("../img/samsung-tablet.png") no-repeat bottom right; }
+    background: url("../../img/samsung-tablet.png") no-repeat bottom right; }
   .other {
-    background: url("../img/other-tablet.png") no-repeat bottom right; }
+    background: url("../../img/other-tablet.png") no-repeat bottom right; }
   .ipad {
-    background: url("../img/ipad-tablet.png") no-repeat bottom right; }
+    background: url("../../img/ipad-tablet.png") no-repeat bottom right; }
   .macbook {
-    background: url("../img/macbook-tablet.png") no-repeat bottom right; }
+    background: url("../../img/macbook-tablet.png") no-repeat bottom right; }
   .imac {
-    background: url("../img/imac-tablet.png") no-repeat bottom right; } }
+    background: url("../../img/imac-tablet.png") no-repeat bottom right; } }
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%; }
+  .card {
+    height: 127px;
+    margin-bottom: 5px; }
+  .name {
+    padding-top: 75px;
+    padding-left: 24px; }
+  .iphone {
+    background: url("../../img/iphone.png") no-repeat bottom right; }
+  .samsung {
+    background: url("../../img/samsung.png") no-repeat bottom right; }
+  .other {
+    background: url("../../img/other.png") no-repeat bottom right; }
+  .ipad {
+    background: url("../../img/ipad.png") no-repeat bottom right; }
+  .macbook {
+    background: url("../../img/macbook.png") no-repeat bottom right; }
+  .imac {
+    background: url("../../img/imac.png") no-repeat bottom right; } }

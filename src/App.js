@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Menu from './components/Menu'
+import HamburgerIcon from './img/icons/HamburgerIcon'
+
 import './styles/App.css'
 import head from './styles/blocks/header.css'
 import main from './styles/blocks/main.css'
@@ -14,6 +17,19 @@ import cx from 'classnames'
 * В этом файле делается верстка
 * */
 class App extends Component {
+    constructor() {
+        super();
+
+        this.state = {
+            visibility: false
+        }
+    }
+
+    toggleMenu = () => {
+        console.log('f')
+        this.setState({visibility: !this.state.visibility})
+    }
+
   render () {
     return (
       <div className="App">
@@ -34,9 +50,10 @@ class App extends Component {
 									<div className={head.schedule}>10:00 - 18:00</div>
 								</div>
 
-								<nav className={head.nav}>
-
-								</nav>
+								<div className={head.nav}>
+                                    <HamburgerIcon onClick={this.toggleMenu}/>
+								</div>
+                                <Menu visibility={this.state.visibility}/>
 							</div>
 						</header>
 
