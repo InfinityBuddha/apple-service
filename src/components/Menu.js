@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import s from './Menu.css'
-class Menu extends Component {
+import CloseIcon from '../img/icons/CloseIcon'
 
+class Menu extends Component {
     render () {
-        console.log(this.props.visibility)
         return (
             <nav className={this.props.visibility ? s.menu : s.hidden}>
+                <CloseIcon className={s.closeIcon} onClick={this.props.toggleMenu}/>
                 <div className={s.wrapper}>
                     <div className={s.itemGroup}>
                         <h3 className={s.title}>Ремонт</h3>

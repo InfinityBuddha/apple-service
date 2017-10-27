@@ -10,7 +10,7 @@
 	top: 0;
 	bottom: 0;
 	color: white;
-	background-color: rgba(102, 51, 153, 0.97);
+	background-color: rgba(0, 112, 210, 0.95);
 	z-index: 2;
 }
 
@@ -46,6 +46,10 @@
 		a {
 			color: #fff;
 			text-decoration: none;
+
+			&:hover {
+				color: darken(#fff, 15%);
+			}
 		}
 	}
 }
@@ -53,4 +57,24 @@
 .itemGroup {
 	width: 100%;
 	text-align: center;
+}
+
+.openedMenu {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+.closeIcon {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	z-index: 2;
+	cursor: pointer;
+	fill: white;
+	trasition: all 0.5s ease;
+
+	&:hover {
+		fill: #EA1A21;
+	}
 }

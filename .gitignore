@@ -2,3 +2,5 @@
 /node_modules/
 /yarn.lock
 /.DS_Store
+/src/styles/*.css
+/src/styles/global/fonts.css

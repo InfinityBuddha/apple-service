@@ -11,6 +11,7 @@ import c from './styles/blocks/circles.css'
 import loc from './styles/blocks/location.css'
 import f from './styles/blocks/footer.css'
 import s from './styles/blocks/slider.css'
+import menu from './components/Menu.css'
 import cx from 'classnames'
 
 /*
@@ -26,7 +27,13 @@ class App extends Component {
     }
 
     toggleMenu = () => {
-        console.log('f')
+        const body = document.getElementsByTagName('body')[0]
+        if (body.classList.contains(menu.openedMenu)) {
+            body.classList.remove(menu.openedMenu)
+        } else {
+            body.classList.add(menu.openedMenu)
+        }
+
         this.setState({visibility: !this.state.visibility})
     }
 
@@ -49,8 +56,12 @@ class App extends Component {
 									<a href="tel:8(800)-200-00-56" className={head.phone}>8 800 200 00 56</a>
 									<div className={head.schedule}>10:00 - 18:00</div>
 								</div>
-                                <HamburgerIcon className={head.hamburger} onClick={this.toggleMenu}/>
-                                <Menu visibility={this.state.visibility}/>
+                                <HamburgerIcon className={head.hamburger}
+                                               onClick={this.toggleMenu}/>
+
+                                <Menu visibility={this.state.visibility}
+                                      toggleMenu={this.toggleMenu}
+                                />
 							</div>
 						</header>
 
