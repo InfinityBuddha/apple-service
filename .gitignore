@@ -1,6 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
 /node_modules/
 /yarn.lock
+src/img/.DS_Store
 /.DS_Store
+.DS_Store
 /src/styles/*.css
 /src/styles/global/fonts.css
+.idea/workspace.xml
