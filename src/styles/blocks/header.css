@@ -5,7 +5,6 @@
   min-width: 100%; }
 
 .cover {
-  position: relative;
   background: url("../../img/main-bg.png") no-repeat top;
   background-size: cover;
   width: 100%;
@@ -43,7 +42,7 @@
   position: absolute;
   cursor: pointer;
   top: 25px;
-  right: 0; }
+  right: 25px; }
 
 @media (min-width: 768px) {
   .header {
@@ -69,23 +68,3 @@
     cursor: pointer;
     top: 29px;
     right: 0; } }
-
-@media (max-width: 480px) {
-  .container {
-    width: 100%; }
-  .header {
-    box-shadow: none;
-    background: transparent; }
-  .cover {
-    background-size: cover; }
-  .contacts {
-    display: block; }
-  .contacts__tablet {
-    display: none; }
-  .nav {
-    position: absolute;
-    width: 26px;
-    height: 16px;
-    cursor: pointer;
-    top: 25px;
-    right: 25px; } }
