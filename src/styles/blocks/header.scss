@@ -50,7 +50,7 @@
 	position: absolute;
 	cursor: pointer;
 	top: 25px;
-	right: 25px;
+	right: 0;
 }
 
 @media (min-width: 768px) { // tablets
@@ -77,7 +77,6 @@
 
 	.cover {
 		background: url("../../img/main-bg-tablet.png") no-repeat top;
-		background-size: contain;
 	}
 
 	.nav {

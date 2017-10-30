@@ -42,7 +42,7 @@
   position: absolute;
   cursor: pointer;
   top: 25px;
-  right: 25px; }
+  right: 0; }
 
 @media (min-width: 768px) {
   .header {
@@ -59,8 +59,7 @@
     padding-bottom: 17px;
     margin-right: 24px; }
   .cover {
-    background: url("../../img/main-bg-tablet.png") no-repeat top;
-    background-size: contain; }
+    background: url("../../img/main-bg-tablet.png") no-repeat top; }
   .nav {
     position: absolute;
     width: 26px;

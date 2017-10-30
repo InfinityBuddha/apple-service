@@ -2,33 +2,66 @@
 	font-family: Helvetica, sans-serif;
 }
 
-.container {
+.cards__wrapper {
 	display: block;
 	margin: 0 auto;
 	width: 100%;
 	box-shadow: 0 1px 2px 0 #9B9B9B;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	background: url("../icons/iphoneicons.svg") no-repeat;
-	background-position: 87% 50%;
 }
 
-.title {
-	font-size: 21px;
-	color: #333333;
-	margin-bottom: 15px;
-	padding-left: 10%;
+.cards {
+	height: 100%;
+	display: flex;
+	list-style: none;
+	padding-left: 48px;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	height: 151px;
+	width: 100%;
+
+	&__iphone {
+		background: url("../styles/icons/iphoneicon.svg") no-repeat;
+		background-position: 84% 50%;
+	}
+
+	&__repair {
+		background: url("../styles/icons/turbina.svg") no-repeat;
+		background-position: 84% 50%;
+	}
+
+	&__guarantee {
+		background: url("../styles/icons/shield.svg") no-repeat;
+		background-position: 84% 50%;
+	}
 }
 
 .text {
 	color: #333333;
 	font-size: 13px;
-	width: 45%;
-	padding-left: 10%;
+	width: 55%;
+	padding-left: 48px;
 }
 
-.cards {
-	display: none;
+.title {
+	font-size: 21px;
+	color: #333333;
+	margin-bottom: 5px;
+}
+
+.description {
+	font-size: 13px;
+}
+// Styles for Carousel
+.slider-list {
+	width: 100%;
+	padding: 90px;
+}
+
+.slider-decorator-2 {
+	margin-top: -100px;
 }
 
 @media (min-width: 768px) { // tablets
@@ -38,15 +71,6 @@
 		box-shadow: none;
 		padding: 0;
 	}
-
-	.title {
-		 display: none;
-	 }
-
-	.text {
-		display: none;
-	}
-
 	.cards__wrapper {
 		margin-top: 24px;
 	}
@@ -54,7 +78,6 @@
 	.cards {
 		display: flex;
 		justify-content: space-between;
-		list-style: none;
 		padding: 0;
 	}
 
@@ -70,24 +93,24 @@
 	}
 
 	.section__pic_iphone {
-		background: url("../icons/iphoneicon.svg") no-repeat;
+		background: url("../styles/icons/iphoneicon.svg") no-repeat;
 		background-position: 50% 50%;
 		padding-top: 169px;
 	}
 
 	.section__pic_turbine {
-		background: url("../icons/turbina.svg") no-repeat;
+		background: url("../styles/icons/turbina.svg") no-repeat;
 		background-position: 50% 50%;
 		padding-top: 169px;
 	}
 
 	.section__pic_shield {
-		background: url("../icons/shield.svg") no-repeat;
+		background: url("../styles/icons/shield.svg") no-repeat;
 		background-position: 50% 50%;
 		padding-top: 169px;
 	}
 
-	.section__text {
+	.text {
 		background: linear-gradient(to right, #32BADB, #328CDB);
 		height: 100%;
 		padding: 15px 22px 24px 24px;
@@ -96,7 +119,7 @@
 		font-weight: 300;
 	}
 
-	.text__title {
+	.title {
 		font-size: 18px;
 		font-weight: 300;
 		margin-bottom: 20px;
