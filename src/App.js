@@ -12,6 +12,7 @@ import c from './styles/blocks/circles.css'
 import loc from './styles/blocks/location.css'
 import f from './styles/blocks/footer.css'
 import menu from './components/Menu.css'
+import sli from './components/Slider.css'
 import cx from 'classnames'
 
 /*
@@ -130,6 +131,33 @@ class App extends Component {
                     </section>
 
                     <Slider />
+                    <section className={sli.cards}>
+                        <li className={cx(sli.card, sli.card__iphone)}>
+                            <div className={sli.text}>
+                                <h3 className={sli.title}>5 лет качества</h3>
+                                <p className={sli.description}>За это время через наши руки прошло более 5000
+                                    устройств.
+                                </p>
+                            </div>
+                        </li>
+                        <li className={cx(sli.card, sli.card__repair)}>
+                            <div className={sli.text}>
+                                <h3 className={sli.title}>Экспресс ремонт</h3>
+                                <p className={sli.description}>Накопленный опыт в области ремонта техники Apple
+                                    позволяет нам быстро устранять неполадки
+                                </p>
+                            </div>
+                        </li>
+                        <li className={cx(sli.card, sli.card__guarantee)}>
+                            <div className={sli.text}>
+                                <h3 className={sli.title}>Гарантия 2 месяца</h3>
+                                <p className={sli.description}>Мы используем только качественные запчасти для
+                                    ремонта продукции Apple. Это позволяет нам давать длительную гарантию на все
+                                    виды ремонта
+                                </p>
+                            </div>
+                        </li>
+                    </section>
 
                     <section className={c.container}>
                         <div className={c.circles}>

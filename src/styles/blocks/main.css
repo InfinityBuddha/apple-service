@@ -38,7 +38,7 @@
   color: #fff;
   font-size: 13px; }
 
-@media (min-width: 768px) {
+@media (min-width: 672px) {
   .container {
     width: 670px; }
   .title {

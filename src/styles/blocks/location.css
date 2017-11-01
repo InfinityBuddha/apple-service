@@ -65,6 +65,6 @@
   font-size: 9px;
   padding: 8px 15px 8px 13px; }
 
-@media (min-width: 768px) {
+@media (min-width: 672px) {
   .container {
     width: 670px; } }

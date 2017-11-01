@@ -8,10 +8,7 @@
   box-shadow: 0 1px 2px 0 #9B9B9B; }
 
 .cards {
-  height: 100%;
-  display: flex;
-  list-style: none;
-  padding-left: 48px; }
+  display: none; }
 
 .card {
   display: flex;
@@ -36,58 +33,44 @@
 
 .title {
   font-size: 21px;
+  font-weight: 500;
   color: #333333;
   margin-bottom: 5px; }
 
 .description {
-  font-size: 13px; }
+  font-size: 12px; }
 
-.slider-list {
-  width: 100%;
-  padding: 90px; }
-
-.slider-decorator-2 {
-  margin-top: -100px; }
-
-@media (min-width: 768px) {
-  .container {
-    width: 670px;
-    background: none;
-    box-shadow: none;
-    padding: 0; }
-  .cards__wrapper {
-    margin-top: 24px; }
+@media (min-width: 672px) {
+  .carousel {
+    display: none; }
   .cards {
     display: flex;
     justify-content: space-between;
-    padding: 0; }
+    padding: 0;
+    margin: 0 auto;
+    width: 670px; }
   .card {
     display: flex;
-    flex-flow: column;
+    align-items: flex-end;
     box-shadow: 0 1px 2px 0 #9B9B9B;
-    width: 33%; }
+    min-height: 361px; }
     .card:not(:last-child) {
       margin-right: 12px; }
-  .section__pic_iphone {
-    background: url("../styles/icons/iphoneicon.svg") no-repeat;
-    background-position: 50% 50%;
-    padding-top: 169px; }
-  .section__pic_turbine {
-    background: url("../styles/icons/turbina.svg") no-repeat;
-    background-position: 50% 50%;
-    padding-top: 169px; }
-  .section__pic_shield {
-    background: url("../styles/icons/shield.svg") no-repeat;
-    background-position: 50% 50%;
-    padding-top: 169px; }
+  .card__iphone {
+    background-position: 50% 12%; }
+  .card__repair {
+    background-position: 64% 16%; }
+  .card__guarantee {
+    background-position: 51% 14%; }
   .text {
     background: linear-gradient(to right, #32BADB, #328CDB);
-    height: 100%;
+    height: 185px;
+    width: 100%;
     padding: 15px 22px 24px 24px;
     color: #fff;
     font-size: 11px;
     font-weight: 300; }
   .title {
     font-size: 18px;
-    font-weight: 300;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px;
+    color: #fff; } }
