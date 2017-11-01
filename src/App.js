@@ -223,6 +223,7 @@ class App extends Component {
                                         </a>
                                     </div>
                                 </div>
+                                <div className={loc.map} id="map"></div>
                             </div>
                         </div>
                     </section>

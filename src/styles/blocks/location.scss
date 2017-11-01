@@ -54,7 +54,6 @@
 .button {
 	display: block;
 	width: 125px;
-	margin: 0 auto;
 	background-color: #0070D2;
 	border-radius: 3px;
 	text-decoration: none;
@@ -68,6 +67,10 @@
 	padding: 8px 15px 8px 13px;
 }
 
+.map {
+	display: none;
+}
+
 @media (min-width: 672px) { // tablets
 	.container {
 		width: 672px;
@@ -75,6 +78,31 @@
 
 	.card {
 		display: flex;
+		padding-left: 82px;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+	}
+
+	.text {
+		display: flex;
 		flex-flow: column nowrap;
+		align-items: flex-start;
+		justify-content: center;
+	}
+
+	.map {
+		display: block;
+		width: 362px;
+		height: 202px;
+		background-color: gainsboro;
+	}
+
+	.address {
+		margin-bottom: 20px;
+	}
+
+	.phone {
+		font-size: 15px;
+		text-align: left;
 	}
 }
