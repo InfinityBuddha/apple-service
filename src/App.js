@@ -196,31 +196,32 @@ class App extends Component {
                         <div className={loc.location}>
                             <div className={loc.title}>Ждем вас в гости</div>
                             <div className={loc.card}>
-                                <div className={loc.ruza}>
+                                <div className={loc.text}>
                                     <div className={loc.address}>
                                         <div className={loc.city}>г. Руза</div>
                                         <div className={loc.street}>ул. Ульяновская, дом 7. ТЦ-Пятёрочка 2 этаж.</div>
                                     </div>
+                                    <div className={loc.contacts}>
+                                        <a href="tel:8(985)-070-80-80" className={loc.phone}>+7(985) 070-80-80</a>
+                                        <a href="#" className={loc.button}>
+                                            <div className={loc.button__title}>Записаться на ремонт</div>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div className={loc.contacts}>
-                                    <a href="tel:8(985)-070-80-80" className={loc.phone}>+7(985) 070-80-80</a>
-                                    <a href="#" className={loc.button}>
-                                        <div className={loc.button__title}>Записаться на ремонт</div>
-                                    </a>
-                                </div>
+                                <div className={loc.map} id="map"></div>
                             </div>
                             <div className={loc.card}>
-                                <div className={loc.moj}>
+                                <div className={loc.text}>
                                     <div className={loc.address}>
                                         <div className={loc.city}>г. Можайск</div>
                                         <div className={loc.street}>ул. Мира, дом 2.</div>
                                     </div>
-                                </div>
-                                <div className={loc.contacts}>
-                                    <a href="tel:8(985)-070-80-80" className={loc.phone}>+7(985) 070-80-80</a>
-                                    <a href="#" className={loc.button}>
-                                        <div className={loc.button__title}>Записаться на ремонт</div>
-                                    </a>
+                                    <div className={loc.contacts}>
+                                        <a href="tel:8(985)-070-80-80" className={loc.phone}>+7(985) 070-80-80</a>
+                                        <a href="#" className={loc.button}>
+                                            <div className={loc.button__title}>Записаться на ремонт</div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

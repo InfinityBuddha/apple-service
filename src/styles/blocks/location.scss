@@ -1,39 +1,32 @@
 .container {
 	display: block;
 	margin: 0 auto;
+	margin-top: 36px;
 	width: 100%;
 }
 
 .title {
 	font-size: 18px;
 	color: #4A4A4A;
-	margin: 0 auto;
-	width: 155px;
-	margin-top: 35px;
-	margin-bottom: 15px;
-
+	padding-bottom: 15px;
+	text-align: center;
 }
 
 .card {
+	padding: 24px 24px 24px 50px;
 	box-shadow: 0 1px 2px 0 #9B9B9B;
-	display: flex;
-	justify-content: space-between;
 	width: 100%;
 	margin-bottom: 16px;
 }
 
-.ruza,
-.moj {
-	width: 50%;
-}
-
-.moj {
-	padding-top: 14px;
+.text {
+	display: flex;
+	justify-content: space-between;
 }
 
 .address {
+	width: 165px;
 	display: block;
-	padding: 20px 20px 26px 20px;
 }
 
 .city {
@@ -47,8 +40,6 @@
 }
 
 .contacts {
-	padding-top: 20px;
-	width: 50%;
 	display: block;
 }
 
@@ -68,7 +59,6 @@
 	border-radius: 3px;
 	text-decoration: none;
 	margin-top: 15px;
-	margin-bottom: 28px;
 	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
 }
 
@@ -80,6 +70,11 @@
 
 @media (min-width: 672px) { // tablets
 	.container {
-		width: 670px;
+		width: 672px;
+	}
+
+	.card {
+		display: flex;
+		flex-flow: column nowrap;
 	}
 }
