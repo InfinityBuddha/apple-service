@@ -6,10 +6,12 @@
 }
 
 .cover {
+	display: flex;
+	align-items: center;
+	height: 320px;
 	background: url("../../img/main-bg.png") no-repeat top;
 	background-size: cover;
 	width: 100%;
-	display: block;
 	margin: 0 auto;
 }
 
@@ -60,7 +62,7 @@
 	}
 
 	.container {
-		width: 670px;
+		width: 672px;
 		display: flex;
 	}
 
@@ -77,6 +79,7 @@
 
 	.cover {
 		background: url("../../img/main-bg-tablet.png") no-repeat top;
+		height: 520px;
 	}
 
 	.nav {
@@ -86,5 +89,22 @@
 		cursor: pointer;
 		top: 29px;
 		right: 0;
+	}
+}
+
+@media (min-width: 924px) {
+	.container {
+		width: 924px;
+	}
+
+	.cover {
+		justify-content: center;
+		height: 570px;
+		width: 924px;
+		background-size: cover;
+	}
+
+	.hamburger {
+		display: none;
 	}
 }

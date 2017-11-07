@@ -42,30 +42,29 @@ class App extends Component {
         return (
             <div className="App">
                 <div className={head.wrapper}>
-                    <div className={head.cover}>
-                        <header className={head.header}>
-                            <div className={head.container}>
-                                <div className={head.contacts__tablet}>
-                                    <div className={head.city}>г. Руза</div>
-                                    <a href="tel:8(800)-200-00-56" className={head.phone}>8 800 200 00 56</a>
-                                </div>
-                                <div className={head.contacts__tablet}>
-                                    <div className={head.city}>г. Можайск</div>
-                                    <a href="tel:8(800)-200-00-56" className={head.phone}>8 800 200 00 56</a>
-                                </div>
-                                <div className={head.contacts}>
-                                    <a href="tel:8(800)-200-00-56" className={head.phone}>8 800 200 00 56</a>
-                                    <div className={head.schedule}>10:00 - 18:00</div>
-                                </div>
-                                <HamburgerIcon className={head.hamburger}
-                                               onClick={this.toggleMenu}/>
-
-                                <Menu visibility={this.state.visibility}
-                                      toggleMenu={this.toggleMenu}
-                                />
+                    <header className={head.header}>
+                        <div className={head.container}>
+                            <div className={head.contacts__tablet}>
+                                <div className={head.city}>г. Руза</div>
+                                <a href="tel:8(800)-200-00-56" className={head.phone}>8 800 200 00 56</a>
                             </div>
-                        </header>
+                            <div className={head.contacts__tablet}>
+                                <div className={head.city}>г. Можайск</div>
+                                <a href="tel:8(800)-200-00-56" className={head.phone}>8 800 200 00 56</a>
+                            </div>
+                            <div className={head.contacts}>
+                                <a href="tel:8(800)-200-00-56" className={head.phone}>8 800 200 00 56</a>
+                                <div className={head.schedule}>10:00 - 18:00</div>
+                            </div>
+                            <HamburgerIcon className={head.hamburger}
+                                           onClick={this.toggleMenu}/>
 
+                            <Menu visibility={this.state.visibility}
+                                  toggleMenu={this.toggleMenu}
+                            />
+                        </div>
+                    </header>
+                    <div className={head.cover}>
                         <section className={main.container}>
                             <h1 className={main.title}>Да, мы это исправим</h1>
                             <div className={main.text}>Обращайтесь к нам, если у вас возникли проблемы с вашими
@@ -73,7 +72,7 @@ class App extends Component {
                                 Мы знаем толк в ремонте.
                             </div>
                             <button className={main.button}>
-                                <div className={main.button__title}>Нужен ремонт</div>
+                                Нужен ремонт
                             </button>
                         </section>
                     </div>
