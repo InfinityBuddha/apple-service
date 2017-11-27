@@ -83,7 +83,7 @@
 	.list {
 		display: none;
 		position: absolute;
-		top: 46px;
+		top: 42px;
 		text-align: left;
 		border-radius: 5px;
 		width: 160px;
@@ -107,6 +107,10 @@
 		}
 	}
 
+	.openedMenu {
+		position: static;
+	}
+
 	.hidden {
 		align-items: center;
 		display: flex;
@@ -114,6 +118,8 @@
 	}
 
 	.menu {
+		position: static;
+		background-color: transparent;
 		display: flex;
 		flex-grow: 1;
 		align-items: center;
@@ -142,7 +148,8 @@
 		width: auto;
 		margin-right: 46px;
 
-		&:hover:after {
+		&:hover:after,
+		&.active:after {
 			position: absolute;
 			bottom: -30px;
 			left: -4px;

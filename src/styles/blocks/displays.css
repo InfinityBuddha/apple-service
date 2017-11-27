@@ -44,3 +44,9 @@
   .title {
     padding: 36px 24px 36px 40px;
     font-size: 18px; } }
+
+@media (min-width: 924px) {
+  .displays {
+    width: 924px;
+    margin: 0 auto;
+    margin-bottom: 24px; } }

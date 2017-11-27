@@ -67,7 +67,7 @@
   .list {
     display: none;
     position: absolute;
-    top: 46px;
+    top: 42px;
     text-align: left;
     border-radius: 5px;
     width: 160px;
@@ -82,11 +82,15 @@
         color: #333333; }
         .list .item a:hover {
           color: #737373; }
+  .openedMenu {
+    position: static; }
   .hidden {
     align-items: center;
     display: flex;
     flex-grow: 1; }
   .menu {
+    position: static;
+    background-color: transparent;
     display: flex;
     flex-grow: 1;
     align-items: center; }
@@ -106,7 +110,7 @@
     position: relative;
     width: auto;
     margin-right: 46px; }
-    .itemGroup:hover:after {
+    .itemGroup:hover:after, .itemGroup.active:after {
       position: absolute;
       bottom: -30px;
       left: -4px;

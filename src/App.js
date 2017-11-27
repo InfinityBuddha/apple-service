@@ -168,10 +168,10 @@ class App extends Component {
                             </div>
                             <div className={c.line}></div>
                             <div className={c.item}>
-                                <span className={c.title}>Бесплатная диагностика</span>
                                 <div className={c.circle}>
                                     <span>2</span>
                                 </div>
+                                <span className={c.title}>Бесплатная диагностика</span>
                             </div>
                             <div className={c.line}></div>
                             <div className={c.item}>
@@ -182,10 +182,10 @@ class App extends Component {
                             </div>
                             <div className={c.line}></div>
                             <div className={c.item}>
-                                <span className={c.title}>Готово</span>
                                 <div className={c.circle}>
                                     <span>4</span>
                                 </div>
+                                <span className={c.title}>Готово</span>
                             </div>
                         </div>
                     </section>
