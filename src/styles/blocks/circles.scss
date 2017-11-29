@@ -49,3 +49,35 @@
 	border-left: 1px solid #328CDB;
 	margin-left: 127px;
 }
+
+@media (min-width: 924px) {
+	.container {
+		width: 924px;
+	}
+
+	.circles {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.item {
+		display: flex;
+		align-items: center;
+		flex-flow: row-reverse nowrap;
+	}
+
+	.circle {
+		margin-left: 18px;
+	}
+
+	.title {
+		width: auto;
+		max-width: none;
+		position: static;
+		transform: translate(0, 0);
+	}
+
+	.line {
+		display: none;
+	}
+}

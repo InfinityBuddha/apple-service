@@ -7,20 +7,24 @@
   margin: 0 auto;
   width: 100%; }
 
+.footerInfo {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  padding-top: 15px; }
+
 .title {
-  display: block;
   color: #358EDC;
   font-size: 13px;
-  width: 140px;
-  margin: 0 auto;
-  padding-top: 12px;
-  text-decoration: none; }
+  text-decoration: none;
+  margin: 0; }
 
 .phones {
   font-size: 10px;
   color: #4A4A4A;
-  width: 100px;
-  margin: 6px auto; }
+  width: 100px; }
+  .phones .title {
+    display: none; }
 
 .vk {
   display: block;
@@ -30,6 +34,42 @@
   background: url("../../img/vk.png") no-repeat;
   padding-bottom: 12px; }
 
-@media (min-width: 768px) {
+.repair,
+.sale {
+  display: none; }
+
+.list {
+  display: none; }
+
+@media (min-width: 672px) {
   .container {
-    width: 670px; } }
+    width: 672px; }
+  .repair,
+  .sale {
+    display: block; }
+  .footerInfo {
+    padding-top: 18px;
+    align-items: flex-start;
+    flex-flow: row nowrap;
+    justify-content: space-between; }
+  .list {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .list li {
+      font-size: 9px;
+      margin-bottom: 3px;
+      line-height: 1.5; }
+  .title {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 5px; }
+  .phones {
+    width: 145px; }
+    .phones .title {
+      display: block; }
+    .phones .phone {
+      display: none; }
+    .phones .list li:nth-child(2n - 1) {
+      font-weight: bold; } }

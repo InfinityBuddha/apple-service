@@ -34,7 +34,7 @@
   cursor: pointer;
   background-color: transparent; }
 
-@media (min-width: 768px) {
+@media (min-width: 672px) {
   .container {
     width: 670px; }
   .wrapper {
@@ -44,3 +44,9 @@
   .title {
     padding: 36px 24px 36px 40px;
     font-size: 18px; } }
+
+@media (min-width: 924px) {
+  .displays {
+    width: 924px;
+    margin: 0 auto;
+    margin-bottom: 24px; } }

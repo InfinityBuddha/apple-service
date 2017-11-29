@@ -1,33 +1,28 @@
 .container {
   display: block;
   margin: 0 auto;
+  margin-top: 36px;
   width: 100%; }
 
 .title {
   font-size: 18px;
   color: #4A4A4A;
-  margin: 0 auto;
-  width: 155px;
-  margin-top: 35px;
-  margin-bottom: 15px; }
+  padding-bottom: 15px;
+  text-align: center; }
 
 .card {
+  padding: 24px 24px 24px 50px;
   box-shadow: 0 1px 2px 0 #9B9B9B;
-  display: flex;
-  justify-content: space-between;
   width: 100%;
   margin-bottom: 16px; }
 
-.ruza,
-.moj {
-  width: 50%; }
-
-.moj {
-  padding-top: 14px; }
+.text {
+  display: flex;
+  justify-content: space-between; }
 
 .address {
-  display: block;
-  padding: 20px 20px 26px 20px; }
+  width: 165px;
+  display: block; }
 
 .city {
   color: #333333;
@@ -38,8 +33,6 @@
   font-size: 13px; }
 
 .contacts {
-  padding-top: 20px;
-  width: 50%;
   display: block; }
 
 .phone {
@@ -52,12 +45,10 @@
 .button {
   display: block;
   width: 125px;
-  margin: 0 auto;
   background-color: #0070D2;
   border-radius: 3px;
   text-decoration: none;
   margin-top: 15px;
-  margin-bottom: 28px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5); }
 
 .button__title {
@@ -65,6 +56,29 @@
   font-size: 9px;
   padding: 8px 15px 8px 13px; }
 
-@media (min-width: 768px) {
+.map {
+  display: none; }
+
+@media (min-width: 672px) {
   .container {
-    width: 670px; } }
+    width: 672px; }
+  .card {
+    display: flex;
+    padding-left: 82px;
+    flex-flow: row nowrap;
+    justify-content: space-between; }
+  .text {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center; }
+  .map {
+    display: block;
+    width: 362px;
+    height: 202px;
+    background-color: gainsboro; }
+  .address {
+    margin-bottom: 20px; }
+  .phone {
+    font-size: 15px;
+    text-align: left; } }
