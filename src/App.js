@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import Menu from './components/Menu'
 import Slider from './components/Slider'
 import HamburgerIcon from './img/icons/HamburgerIcon'
+import Table from './components/Tabs'
 import { Map, Marker, MarkerLayout } from 'yandex-map-react';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import './styles/App.css'
 import head from './styles/blocks/header.css'
@@ -15,6 +17,7 @@ import f from './styles/blocks/footer.css'
 import menu from './components/Menu.css'
 import sli from './components/Slider.css'
 import cx from 'classnames'
+
 
 /*
  * В этом файле делается верстка
@@ -217,10 +220,10 @@ class App extends Component {
                                             zoom={16}
                                             width = {362}
                                             height = {202}>
-                                <Marker lat={55.70343857} lon={36.20003100}>
+                                <Marker lat={55.70343857} lon={36.20019100}>
                                     <MarkerLayout>
                                         <div>
-                                            <img src="./img/flag.svg"/>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#0070D2"><path d="M4 24h-2v-24h2v24zm6.161-23c-1.8 0-3.436 1.017-4.161 1.638v11.362c2.447-3.692 5.281-2.538 7.526-1.909 4.435 1.244 6.686-1.535 8.474-4.78-6.427 2.666-5.895-6.311-11.839-6.311z"/></svg>
                                         </div>
                                     </MarkerLayout>
                                </Marker>
@@ -248,10 +251,10 @@ class App extends Component {
                                              zoom={16}
                                              width = {362}
                                              height = {202}>
-                                    <Marker lat={55.50430707} lon={36.02995300}>
+                                    <Marker lat={55.50430707} lon={36.03009300}>
                                         <MarkerLayout>
-                                            <div>
-                                                <img src="./img/flag.svg"/>
+                                            <div style={{width: '30px', height: '30px'}}>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#0070D2"><path d="M4 24h-2v-24h2v24zm6.161-23c-1.8 0-3.436 1.017-4.161 1.638v11.362c2.447-3.692 5.281-2.538 7.526-1.909 4.435 1.244 6.686-1.535 8.474-4.78-6.427 2.666-5.895-6.311-11.839-6.311z"/></svg>
                                             </div>
                                         </MarkerLayout>
                                     </Marker>
@@ -305,9 +308,9 @@ class App extends Component {
                         </div>
                     </div>
                 </footer>
+                <Table />
             </div>
             
-          
     );
     }
     }
