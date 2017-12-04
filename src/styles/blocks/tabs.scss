@@ -1,34 +1,39 @@
 .container {
   display: block;
-  width: 940px;
+  width: 100vw;
   height: 100%;
   margin: 0 auto;
 }
 
+.devices {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+  list-style: none;    
+}
+
 .list {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   display: flex;  
   list-style: none;  
   flex-wrap: wrap;
-  justify-content: flex-start;
-  &:first-child {
-    margin-bottom: 20px;
-    justify-content: flex-start;
-  }
+  width: 100vw;
+  padding-left: 10px;
+  justify-content: center;
 }
 
 .items {
   cursor: pointer;
-  flex: 0 0 16.6666%;
-  max-width: 16.6666%;
+  flex: 0 0 47%;
+  max-width: 50%;
   text-align: center;
 }
 
 .item {
   cursor: pointer;
-  flex: 0 0 16.6666%;
-  max-width: 16.6666%;
+  flex: 0 0 47%;
+  max-width: 50%;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
@@ -43,6 +48,11 @@
   }
 }
 
+.panel {
+  width: 100vw;
+  padding: 0 10px;
+}
+
 table {
   display: table;
   border-spacing: 2px;
@@ -55,6 +65,9 @@ tr {
   &:first-child {
     background-color: lightblue;
   }
+  &:not(:first-child):hover {
+    background-color: #cdcfd3;
+  }
 }
 
 td {
@@ -65,12 +78,14 @@ td {
     content: attr(data-name);
   }
   &:nth-child(1) {
+    display: none;
     width: 17%;
   }
   &:nth-child(2) {
     width: 41%;
   }
   &:nth-child(3) {
+    display: none;    
     width: 14%;
   }
   &:nth-child(4) {
@@ -80,4 +95,39 @@ td {
 
 .react-tabs__tab--selected {
   border: 2px solid red;
+}
+
+@media (min-width: 924px) {
+  .items {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  .item {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  td {
+    &:nth-child(1) {
+      display: table-cell;
+    }
+    &:nth-child(3) {
+      display: table-cell;   
+    }
+  }
+  .list {
+    width: 100%;
+    justify-content: center;
+  }
+  .panel {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 672px) {
+  td {
+    &:nth-child(1) {
+      display: table-cell;
+    }
+  }
 }

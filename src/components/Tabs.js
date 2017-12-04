@@ -9,7 +9,7 @@ class Table extends React.Component {
     return (
       <div className={tabs.container}>
 	<Tabs>
-		<TabList className={tabs.list}>
+		<TabList className={tabs.devices}>
 			<Tab className={tabs.items}>iPhone</Tab>
 			<Tab className={tabs.items}>iPad</Tab>
 		</TabList>
@@ -119,7 +119,7 @@ class Table extends React.Component {
               </tbody>
           </table>
 				</TabPanel>
-				<TabPanel>
+				<TabPanel className={tabs.panel}>
           <table>
                 <tbody>
                   <tr>
@@ -209,7 +209,7 @@ class Table extends React.Component {
               </tbody>
           </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
           <table>
               <tbody>
                 <tr>
@@ -299,7 +299,7 @@ class Table extends React.Component {
               </tbody>
           </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
 			    <table>
               <tbody>
                 <tr>
@@ -389,7 +389,7 @@ class Table extends React.Component {
               </tbody>
           </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
           <table>
               <tbody>
                 <tr>
@@ -479,7 +479,7 @@ class Table extends React.Component {
               </tbody>
           </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
         <table>
          <tbody>
           <tr>
@@ -569,7 +569,7 @@ class Table extends React.Component {
           </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
 			  <table>
          <tbody>
           <tr>
@@ -659,7 +659,7 @@ class Table extends React.Component {
           </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
         <table>
          <tbody>
           <tr>
@@ -749,7 +749,7 @@ class Table extends React.Component {
           </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
         <table>
          <tbody>
           <tr>
@@ -839,7 +839,7 @@ class Table extends React.Component {
           </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
 			  <table>
          <tbody>
           <tr>
@@ -929,7 +929,7 @@ class Table extends React.Component {
           </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
         <table>
          <tbody>
           <tr>
@@ -1019,7 +1019,7 @@ class Table extends React.Component {
           </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
         <table>
          <tbody>
           <tr>
@@ -1223,7 +1223,7 @@ class Table extends React.Component {
               </tbody>
           </table>
 				</TabPanel>
-				<TabPanel>
+				<TabPanel className={tabs.panel}>
         <table>
          <tbody>
           <tr>
@@ -1319,7 +1319,7 @@ class Table extends React.Component {
           </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
         <table>
               <tbody>
                 <tr>
@@ -1415,7 +1415,7 @@ class Table extends React.Component {
               </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
         <table>
             <tbody>
               <tr>
@@ -1511,7 +1511,7 @@ class Table extends React.Component {
             </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
         <table>
             <tbody>
               <tr>
@@ -1607,7 +1607,7 @@ class Table extends React.Component {
             </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
         <table>
             <tbody>
               <tr>
@@ -1703,7 +1703,7 @@ class Table extends React.Component {
             </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
         <table>
             <tbody>
               <tr>
@@ -1799,7 +1799,7 @@ class Table extends React.Component {
             </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
         <table>
             <tbody>
               <tr>
@@ -1895,7 +1895,7 @@ class Table extends React.Component {
             </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
         <table>
             <tbody>
               <tr>
@@ -1991,7 +1991,7 @@ class Table extends React.Component {
             </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
         <table>
             <tbody>
               <tr>
@@ -2087,7 +2087,7 @@ class Table extends React.Component {
             </tbody>
         </table>
 				</TabPanel>
-        <TabPanel>
+        <TabPanel className={tabs.panel}>
         <table>
             <tbody>
               <tr>
