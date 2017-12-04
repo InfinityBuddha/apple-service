@@ -38,6 +38,9 @@
   margin-bottom: 12px;
   margin-right: 10px;
   outline: none;
+  &:hover {
+    border-color: red;
+  }
 }
 
 table {

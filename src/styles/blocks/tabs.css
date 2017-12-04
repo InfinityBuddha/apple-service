@@ -34,6 +34,8 @@
   margin-bottom: 12px;
   margin-right: 10px;
   outline: none; }
+  .item:hover {
+    border-color: red; }
 
 table {
   display: table;
