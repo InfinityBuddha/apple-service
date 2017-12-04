@@ -1111,7 +1111,8 @@ class Table extends React.Component {
 				</TabPanel>
 			</Tabs>
 		</TabPanel>
-	</Tabs>
+	
+  <TabPanel>
   <Tabs>
       <TabList className={tabs.list}>
         <Tab className={tabs.item}>iPad 2</Tab>
@@ -2183,7 +2184,8 @@ class Table extends React.Component {
         </table>
 				</TabPanel>
 			</Tabs>
-		
+      </TabPanel>
+      </Tabs>
   </div>
  );
 }
