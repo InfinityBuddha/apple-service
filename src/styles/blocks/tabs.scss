@@ -9,14 +9,14 @@
   display: flex;
   margin-bottom: 20px;
   justify-content: flex-start;
-  list-style: none;    
+  list-style: none;
 }
 
 .list {
   padding: 0;
   margin: 0 auto;
-  display: flex;  
-  list-style: none;  
+  display: flex;
+  list-style: none;
   flex-wrap: wrap;
   width: 100vw;
   padding-left: 10px;
@@ -43,14 +43,20 @@
   margin-bottom: 12px;
   margin-right: 10px;
   outline: none;
+
   &:hover {
-    border-color: red;
+    border-color: #358EDC;
   }
 }
 
 .panel {
   width: 100vw;
   padding: 0 10px;
+}
+
+.activeTab {
+	color: #358EDC;
+	border: 1px solid #358EDC;
 }
 
 table {
@@ -85,16 +91,12 @@ td {
     width: 41%;
   }
   &:nth-child(3) {
-    display: none;    
+    display: none;
     width: 14%;
   }
   &:nth-child(4) {
     width: 28%;
   }
-}
-
-.react-tabs__tab--selected {
-  border: 2px solid red;
 }
 
 @media (min-width: 924px) {
@@ -111,7 +113,7 @@ td {
       display: table-cell;
     }
     &:nth-child(3) {
-      display: table-cell;   
+      display: table-cell;
     }
   }
   .list {

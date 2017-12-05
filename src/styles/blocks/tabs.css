@@ -40,11 +40,15 @@
   margin-right: 10px;
   outline: none; }
   .item:hover {
-    border-color: red; }
+    border-color: #358EDC; }
 
 .panel {
   width: 100vw;
   padding: 0 10px; }
+
+.activeTab {
+  color: #358EDC;
+  border: 1px solid #358EDC; }
 
 table {
   display: table;
@@ -75,9 +79,6 @@ td {
     width: 14%; }
   td:nth-child(4) {
     width: 28%; }
-
-.react-tabs__tab--selected {
-  border: 2px solid red; }
 
 @media (min-width: 924px) {
   .items {
