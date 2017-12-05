@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import s from './Menu.css'
 import CloseIcon from '../img/icons/CloseIcon'
 import cx from 'classnames'
+import { Link } from 'react-router-dom'
 
 class Menu extends Component {
     constructor() {
@@ -37,8 +38,8 @@ class Menu extends Component {
                     <div className={cx(`${s.itemGroup} ${this.state.active === 'Ремонт' ? `${s.active}` : ''}`)}>
                         <h3 className={s.title} onClick={this.setActiveMenu}>Ремонт</h3>
                         <ul className={cx(`${s.list} ${this.state.active === 'Ремонт' ? `${s.active}` : ''}`)}>
-                            <li className={s.item}><a href="#">iPhone</a></li>
-                            <li className={s.item}><a href="#">iPad</a></li>
+                            <li className={s.item}><Link to='/Iphone'>iPhone</Link></li>
+                            <li className={s.item}><Link to='/Ipad'>iPad</Link></li>
                             <li className={s.item}><a href="#">Samsung</a></li>
                             <li className={s.item}><a href="#">Другое устройство</a></li>
                             <li className={s.item}><a href="#">Macbook</a></li>

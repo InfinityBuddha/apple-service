@@ -38,9 +38,11 @@
     z-index: -1;
     opacity: 0.5;
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    transition: 0.5s; }
   .card:hover:before {
-    opacity: 1; }
+    opacity: 1;
+    transition: 0.5s; }
 
 .iphone:before {
   right: 25px;
@@ -71,6 +73,10 @@
   background-image: url("../../img/macbook.jpg"); }
 
 .imac:before {
+  height: 116px;
+  width: 140px;
+  right: -45px;
+  bottom: -1px;
   background-image: url("../../img/imac.jpg"); }
 
 .iphone,

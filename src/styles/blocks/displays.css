@@ -32,7 +32,12 @@
   border-radius: 3px;
   outline: none;
   cursor: pointer;
-  background-color: transparent; }
+  background-color: transparent;
+  transition: 0.5s; }
+  .button:hover {
+    color: #FAD961;
+    border-color: #FAD961;
+    transition: 0.5s; }
 
 @media (min-width: 672px) {
   .container {

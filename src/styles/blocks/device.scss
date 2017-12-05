@@ -33,6 +33,7 @@
 	height: 127px;
 	margin-bottom: 5px;
 	overflow: hidden;
+	
 
 	&:before {
 		content: ' ';
@@ -44,10 +45,12 @@
 		opacity: 0.5;
 		background-repeat: no-repeat;
 		background-size: cover;
+		transition: 0.5s;	
 	}
 
 	&:hover:before {
 		opacity: 1;
+		transition: 0.5s;
 	}
 }
 
@@ -96,6 +99,10 @@
 
 .imac {
 	&:before {
+		height: 116px;
+		width: 140px;
+		right: -45px;
+		bottom: -1px;
 		background-image: url("../../img/imac.jpg");
 	}
 }
