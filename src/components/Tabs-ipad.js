@@ -1,10 +1,9 @@
 import React, {Component} from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import tabs from '../styles/blocks/tabs.css'
-import { Switch, Route } from 'react-router-dom'
+import tabs from './tabs.css'
 
 const Table = () => (
-  
+
       <div className={tabs.container}>
       <Tabs>
 <TabPanel>

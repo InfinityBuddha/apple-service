@@ -1,7 +1,6 @@
 .container {
   display: block;
-  width: 100vw;
-  height: 100%;
+	flex-grow: 1;
   margin: 40px auto;
 }
 
@@ -12,15 +11,18 @@
   list-style: none;
 }
 
+.reactTabs {
+	padding: 0 10px;
+}
+
 .list {
   padding: 0;
   margin: 0 auto;
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-  width: 100vw;
-  padding-left: 10px;
   justify-content: center;
+	margin-bottom: 20px;
 }
 
 .items {
@@ -31,32 +33,28 @@
 }
 
 .item {
-  cursor: pointer;
-  flex: 0 0 47%;
-  max-width: 50%;
-  text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  display: block;
-  border: 1px solid #cdd7e4;
-  padding: 7px 29px;
-  margin-bottom: 12px;
-  margin-right: 10px;
-  outline: none;
+	cursor: pointer;
+	flex-basis: 190px;
+	flex-grow: 1;
+	text-align: center;
+	display: block;
+	border: 1px solid #cdd7e4;
+	padding: 15px 25px;
+	outline: none;
 
   &:hover {
     border-color: #358EDC;
   }
 }
 
-.panel {
-  width: 100vw;
-  padding: 0 10px;
+.activeTab {
+	border: 1px solid #358EDC;
+	background-color: #358EDC;
+	color: #fff;
 }
 
-.activeTab {
-	color: #358EDC;
-	border: 1px solid #358EDC;
+.title {
+	margin-left: 10px;
 }
 
 table {
@@ -69,17 +67,17 @@ table {
 tr {
   border: 1px solid grey;
   &:first-child {
-    background-color: lightblue;
+    background-color: #ECEEEF;
   }
   &:not(:first-child):hover {
-    background-color: #cdcfd3;
+    background-color: #ECEEEF;
   }
 }
 
 td {
   text-align: center;
-  padding: 5px;
-  border: 1px solid grey;
+  padding: 8px;
+  border: 1px solid #e8e8e8;
   &:first-child:before {
     content: attr(data-name);
   }
@@ -99,36 +97,41 @@ td {
   }
 }
 
+@media (min-width: 672px) {
+	td {
+		&:nth-child(1) {
+			display: table-cell;
+		}
+	}
+}
+
 @media (min-width: 924px) {
+	.container {
+		width: 924px;
+	}
+	.reactTabs {
+		padding: 0;
+	}
   .items {
     flex: 0 0 20%;
     max-width: 20%;
   }
   .item {
-    flex: 0 0 20%;
-    max-width: 20%;
+		padding: 15px 25px;
+		outline: none;
   }
+	.panel {
+		padding: 0;
+	}
+	.title {
+		font-size: 2.5em;
+		margin-left: 0;
+	}
   td {
     &:nth-child(1) {
       display: table-cell;
     }
     &:nth-child(3) {
-      display: table-cell;
-    }
-  }
-  .list {
-    width: 100%;
-    justify-content: center;
-  }
-  .panel {
-    width: 90%;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 672px) {
-  td {
-    &:nth-child(1) {
       display: table-cell;
     }
   }

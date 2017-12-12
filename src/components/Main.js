@@ -5,13 +5,13 @@ import Iphone from './Tabs-iphone'
 import Ipad from './Tabs-ipad'
 
 const Main = () => (
-  
+
     <Switch>
       <Route exact path='/' component={Home}/>
-      <Route path='/Iphone' component={Iphone}/>
-      <Route path='/Ipad' component={Ipad}/>
+      <Route path='/iphone' component={Iphone}/>
+      <Route path='/ipad' component={Ipad}/>
     </Switch>
-  
+
 )
 
 export default Main

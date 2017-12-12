@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 import Main from './components/Main'
 
 
-import './styles/App.css'
+import s from './styles/App.css'
 
 
 /*
@@ -16,11 +16,11 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App">
+            <div className={s.App}>
                 <Header />
                 <Main />
                 <Footer />
-                
+
             </div>
     );
     }

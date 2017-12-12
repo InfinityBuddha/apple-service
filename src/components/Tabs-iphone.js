@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
-import tabs from '../styles/blocks/tabs.css'
+import tabs from './tabs.css'
 
 class Table extends Component {
     constructor() {
@@ -11,9 +11,10 @@ class Table extends Component {
     render () {
         return (
             <div className={tabs.container}>
+                <h1 className={tabs.title}>Ремонт iPhone</h1>
                 <Tabs>
                     <TabPanel>
-                        <Tabs>
+                        <Tabs className={tabs.reactTabs}>
                             <TabList className={tabs.list}>
                                 <Tab className={tabs.item} selectedClassName={tabs.activeTab}>iPhone 4</Tab>
                                 <Tab className={tabs.item} selectedClassName={tabs.activeTab}>iPhone 4s</Tab>
