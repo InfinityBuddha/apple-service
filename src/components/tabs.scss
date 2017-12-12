@@ -97,7 +97,10 @@ td {
   }
 }
 
-@media (min-width: 672px) {
+@media (min-width: 692px) {
+	.container {
+		width: 672px;
+	}
 	td {
 		&:nth-child(1) {
 			display: table-cell;
@@ -105,7 +108,7 @@ td {
 	}
 }
 
-@media (min-width: 924px) {
+@media (min-width: 944px) {
 	.container {
 		width: 924px;
 	}

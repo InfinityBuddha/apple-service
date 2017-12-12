@@ -36,11 +36,11 @@
 	color: #fff;
 	font-size: 13px;
 	&:hover {
-	animation: tada 1s;	
+	animation: tada 1s;
 	}
 }
 
-@media (min-width: 672px) { // tablets
+@media (min-width: 692px) { // tablets
 	.container {
 		width: 670px;
 	}
@@ -54,7 +54,7 @@
 	}
 }
 
-@media (min-width: 924px) {
+@media (min-width: 944px) {
 	.container {
 		text-align: center;
 	}

@@ -40,7 +40,7 @@
 .description {
   font-size: 12px; }
 
-@media (min-width: 672px) {
+@media (min-width: 692px) {
   .carousel {
     display: none; }
   .cards {
@@ -75,6 +75,6 @@
     margin-bottom: 20px;
     color: #fff; } }
 
-@media (min-width: 924px) {
+@media (min-width: 944px) {
   .cards {
     width: 924px; } }

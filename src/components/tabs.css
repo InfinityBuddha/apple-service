@@ -77,11 +77,13 @@ td {
   td:nth-child(4) {
     width: 28%; }
 
-@media (min-width: 672px) {
+@media (min-width: 692px) {
+  .container {
+    width: 672px; }
   td:nth-child(1) {
     display: table-cell; } }
 
-@media (min-width: 924px) {
+@media (min-width: 944px) {
   .container {
     width: 924px; }
   .reactTabs {

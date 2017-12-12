@@ -52,7 +52,7 @@
 	display: none;
 }
 
-@media (min-width: 672px) { // tablets
+@media (min-width: 692px) { // tablets
 
 	.container {
 		width: 672px;
@@ -105,5 +105,11 @@
 				font-weight: bold;
 			}
 		}
+	}
+}
+
+@media (min-width: 944px)  {
+	.container {
+		width: 924px;
 	}
 }

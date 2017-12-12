@@ -34,7 +34,7 @@
   .button:hover {
     animation: tada 1s; }
 
-@media (min-width: 672px) {
+@media (min-width: 692px) {
   .container {
     width: 670px; }
   .title {
@@ -42,7 +42,7 @@
   .text {
     max-width: 460px; } }
 
-@media (min-width: 924px) {
+@media (min-width: 944px) {
   .container {
     text-align: center; }
   .title {

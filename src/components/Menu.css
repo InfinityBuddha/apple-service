@@ -63,7 +63,7 @@
   .closeIcon:hover {
     fill: #EA1A21; }
 
-@media (min-width: 924px) {
+@media (min-width: 944px) {
   .list {
     display: none;
     position: absolute;

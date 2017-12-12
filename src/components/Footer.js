@@ -42,12 +42,12 @@ class Footer extends React.Component {
               </div>
           </div>
           <div className={f.footerSocial}>
-              <a className={f.vk} href="https://vk.com" ></a>
+              <a className={f.vk} href="https://vk.com/club100386203" ></a>
           </div>
       </div>
   </footer>
     );
   }
   }
-  
+
   export default Footer
