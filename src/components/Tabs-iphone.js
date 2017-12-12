@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
+import {Tab, Tabs, TabList, TabPanel} from 'react-tabs'
+import {removeForwardSlash} from '../utils/utils'
 import tabs from './tabs.css'
 
 class Table extends Component {
@@ -11,7 +12,7 @@ class Table extends Component {
     render () {
         return (
             <div className={tabs.container}>
-                <h1 className={tabs.title}>Ремонт iPhone</h1>
+                <h1 className={tabs.title}>Ремонт {removeForwardSlash(this.props.match.path)}</h1>
                 <Tabs>
                     <TabPanel>
                         <Tabs className={tabs.reactTabs}>
