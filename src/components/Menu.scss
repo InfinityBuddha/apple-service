@@ -83,7 +83,7 @@
 	.list {
 		display: none;
 		position: absolute;
-		top: 44px;
+		top: 85px;
 		text-align: left;
 		border-radius: 5px;
 		width: 160px;
@@ -139,7 +139,7 @@
 
 	.title {
 		cursor: pointer;
-		font-size: 14px;
+		font-size: 1em;
 		margin: 0;
 		color: #333333;
 	}
@@ -148,16 +148,16 @@
 		position: relative;
 		width: auto;
 		margin-right: 46px;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		transition: all 0.5s ease;
+		border-bottom: 2px solid  rgba(0, 112, 210, 0);
 
-		&:hover:after,
-		&.active:after {
-			position: absolute;
-			bottom: -30px;
-			left: -4px;
-			content: '';
-			width: 120%;
-			height: 3px;
-			background-color: #358EDC;
+
+		&:hover,
+		&.active {
+			border-bottom: 2px solid  rgba(0, 112, 210, 0.95);
 		}
 
 		&:last-child {

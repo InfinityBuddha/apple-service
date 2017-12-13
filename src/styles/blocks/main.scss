@@ -3,24 +3,29 @@
 }
 
 .container {
-	display: block;
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
 	margin: 0 auto;
 	width: 100%;
 }
 
 .title {
-	font-size: 21px;
+	text-align: left;
+	font-size: 2em;
 	padding-left: 26px;
 	margin: 0;
 	font-weight: 400;
+	color: #fff;
 }
 
 .text {
+	text-align: left;
 	display: block;
-	font-size: 15px;
+	font-size: 1em;
 	padding-left: 26px;
 	margin-top: 8px;
-	max-width: 310px;
+	color: #fff;
 }
 
 .button {
@@ -46,25 +51,26 @@
 	}
 
 	.title {
-		font-size: 24px;
+		font-size: 2.5em;
 	}
 
 	.text {
-		max-width: 460px;
+		max-width: 100%;
+		font-size: 1.3em;
 	}
 }
 
 @media (min-width: 944px) {
 	.container {
+		width: 924px;
 		text-align: center;
 	}
 
 	.title {
-		font-size: 38px;
+		font-size: 3em;
 	}
 
 	.text {
-		font-size: 21px;
 		max-width: 100%;
 	}
 

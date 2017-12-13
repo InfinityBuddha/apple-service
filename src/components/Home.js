@@ -17,21 +17,18 @@ class Home extends React.Component {
       <div>
         <div className={head.cover}>
         <section className={main.container}>
-            <h1 className={main.title}>Да, мы это исправим</h1>
-            <div className={main.text}>Обращайтесь к нам, если у вас возникли проблемы с вашими
-                девайсами.<br />
-                Мы знаем толк в ремонте.
-            </div>
-            <button className={main.button}>
+            <h1 className={main.title}>Мы это исправим.</h1>
+            <div className={main.text}>Сервисный центр по ремонту техники Apple и не только.</div>
+            {/*<button className={main.button}>
                 Нужен ремонт
-            </button>
+            </button>*/}
         </section>
       </div>
       <section className={dev.container}>
       <div className={dev.title}>С каким устройством проблемы?</div>
       <ul className={dev.list}>
           <li className={cx(dev.iphone, dev.card)}>
-              <Link to='/Iphone' className={dev.link}>
+              <Link to='/iphone' className={dev.link}>
                   <div className={dev.name}>iPhone</div>
               </Link>
           </li>
@@ -48,7 +45,7 @@ class Home extends React.Component {
               </a>
           </li>
           <li className={cx(dev.ipad, dev.card)}>
-              <Link to='/Ipad' className={dev.link}>
+              <Link to='/ipad' className={dev.link}>
                   <div className={dev.name}>iPad</div>
               </Link>
           </li>
@@ -159,10 +156,10 @@ class Home extends React.Component {
               </div>
               <div className={loc.map} id="map">
               <Map onAPIAvailable= {
-                      function () { 
-                          console.log('API loaded'); 
-                          }} 
-                          center = {[55.70343857, 36.20003100]} 
+                      function () {
+                          console.log('API loaded');
+                          }}
+                          center = {[55.70343857, 36.20003100]}
                           zoom={16}
                           width = {362}
                           height = {202}>
@@ -190,10 +187,10 @@ class Home extends React.Component {
               </div>
               <div className={loc.map} id="map">
                    <Map onAPIAvailable= {
-                       function () { 
-                           console.log('API loaded'); 
-                           }} 
-                           center = {[55.50430707, 36.02995300]} 
+                       function () {
+                           console.log('API loaded');
+                           }}
+                           center = {[55.50430707, 36.02995300]}
                            zoom={16}
                            width = {362}
                            height = {202}>
@@ -205,7 +202,7 @@ class Home extends React.Component {
                       </MarkerLayout>
                   </Marker>
                   </Map>
-                  
+
               </div>
           </div>
       </div>
@@ -214,5 +211,5 @@ class Home extends React.Component {
     );
   }
   }
-  
+
   export default Home

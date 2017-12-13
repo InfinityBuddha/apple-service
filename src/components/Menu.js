@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import s from './Menu.css'
 import CloseIcon from '../img/icons/CloseIcon'
 import cx from 'classnames'
-import { Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
+import s from './Menu.css'
 
 class Menu extends Component {
     constructor() {
@@ -12,7 +12,7 @@ class Menu extends Component {
         }
     }
 
-   handleOutsideClick = (event) => {
+    handleOutsideClick = (event) => {
         const item = document.querySelector(`.${s.active}`)
         if (item) {
             if (!item.contains(event.target)) {
@@ -38,23 +38,23 @@ class Menu extends Component {
                     <div className={cx(`${s.itemGroup} ${this.state.active === 'Ремонт' ? `${s.active}` : ''}`)}>
                         <h3 className={s.title} onClick={this.setActiveMenu}>Ремонт</h3>
                         <ul className={cx(`${s.list} ${this.state.active === 'Ремонт' ? `${s.active}` : ''}`)}>
-                            <li className={s.item}><Link to='/Iphone'>iPhone</Link></li>
-                            <li className={s.item}><Link to='/Ipad'>iPad</Link></li>
-                            <li className={s.item}><a href="#">Samsung</a></li>
-                            <li className={s.item}><a href="#">Другое устройство</a></li>
-                            <li className={s.item}><a href="#">Macbook</a></li>
-                            <li className={s.item}><a href="#">iMac</a></li>
+                            <li className={s.item} onClick={this.setActiveMenu}><Link to='/iphone' title='iPhone'>iPhone</Link></li>
+                            <li className={s.item} onClick={this.setActiveMenu}><Link to='/ipad' title='iPad'>iPad</Link></li>
+                            <li className={s.item} onClick={this.setActiveMenu}><a href='#'>Samsung</a></li>
+                            <li className={s.item} onClick={this.setActiveMenu}><a href='#'>Другое устройство</a></li>
+                            <li className={s.item} onClick={this.setActiveMenu}><a href='#'>Macbook</a></li>
+                            <li className={s.item} onClick={this.setActiveMenu}><a href='#'>iMac</a></li>
                         </ul>
                     </div>
                     <div className={cx(`${s.itemGroup} ${this.state.active === 'Продажа' ? `${s.active}` : ''}`)}>
                         <h3 className={s.title} onClick={this.setActiveMenu}>Продажа</h3>
                         <ul className={`${s.list} ${this.state.active === 'Продажа' ? `${s.active}` : ''}`}>
-                            <li className={s.item}><a href="#">iPhone</a></li>
-                            <li className={s.item}><a href="#">Дисплеи</a></li>
+                            <li className={s.item} onClick={this.setActiveMenu}><a href='#'>iPhone</a></li>
+                            <li className={s.item} onClick={this.setActiveMenu}><a href='#'>Дисплеи</a></li>
                         </ul>
                     </div>
                     <div className={s.itemGroup}>
-                        <h3 className={s.title} onClick={this.setActiveMenu}>Контакты</h3>
+                        <h3 className={s.title} onClick={this.setActiveMenu}><Link to='/Iphone' title='iPhone'>Контакты</Link></h3>
                     </div>
                 </div>
             </nav>
