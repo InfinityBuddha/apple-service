@@ -6,7 +6,7 @@
 }
 
 .title {
-	font-size: 18px;
+	font-size: 1em;
 	color: #4A4A4A;
 	padding-bottom: 15px;
 	text-align: center;
@@ -81,6 +81,10 @@
 @media (min-width: 692px) { // tablets
 	.container {
 		width: 672px;
+	}
+
+	.title {
+		font-size: 1.5em;
 	}
 
 	.card {

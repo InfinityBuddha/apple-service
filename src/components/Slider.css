@@ -38,7 +38,8 @@
   margin-bottom: 5px; }
 
 .description {
-  font-size: 12px; }
+  font-size: 1em;
+  line-height: 1.5em; }
 
 @media (min-width: 692px) {
   .carousel {
@@ -71,10 +72,20 @@
     font-size: 11px;
     font-weight: 300; }
   .title {
-    font-size: 18px;
+    font-size: 1.5em;
     margin-bottom: 20px;
     color: #fff; } }
 
 @media (min-width: 944px) {
   .cards {
-    width: 924px; } }
+    width: 924px;
+    height: 450px; }
+  .card {
+    height: 100%; }
+  .text {
+    height: 50%; }
+  .title {
+    font-size: 2em; }
+  .description {
+    font-size: 1.2em;
+    line-height: 1.5em; } }
