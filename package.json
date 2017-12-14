@@ -92,6 +92,7 @@
       "node"
     ]
   },
+  "homepage": "https://InfinityBuddha.github.io/apple-service",
   "babel": {
     "presets": [
       "react-app"

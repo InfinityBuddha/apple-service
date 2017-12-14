@@ -4,6 +4,17 @@
   margin: 40px auto;
 }
 
+.devices {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.reactTabs {
+	padding: 0 10px;
+}
+
 .list {
   padding: 0;
   margin: 0 auto;
@@ -12,6 +23,13 @@
   flex-wrap: wrap;
   justify-content: center;
 	margin-bottom: 20px;
+}
+
+.items {
+  cursor: pointer;
+  flex: 0 0 47%;
+  max-width: 50%;
+  text-align: center;
 }
 
 .item {
@@ -41,11 +59,13 @@
 
 table {
   display: table;
+  border-spacing: 2px;
   border: 1px solid grey;
   border-collapse: collapse;
 }
 
 tr {
+  border: 1px solid grey;
   &:first-child {
     background-color: #ECEEEF;
   }
