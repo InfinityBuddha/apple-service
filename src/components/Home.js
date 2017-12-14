@@ -205,7 +205,7 @@ class Home extends Component {
                                     zoom={16}
                                     width={362}
                                     height={202}>
-                                    
+
                                     <Marker lat={55.50430707} lon={36.03009300}>
                                         <MarkerLayout>
                                             <div style={{width: '30px', height: '30px'}}>

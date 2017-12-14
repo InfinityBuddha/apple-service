@@ -30,6 +30,10 @@
 	font-size: 30px;
 	margin-bottom: 6px;
 	font-weight: 700;
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
 }
 
 .list {
@@ -97,14 +101,14 @@
 
 		.item {
 			font-size: 14px;
-			 a {
-				 font-size: 14px;
-				 color: #333333;
+			a {
+				font-size: 14px;
+				color: #333333;
 
-				 &:hover {
-					 color:  lighten(#333, 25%);
-				 }
-			 }
+				&:hover {
+					color: lighten(#333, 25%);
+				}
+			}
 		}
 	}
 
@@ -142,6 +146,9 @@
 		font-size: 1em;
 		margin: 0;
 		color: #333333;
+		a {
+			color: #333333;
+		}
 	}
 
 	.itemGroup {
@@ -152,12 +159,11 @@
 		display: flex;
 		align-items: center;
 		transition: all 0.5s ease;
-		border-bottom: 2px solid  rgba(0, 112, 210, 0);
-
+		border-bottom: 2px solid rgba(0, 112, 210, 0);
 
 		&:hover,
 		&.active {
-			border-bottom: 2px solid  rgba(0, 112, 210, 0.95);
+			border-bottom: 2px solid rgba(0, 112, 210, 0.95);
 		}
 
 		&:last-child {

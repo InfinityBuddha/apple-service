@@ -8,7 +8,8 @@ class Menu extends Component {
     constructor() {
         super()
         this.state = {
-            active: ''
+            active: '',
+            activeCategory: ''
         }
     }
 
@@ -26,17 +27,19 @@ class Menu extends Component {
 
     setActiveMenu = (event) => {
         const target = event.target
-        this.setState({active: target.textContent})
+        this.setState({active: target.textContent, activeCategory: target.textContent})
+        this.props.toggleMenu()
         document.addEventListener('click', this.handleOutsideClick);
     }
 
     render() {
+
         return (
             <nav className={this.props.visibility ? s.menu : s.hidden}>
                 <CloseIcon className={s.closeIcon} onClick={this.props.toggleMenu}/>
                 <div className={s.wrapper}>
                     <div className={cx(`${s.itemGroup} ${this.state.active === 'Ремонт' ? `${s.active}` : ''}`)}>
-                        <h3 className={s.title} onClick={this.setActiveMenu}>Ремонт</h3>
+                        <h3 className={cx(s.title)} onClick={this.setActiveMenu}>Ремонт</h3>
                         <ul className={cx(`${s.list} ${this.state.active === 'Ремонт' ? `${s.active}` : ''}`)}>
                             <li className={s.item} onClick={this.setActiveMenu}><Link to='/iphone' title='iPhone'>iPhone</Link></li>
                             <li className={s.item} onClick={this.setActiveMenu}><Link to='/ipad' title='iPad'>iPad</Link></li>

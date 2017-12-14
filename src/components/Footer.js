@@ -14,8 +14,8 @@ class Footer extends Component {
               <div className={f.repair}>
                   <h3 className={f.title}>Ремонт</h3>
                   <ul className={f.list}>
-                      <li>Ремонт iPhone</li>
-                      <li>Ремонт iPad</li>
+                      <li><Link to='/iphone' title='Ремонт iPhone'>Ремонт iPhone</Link></li>
+                      <li><Link to='/ipad' title='Ремонт iPad'>Ремонт iPad</Link></li>
                       <li>Ремонт MacBook</li>
                       <li>Ремонт iMac</li>
                       <li>Ремонт Samsung</li>

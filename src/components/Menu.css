@@ -27,6 +27,9 @@
   font-size: 30px;
   margin-bottom: 6px;
   font-weight: 700; }
+  .title a {
+    color: #fff;
+    text-decoration: none; }
 
 .list {
   padding: 0;
@@ -107,6 +110,8 @@
     font-size: 1em;
     margin: 0;
     color: #333333; }
+    .title a {
+      color: #333333; }
   .itemGroup {
     position: relative;
     width: auto;

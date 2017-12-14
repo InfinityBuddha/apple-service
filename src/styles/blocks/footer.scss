@@ -58,6 +58,10 @@
 		width: 672px;
 	}
 
+	.logo {
+		display: flex;
+	}
+
 	.repair,
 	.sale {
 		display: block;
@@ -76,30 +80,36 @@
 		padding: 0;
 		list-style: none;
 
+		a {
+			color: #333;
+			text-decoration: none;
+
+			&:hover {
+				color: lighten(#333, 15%);
+			}
+		}
+
 		li {
-			font-size: 11px;
+			font-size: 13px;
 			margin-bottom: 3px;
 			line-height: 1.5;
 		}
 	}
 
 	.title {
-		font-size: 12px;
-		line-height: 1.5;
+		font-size: 16px;
+		line-height: 18px;
 		margin-bottom: 5px;
 	}
 
 	.phones {
-		width: 145px;
-
+		width: 180px;
 		.title {
 			display: block;
 		}
-
 		.phone {
 			display: none;
 		}
-
 		.list {
 			li:nth-child(2n - 1) {
 				font-weight: bold;

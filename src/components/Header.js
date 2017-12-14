@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import head from '../styles/blocks/header.css'
 import Menu from './Menu.js'
 import HamburgerIcon from '../img/icons/HamburgerIcon'
+import {Link} from 'react-router-dom'
 
 import menu from './Menu.css'
 
@@ -31,14 +32,17 @@ class Header extends Component {
             <div className={head.wrapper}>
                 <header className={head.header}>
                     <div className={head.container}>
-                        <div className={head.contacts__tablet}>
+                        <div className={head.logo}>
+                            <Link to="/" className={head.title}>ApplePremiumService</Link>
+                        </div>
+                        {/*<div className={head.contacts__tablet}>
                             <div className={head.city}>г. Руза</div>
                             <a href="tel:8(800)-200-00-56" className={head.phone}>8 800 200 00 56</a>
                         </div>
                         <div className={head.contacts__tablet}>
                             <div className={head.city}>г. Можайск</div>
                             <a href="tel:8(800)-200-00-56" className={head.phone}>8 800 200 00 56</a>
-                        </div>
+                        </div>*/}
                         <div className={head.contacts}>
                             <a href="tel:8(800)-200-00-56" className={head.phone}>8 800 200 00 56</a>
                             <div className={head.schedule}>10:00 - 18:00</div>

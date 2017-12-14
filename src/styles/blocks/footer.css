@@ -45,6 +45,8 @@
 @media (min-width: 692px) {
   .container {
     width: 672px; }
+  .logo {
+    display: flex; }
   .repair,
   .sale {
     display: block; }
@@ -58,16 +60,21 @@
     margin: 0;
     padding: 0;
     list-style: none; }
+    .list a {
+      color: #333;
+      text-decoration: none; }
+      .list a:hover {
+        color: #595959; }
     .list li {
-      font-size: 11px;
+      font-size: 13px;
       margin-bottom: 3px;
       line-height: 1.5; }
   .title {
-    font-size: 12px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 5px; }
   .phones {
-    width: 145px; }
+    width: 180px; }
     .phones .title {
       display: block; }
     .phones .phone {

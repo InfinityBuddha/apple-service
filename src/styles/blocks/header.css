@@ -17,6 +17,18 @@
   box-shadow: none;
   background: transparent; }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-right: 24px;
+  font-size: 1em;
+  align-items: center;
+  padding: 29px; }
+  .logo a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 700; }
+
 .container {
   position: relative;
   display: block;
