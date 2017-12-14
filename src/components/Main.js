@@ -7,7 +7,7 @@ import Ipad from './Tabs-ipad'
 const Main = () => (
 
     <Switch>
-      <Route exact path='/' component={Home}/>
+      <Route exact component={Home}/>
       <Route path='/iphone' component={iPhone}/>
       <Route path='/ipad' component={Ipad}/>
     </Switch>
