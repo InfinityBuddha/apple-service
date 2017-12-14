@@ -43,12 +43,14 @@
   border-left: 1px solid #328CDB;
   margin-left: 127px; }
 
-@media (min-width: 924px) {
+@media (min-width: 944px) {
   .container {
     width: 924px; }
   .circles {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    margin-top: 56px;
+    margin-bottom: 56px; }
   .item {
     display: flex;
     align-items: center;

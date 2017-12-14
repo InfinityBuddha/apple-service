@@ -7,7 +7,8 @@
   display: flex;
   align-items: center;
   height: 320px;
-  background: url("../../img/main-bg.png") no-repeat top;
+  background-color: #38B8D9;
+  /*background: url("../../img/main-bg.png") no-repeat top;*/
   background-size: cover;
   width: 100%;
   margin: 0 auto; }
@@ -24,8 +25,9 @@
 
 .contacts {
   display: block;
-  padding-top: 16px;
-  padding-left: 24px; }
+  padding-top: 17px;
+  padding-left: 24px;
+  padding-bottom: 12px; }
 
 .contacts__tablet {
   display: none; }
@@ -33,10 +35,10 @@
 .phone {
   color: #4A4A4A;
   text-decoration: none;
-  font-size: 13px; }
+  font-size: 0.9em; }
 
 .schedule {
-  font-size: 9px;
+  font-size: 0.5em;
   color: #333333; }
 
 .hamburger {
@@ -45,7 +47,7 @@
   top: 25px;
   right: 25px; }
 
-@media (min-width: 672px) {
+@media (min-width: 692px) {
   .header {
     box-shadow: 0 1px 2px 0 #9B9B9B;
     background-color: #fff; }
@@ -60,8 +62,7 @@
     padding-bottom: 17px;
     margin-right: 24px; }
   .cover {
-    background: url("../../img/main-bg-tablet.png") no-repeat top;
-    height: 520px; }
+    height: 420px; }
   .nav {
     position: absolute;
     width: 26px;
@@ -70,13 +71,8 @@
     top: 29px;
     right: 0; } }
 
-@media (min-width: 924px) {
+@media (min-width: 944px) {
   .container {
     width: 924px; }
-  .cover {
-    justify-content: center;
-    height: 570px;
-    width: 924px;
-    background-size: cover; }
   .hamburger {
     display: none; } }
