@@ -50,14 +50,17 @@
     "whatwg-fetch": "2.0.3",
     "yandex-map-react": "^1.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && node scripts/build.js",
     "start-js": "node scripts/start.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "deploy" : "npm run build&&gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
