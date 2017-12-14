@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import tabs from '../styles/blocks/tabs.css'
 import { Switch, Route } from 'react-router-dom'
@@ -8,8 +8,7 @@ import { Switch, Route } from 'react-router-dom'
 const Table = () => (
 
       <div className={tabs.container}>
-	<Tabs>
-		<TabPanel>
+	
     <Tabs>
       <TabList className={tabs.list}>
         <Tab className={tabs.item}>iPhone 4</Tab>
@@ -1106,8 +1105,7 @@ const Table = () => (
         </table>
 				</TabPanel>
 			</Tabs>
-		</TabPanel>
-      </Tabs>
+		
   </div>
  );
 

@@ -1,14 +1,15 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom'
 import f from '../styles/blocks/footer.css'
 
-class Footer extends React.Component {
+class Footer extends Component {
   render() {
     return (
       <footer className={f.footer}>
       <div className={f.container}>
           <div className={f.footerInfo}>
               <div className={f.logo}>
-                  <a href="#" className={f.title}>ApplePremiumService</a>
+                  <Link to="/" className={f.title}>ApplePremiumService</Link>
               </div>
               <div className={f.repair}>
                   <h3 className={f.title}>Ремонт</h3>
@@ -42,12 +43,12 @@ class Footer extends React.Component {
               </div>
           </div>
           <div className={f.footerSocial}>
-              <a className={f.vk} href="https://vk.com" ></a>
+              <a className={f.vk} href="https://vk.com/club100386203" > </a>
           </div>
       </div>
   </footer>
     );
   }
   }
-  
+
   export default Footer

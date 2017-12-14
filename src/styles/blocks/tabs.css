@@ -4,12 +4,6 @@
   height: 100%;
   margin: 40px auto; }
 
-.devices {
-  display: flex;
-  margin-bottom: 20px;
-  justify-content: flex-start;
-  list-style: none; }
-
 .list {
   padding: 0;
   margin: 0 auto;
@@ -19,12 +13,6 @@
   width: 100vw;
   padding-left: 10px;
   justify-content: center; }
-
-.items {
-  cursor: pointer;
-  flex: 0 0 47%;
-  max-width: 50%;
-  text-align: center; }
 
 .item {
   cursor: pointer;
@@ -48,16 +36,14 @@
 
 table {
   display: table;
-  border-spacing: 2px;
   border: 1px solid grey;
   border-collapse: collapse; }
 
-tr {
-  border: 1px solid grey; }
-  tr:first-child {
-    background-color: lightblue; }
-  tr:not(:first-child):hover {
-    background-color: #cdcfd3; }
+tr:first-child {
+  background-color: lightblue; }
+
+tr:not(:first-child):hover {
+  background-color: #cdcfd3; }
 
 td {
   text-align: center;

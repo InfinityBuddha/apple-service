@@ -3,7 +3,7 @@ import s from './Slider.css'
 import cx from 'classnames'
 import { Carousel } from 'react-bootstrap'
 
-class Slider extends React.Component {
+class Slider extends Component {
 
     render() {
         return (

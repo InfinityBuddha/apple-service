@@ -6,7 +6,7 @@
 }
 
 .title {
-	font-size: 18px;
+	font-size: 1em;
 	color: #4A4A4A;
 	padding-bottom: 15px;
 	text-align: center;
@@ -59,7 +59,7 @@
 	text-decoration: none;
 	margin-top: 15px;
 	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
-	transition: 0.5s;	
+	transition: 0.5s;
 
 	&:hover {
 		transform: scale(1.2);
@@ -78,9 +78,13 @@
 	display: none;
 }
 
-@media (min-width: 672px) { // tablets
+@media (min-width: 692px) { // tablets
 	.container {
 		width: 672px;
+	}
+
+	.title {
+		font-size: 1.5em;
 	}
 
 	.card {

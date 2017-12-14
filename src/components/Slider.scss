@@ -50,12 +50,13 @@
 }
 
 .description {
-	font-size: 12px;
+	font-size: 1em;
+	line-height: 1.5em;
 }
 
 // Styles for Carousel
 
-@media (min-width: 672px) { // tablets
+@media (min-width: 692px) { // tablets
 	.carousel {
 		display: none;
 	}
@@ -101,14 +102,28 @@
 	}
 
 	.title {
-		font-size: 18px;
+		font-size: 1.5em;
 		margin-bottom: 20px;
 		color: #fff;
 	}
 }
 
-@media (min-width: 924px) {
+@media (min-width: 944px) {
 	.cards {
 		width: 924px;
+		height: 450px;
+	}
+	.card {
+		height: 100%;
+	}
+	.text {
+		height: 50%;
+	}
+	.title {
+		font-size: 2em;
+	}
+	.description {
+		font-size: 1.2em;
+		line-height: 1.5em;
 	}
 }
