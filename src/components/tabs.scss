@@ -2,6 +2,7 @@
   display: block;
 	flex-grow: 1;
   margin: 40px auto;
+	padding: 0px 10px;
 }
 
 .list {
@@ -21,8 +22,9 @@
 	text-align: center;
 	display: block;
 	border: 1px solid #cdd7e4;
-	padding: 15px 25px;
+	padding: 11px 25px;
 	outline: none;
+	font-size: 0.8em;
 
   &:hover {
     border-color: #358EDC;

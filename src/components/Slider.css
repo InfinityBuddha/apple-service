@@ -13,17 +13,20 @@
 .card {
   display: flex;
   align-items: center;
-  height: 200px;
+  height: 250px;
   width: 100%; }
   .card__iphone {
     background: url("../styles/icons/iphoneicon.svg") no-repeat;
-    background-position: 84% 50%; }
+    background-position: 84% 50%;
+    background-size: 80px; }
   .card__repair {
     background: url("../styles/icons/turbina.svg") no-repeat;
-    background-position: 84% 50%; }
+    background-position: 84% 50%;
+    background-size: 100px; }
   .card__guarantee {
     background: url("../styles/icons/shield.svg") no-repeat;
-    background-position: 84% 50%; }
+    background-position: 84% 50%;
+    background-size: 80px; }
 
 .text {
   color: #333333;
@@ -40,6 +43,9 @@
 .description {
   font-size: 1em;
   line-height: 1.5em; }
+
+.item {
+  height: 250px; }
 
 @media (min-width: 692px) {
   .carousel {

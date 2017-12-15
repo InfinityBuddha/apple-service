@@ -16,17 +16,18 @@
 }
 
 .header {
-	box-shadow: none;
 	background: transparent;
+	box-shadow: 0 1px 2px 0 #9B9B9B;
 }
 
 .logo {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	margin-right: 24px;
 	font-size: 1em;
 	align-items: center;
 	padding: 29px;
+	padding-left: 20px;
 
 	a {
 		color: #333;
@@ -67,7 +68,8 @@
 .hamburger {
 	position: absolute;
 	cursor: pointer;
-	top: 25px;
+	top: 50%;
+	transform: translateY(-50%);
 	right: 25px;
 }
 
@@ -84,6 +86,10 @@
 
 	.contacts {
 		display: none;
+	}
+
+	.logo {
+		padding-left: 25px;
 	}
 
 	.contacts__tablet {

@@ -33,7 +33,7 @@ class Header extends Component {
                 <header className={head.header}>
                     <div className={head.container}>
                         <div className={head.logo}>
-                            <Link to="/" className={head.title}>ApplePremiumService</Link>
+                            <Link to="/apple-service" className={head.title}>ApplePremiumService</Link>
                         </div>
                         {/*<div className={head.contacts__tablet}>
                             <div className={head.city}>г. Руза</div>
@@ -43,10 +43,10 @@ class Header extends Component {
                             <div className={head.city}>г. Можайск</div>
                             <a href="tel:8(800)-200-00-56" className={head.phone}>8 800 200 00 56</a>
                         </div>*/}
-                        <div className={head.contacts}>
+                       {/* <div className={head.contacts}>
                             <a href="tel:8(800)-200-00-56" className={head.phone}>8 800 200 00 56</a>
                             <div className={head.schedule}>10:00 - 18:00</div>
-                        </div>
+                        </div>*/}
                         <HamburgerIcon className={head.hamburger}
                                        onClick={this.toggleMenu}/>
 
