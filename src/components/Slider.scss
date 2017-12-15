@@ -84,6 +84,20 @@
 		&:not(:last-child) {
 			margin-right: 12px;
 		}
+			&__iphone {
+				background-size: 100px;
+				background-position: 49% 15%;
+			}
+
+			&__repair {
+				background-position: 60% 17%;
+				background-size: 140px;
+			}
+
+			&__guarantee {
+				background-position: 48% 15%;
+				background-size: 80px;
+		}
 	}
 
 	.card__iphone {

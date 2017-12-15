@@ -63,6 +63,15 @@
     min-height: 361px; }
     .card:not(:last-child) {
       margin-right: 12px; }
+    .card__iphone {
+      background-size: 100px;
+      background-position: 49% 15%; }
+    .card__repair {
+      background-position: 60% 17%;
+      background-size: 140px; }
+    .card__guarantee {
+      background-position: 48% 15%;
+      background-size: 80px; }
   .card__iphone {
     background-position: 50% 12%; }
   .card__repair {
