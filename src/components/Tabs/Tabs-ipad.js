@@ -1,6 +1,6 @@
 import React from 'react'
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
-import tabs from './tabs.css'
+import tabs from './styles.css'
 
 const iPad = (props) => (
 

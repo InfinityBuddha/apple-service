@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import CloseIcon from '../img/icons/CloseIcon'
+import CloseIcon from '../../img/icons/CloseIcon'
 import cx from 'classnames'
 import {Link} from 'react-router-dom'
-import s from './Menu.css'
+import s from './styles.css'
 
 class Menu extends Component {
     constructor() {

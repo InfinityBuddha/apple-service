@@ -20,19 +20,19 @@
 	width: 100%;
 
 	&__iphone {
-		background: url("../styles/icons/iphoneicon.svg") no-repeat;
+		background: url("../../styles/icons/iphoneicon.svg") no-repeat;
 		background-position: 84% 50%;
 		background-size: 80px;
 	}
 
 	&__repair {
-		background: url("../styles/icons/turbina.svg") no-repeat;
+		background: url("../../styles/icons/turbina.svg") no-repeat;
 		background-position: 84% 50%;
 		background-size: 100px;
 	}
 
 	&__guarantee {
-		background: url("../styles/icons/shield.svg") no-repeat;
+		background: url("../../styles/icons/shield.svg") no-repeat;
 		background-position: 84% 50%;
 		background-size: 80px;
 	}
@@ -113,7 +113,7 @@
 	}
 
 	.text {
-		background: linear-gradient(to right, #32BADB, #328CDB);
+		background: linear-gradient(to right, #443F3F, #262121);
 		height: 185px;
 		width: 100%;
 		padding: 15px 22px 24px 24px;

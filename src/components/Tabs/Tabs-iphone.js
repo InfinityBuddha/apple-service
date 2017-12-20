@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs'
-import tabs from './tabs.css'
+import tabs from './styles.css'
 
 class iPhone extends Component {
     constructor() {

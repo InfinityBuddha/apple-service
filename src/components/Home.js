@@ -1,27 +1,17 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-import ReactDOM from 'react-dom'
-import Slider from './Slider'
+import Slider from './Slider/Slider'
 import {Map, Marker, MarkerLayout} from 'yandex-map-react';
 import dev from '../styles/blocks/device.css'
 import dis from '../styles/blocks/displays.css'
 import c from '../styles/blocks/circles.css'
 import loc from '../styles/blocks/location.css'
-import sli from './Slider.css'
-import head from '../styles/blocks/header.css'
-import main from '../styles/blocks/main.css'
+import sli from './Slider/styles.css'
+import head from './Header/styles.css'
+import main from './Main/styles.css'
 import cx from 'classnames'
 
 class Home extends Component {
-    componentDidUpdate() {
-        let hash = this.props.location.hash.replace('#', '');
-        if (hash) {
-            let node = ReactDOM.findDOMNode(this.refs[hash]);
-            if (node) {
-                node.scrollIntoView();
-            }
-        }
-    }
 
     render() {
         return (
@@ -88,6 +78,7 @@ class Home extends Component {
                 </section>
 
                 <Slider />
+
                 <section className={sli.cards}>
                     <li className={cx(sli.card, sli.card__iphone)}>
                         <div className={sli.text}>

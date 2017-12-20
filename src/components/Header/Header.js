@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import head from '../styles/blocks/header.css'
-import Menu from './Menu.js'
-import HamburgerIcon from '../img/icons/HamburgerIcon'
+import head from './styles.css'
+import Menu from '../Menu/Menu.js'
+import HamburgerIcon from '../../img/icons/HamburgerIcon'
 import {Link} from 'react-router-dom'
 
-import menu from './Menu.css'
+import menu from '../Menu/styles.css'
 
 
 class Header extends Component {
