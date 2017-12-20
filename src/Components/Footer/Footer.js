@@ -9,7 +9,7 @@ class Footer extends Component {
       <div className={f.container}>
           <div className={f.footerInfo}>
               <div className={f.logo}>
-                  <Link to="/apple-service" className={f.title}>ApplePremiumService</Link>
+                  <Link to="/apple-service" className={f.title}>RepairBox</Link>
               </div>
               <div className={f.repair}>
                   <h3 className={f.title}>Ремонт</h3>

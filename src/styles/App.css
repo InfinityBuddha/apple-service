@@ -422,6 +422,22 @@ template {
   src: url("/../../fonts/robotobold.woff") format("woff");
   font-weight: bold; }
 
+.title {
+  margin: 0 auto;
+  margin-top: 52px;
+  margin-bottom: 24px;
+  font-size: 1.4em;
+  text-align: center;
+  color: #333333; }
+
+@media (min-width: 692px) {
+  .title {
+    font-size: 1.5em; } }
+
+@media (min-width: 944px) {
+  .title {
+    margin-top: 45px; } }
+
 @media (max-width: 1200px) {
   .container {
     width: 970px; } }

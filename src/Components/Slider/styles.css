@@ -16,15 +16,15 @@
   height: 250px;
   width: 100%; }
   .card__iphone {
-    background: url("../../styles/icons/iphoneicon.svg") no-repeat;
+    background: url("../../img/icons/iphoneicon.svg") no-repeat;
     background-position: 84% 50%;
     background-size: 80px; }
   .card__repair {
-    background: url("../../styles/icons/turbina.svg") no-repeat;
+    background: url("../../img/icons/turbina.svg") no-repeat;
     background-position: 84% 50%;
     background-size: 100px; }
   .card__guarantee {
-    background: url("../../styles/icons/shield.svg") no-repeat;
+    background: url("../../img/icons/shield.svg") no-repeat;
     background-position: 84% 50%;
     background-size: 80px; }
 
@@ -79,7 +79,7 @@
   .card__guarantee {
     background-position: 51% 14%; }
   .text {
-    background: linear-gradient(to right, #443F3F, #262121);
+    background: #2D3344;
     height: 185px;
     width: 100%;
     padding: 15px 22px 24px 24px;

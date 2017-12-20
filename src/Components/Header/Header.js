@@ -23,7 +23,6 @@ class Header extends Component {
         } else {
             body.classList.add(menu.openedMenu)
         }
-
         this.setState({visibility: !this.state.visibility})
     }
 
@@ -33,7 +32,7 @@ class Header extends Component {
                 <header className={head.header}>
                     <div className={head.container}>
                         <div className={head.logo}>
-                            <Link to="/apple-service" className={head.title}>ApplePremiumService</Link>
+                            <Link to="/apple-service" className={head.title}>RepairBox</Link>
                         </div>
                         {/*<div className={head.contacts__tablet}>
                             <div className={head.city}>г. Руза</div>

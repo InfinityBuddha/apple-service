@@ -1,14 +1,15 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 import Slider from './Slider/Slider'
+import Stages from './Stages/Stages'
 import {Map, Marker, MarkerLayout} from 'yandex-map-react';
 import dev from '../styles/blocks/device.css'
 import dis from '../styles/blocks/displays.css'
-import c from '../styles/blocks/circles.css'
 import loc from '../styles/blocks/location.css'
 import sli from './Slider/styles.css'
 import head from './Header/styles.css'
 import main from './Main/styles.css'
+import glob from '../styles/global/global.css'
 import cx from 'classnames'
 
 class Home extends Component {
@@ -19,14 +20,14 @@ class Home extends Component {
                 <div className={head.cover}>
                     <section className={main.container}>
                         <h1 className={main.title}>Мы это исправим.</h1>
-                        <div className={main.text}>Сервисный центр по ремонту техники Apple и не только.</div>
+                        <div className={main.text}>Сервисный центр по ремонту техники Apple.</div>
                         {/*<button className={main.button}>
                          Нужен ремонт
                          </button>*/}
                     </section>
                 </div>
                 <section className={dev.container}>
-                    <div className={dev.title}>С каким устройством проблемы?</div>
+                    <div className={glob.title}>С каким устройством проблемы?</div>
                     <ul className={dev.list}>
                         <li className={cx(dev.iphone, dev.card)}>
                             <Link to='/iphone' className={dev.link}>
@@ -77,7 +78,7 @@ class Home extends Component {
                     </div>
                 </section>
 
-                <Slider />
+                <Slider/>
 
                 <section className={sli.cards}>
                     <li className={cx(sli.card, sli.card__iphone)}>
@@ -107,42 +108,11 @@ class Home extends Component {
                     </li>
                 </section>
 
-                <section className={c.container}>
-                    <div className={c.circles}>
-                        <div className={c.item}>
-                            <div className={c.circle}>
-                                <span>1</span>
-                            </div>
-                            <span className={c.title}>Заявка</span>
-                        </div>
-                        <div className={c.line}></div>
-                        <div className={c.item}>
-                            <div className={c.circle}>
-                                <span>2</span>
-                            </div>
-                            <span className={c.title}>Бесплатная диагностика</span>
-                        </div>
-                        <div className={c.line}></div>
-                        <div className={c.item}>
-                            <div className={c.circle}>
-                                <span>3</span>
-                            </div>
-                            <span className={c.title}>Ремонт</span>
-                        </div>
-                        <div className={c.line}></div>
-                        <div className={c.item}>
-                            <div className={c.circle}>
-                                <span>4</span>
-                            </div>
-                            <span className={c.title}>Готово</span>
-                        </div>
-                    </div>
-                </section>
-
+                <Stages/>
 
                 <section className={loc.container}>
                     <div className={loc.location}>
-                        <h3 className={loc.title} ref='scroll_here'>Ждем вас в гости</h3>
+                        <h3 className={glob.title} ref='scroll_here'>Ждем вас в гости</h3>
                         <div className={loc.card}>
                             <div className={loc.text}>
                                 <div className={loc.address}>
@@ -215,8 +185,8 @@ class Home extends Component {
                     </div>
                 </section>
             </div>
-        );
+    );
     }
-}
+    }
 
-export default Home
+    export default Home

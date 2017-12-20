@@ -7,20 +7,12 @@
   width: 100%;
   margin-bottom: 24px; }
 
-.title {
-  margin: 0 auto;
-  margin-top: 29px;
-  font-size: 1em;
-  text-align: center;
-  color: #333333; }
-
 .list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0;
-  padding: 0;
-  margin-top: 14px; }
+  padding: 0; }
 
 .card {
   position: relative;
@@ -111,8 +103,6 @@
     width: 170px; }
   .container {
     width: 670px; }
-  .title {
-    font-size: 1.5em; }
   .card {
     height: 207px;
     margin-bottom: 12px; }
@@ -139,8 +129,6 @@
     width: 220px; }
   .container {
     width: 924px; }
-  .title {
-    margin-top: 45px; }
   .card {
     height: 290px; }
   .name {
