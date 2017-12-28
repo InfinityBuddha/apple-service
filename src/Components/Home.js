@@ -34,11 +34,6 @@ class Home extends Component {
                                 <div className={dev.name}>iPhone</div>
                             </Link>
                         </li>
-                        <li className={cx(dev.samsung, dev.card)}>
-                            <a href='' className={dev.link}>
-                                <div className={dev.name}>Samsung</div>
-                            </a>
-                        </li>
                         <li className={cx(dev.other, dev.card)}>
                             <a href='' className={dev.link}>
                                 <div className={dev.name}>Другое
