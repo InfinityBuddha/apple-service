@@ -27,7 +27,7 @@ class Home extends Component {
                     </section>
                 </div>
                 <section className={dev.container}>
-                    <div className={glob.title}>С каким устройством проблемы?</div>
+                    <h2 className={glob.title}>С каким устройством проблемы?</h2>
                     <ul className={dev.list}>
                         <li className={cx(dev.iphone, dev.card)}>
                             <Link to='/iphone' className={dev.link}>
@@ -75,39 +75,42 @@ class Home extends Component {
 
                 <Slider/>
 
-                <section className={sli.cards}>
-                    <li className={cx(sli.card, sli.card__iphone)}>
-                        <div className={sli.text}>
-                            <h3 className={sli.title}>5 лет качества</h3>
-                            <p className={sli.description}>За это время через наши руки прошло более 5000
-                                устройств.
-                            </p>
-                        </div>
-                    </li>
-                    <li className={cx(sli.card, sli.card__repair)}>
-                        <div className={sli.text}>
-                            <h3 className={sli.title}>Экспресс ремонт</h3>
-                            <p className={sli.description}>Накопленный опыт в области ремонта техники Apple
-                                позволяет нам быстро устранять неполадки
-                            </p>
-                        </div>
-                    </li>
-                    <li className={cx(sli.card, sli.card__guarantee)}>
-                        <div className={sli.text}>
-                            <h3 className={sli.title}>Гарантия 2 месяца</h3>
-                            <p className={sli.description}>Мы используем только качественные запчасти для
-                                ремонта продукции Apple. Это позволяет нам давать длительную гарантию на все
-                                виды ремонта
-                            </p>
-                        </div>
-                    </li>
+                <section >
+                    <h2 className={glob.title}>Почему нам доверяют?</h2>
+                    <ul className={sli.cards}>
+                        <li className={cx(sli.card, sli.card__iphone)}>
+                            <div className={sli.text}>
+                                <h3 className={sli.title}>5 лет качества</h3>
+                                <p className={sli.description}>За это время через наши руки прошло более 5000
+                                    устройств.
+                                </p>
+                            </div>
+                        </li>
+                        <li className={cx(sli.card, sli.card__repair)}>
+                            <div className={sli.text}>
+                                <h3 className={sli.title}>Экспресс ремонт</h3>
+                                <p className={sli.description}>Накопленный опыт в области ремонта техники Apple
+                                    позволяет нам быстро устранять неполадки
+                                </p>
+                            </div>
+                        </li>
+                        <li className={cx(sli.card, sli.card__guarantee)}>
+                            <div className={sli.text}>
+                                <h3 className={sli.title}>Гарантия 2 месяца</h3>
+                                <p className={sli.description}>Мы используем только качественные запчасти для
+                                    ремонта продукции Apple. Это позволяет нам давать длительную гарантию на все
+                                    виды ремонта
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
                 </section>
 
                 <Stages/>
 
                 <section className={loc.container}>
                     <div className={loc.location}>
-                        <h3 className={glob.title} ref='scroll_here'>Ждем вас в гости</h3>
+                        <h2 className={glob.title} ref='scroll_here'>Ждем вас в гости</h2>
                         <div className={loc.card}>
                             <div className={loc.text}>
                                 <div className={loc.address}>
