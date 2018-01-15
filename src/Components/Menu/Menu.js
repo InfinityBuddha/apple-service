@@ -52,7 +52,7 @@ class Menu extends Component {
                     <div className={cx(`${s.itemGroup} ${this.state.active === 'Продажа' ? `${s.active}` : ''}`)}>
                         <h3 className={s.title} onClick={this.setActiveMenu}>Продажа</h3>
                         <ul className={`${s.list} ${this.state.active === 'Продажа' ? `${s.active}` : ''}`}>
-                            <li className={s.item} onClick={this.setActiveMenu}><a href=''>iPhone</a></li>
+                            <li className={s.item} onClick={this.setActiveMenu}><Link to='/iphone-sell'>iPhone</Link></li>
                             <li className={s.item} onClick={this.setActiveMenu}><a href=''>Дисплеи</a></li>
                         </ul>
                     </div>
