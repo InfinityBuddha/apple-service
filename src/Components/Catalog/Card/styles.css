@@ -1,0 +1,109 @@
+.productCard {
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid #ececec;
+  width: 100%; }
+
+.productCard a {
+  color: #000000;
+  text-decoration: none; }
+
+.productCard:hover .productCard__container {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); }
+
+.productCard:active .productCard__container {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); }
+
+.productCard__title {
+  margin: 0;
+  font-size: 17px;
+  line-height: 24px;
+  width: 200px;
+  cursor: pointer; }
+  .productCard__title:hover {
+    opacity: 0.7; }
+  .productCard__title:active {
+    opacity: 0.3; }
+
+.productCard__iconcart {
+  fill: #d3d2d2; }
+  .productCard__iconcart:hover {
+    fill: black; }
+  .productCard__iconcart:active {
+    opacity: 0.3; }
+
+.productCard__options {
+  flex-grow: 1;
+  font-size: 13px;
+  line-height: 30px;
+  margin-top: 9px;
+  color: black;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ececec; }
+
+.productCard__container {
+  position: relative;
+  margin-top: 29px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px; }
+
+.productCard__photoContainer {
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; }
+
+.productCard__photoContainer img {
+  display: block;
+  width: auto;
+  height: 100%; }
+
+.productCard__buygroup {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap; }
+
+.productCard__cart {
+  font-size: 0;
+  align-self: flex-end;
+  margin-left: auto;
+  width: 20px;
+  height: 20px; }
+
+.productCard__price {
+  display: block;
+  width: 100px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 800; }
+
+@media (min-width: 642px) {
+  .productCard {
+    width: 50%; }
+  .productCard__container {
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1; }
+  .productCard__photoContainer {
+    width: 332px; }
+  .productCard__title {
+    font-size: 20px;
+    line-height: 20px;
+    width: 230px; }
+  .productCard__price {
+    font-size: 17px; }
+  .productCard__options {
+    font-size: 15px; } }
+
+@media (min-width: 944px) {
+  .productCard {
+    min-height: 400px;
+    width: 25%; }
+  .productCard__container {
+    justify-content: flex-end; }
+  .productCard__photoContainer {
+    height: 210px;
+    width: 100%;
+    flex: 0 0 auto; } }
