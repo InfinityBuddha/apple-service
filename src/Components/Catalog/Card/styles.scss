@@ -1,8 +1,8 @@
 .productCard {
 	display: flex;
-	flex-flow: column;
-	margin-bottom: 30px;
+	flex-flow: column nowrap;
 	border: 1px solid #ececec;
+	width: 100%;
 }
 
 .productCard a {
@@ -102,8 +102,7 @@
 
 @media (min-width: 642px) {
 	.productCard {
-		flex-flow: row nowrap;
-		margin-bottom: 54px;
+		width: 50%;
 	}
 
 	.productCard__container {
@@ -135,8 +134,7 @@
 
 	.productCard {
 		min-height: 400px;
-		flex-flow: column nowrap;
-		width: 33%;
+		width: 25%;
 	}
 
 	.productCard__container {
