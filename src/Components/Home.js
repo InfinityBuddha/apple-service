@@ -35,11 +35,11 @@ class Home extends Component {
                             </Link>
                         </li>
                         <li className={cx(dev.other, dev.card)}>
-                            <a href='' className={dev.link}>
+                            <Link to='/other-devices' className={dev.link}>
                                 <div className={dev.name}>Другое
                                     устройство
                                 </div>
-                            </a>
+                            </Link>
                         </li>
                         <li className={cx(dev.ipad, dev.card)}>
                             <Link to='/ipad' className={dev.link}>
