@@ -19,7 +19,6 @@ class Home extends Component {
             <div>
                 <div className={head.cover}>
                     <section className={main.container}>
-                        <h1 className={main.title}>Мы это исправим.</h1>
                         <div className={main.text}>Сервисный центр по ремонту техники Apple.</div>
                         {/*<button className={main.button}>
                          Нужен ремонт
