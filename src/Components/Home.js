@@ -90,7 +90,7 @@ class Home extends Component {
                             <div className={sli.text}>
                                 <h3 className={sli.title}>Экспресс ремонт</h3>
                                 <p className={sli.description}>Накопленный опыт в области ремонта техники Apple
-                                    позволяет нам быстро устранять неполадки
+                                    позволяет нам быстро устранять неполадки.
                                 </p>
                             </div>
                         </li>
@@ -99,7 +99,7 @@ class Home extends Component {
                                 <h3 className={sli.title}>Гарантия 2 месяца</h3>
                                 <p className={sli.description}>Мы используем только качественные запчасти для
                                     ремонта продукции Apple. Это позволяет нам давать длительную гарантию на все
-                                    виды ремонта
+                                    виды ремонта.
                                 </p>
                             </div>
                         </li>

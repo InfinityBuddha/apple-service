@@ -4,5 +4,5 @@
 .DS_Store
 /src/styles/*.css
 /src/styles/global/fonts.css
-.idea/workspace.xml
-/build/
+.idea/*
+/build/*
