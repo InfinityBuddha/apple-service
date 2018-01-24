@@ -19,7 +19,7 @@ class Home extends Component {
             <div>
                 <div className={head.cover}>
                     <section className={main.container}>
-                        <div className={main.text}>Сервисный центр по ремонту техники Apple.</div>
+                        <div className={main.text}>Сервисный центр по ремонту техники Apple</div>
                         {/*<button className={main.button}>
                          Нужен ремонт
                          </button>*/}
@@ -34,11 +34,11 @@ class Home extends Component {
                             </Link>
                         </li>
                         <li className={cx(dev.other, dev.card)}>
-                            <a href='' className={dev.link}>
+                            <Link to='/other-devices' className={dev.link}>
                                 <div className={dev.name}>Другое
                                     устройство
                                 </div>
-                            </a>
+                            </Link>
                         </li>
                         <li className={cx(dev.ipad, dev.card)}>
                             <Link to='/ipad' className={dev.link}>
@@ -74,7 +74,7 @@ class Home extends Component {
 
                 <Slider/>
 
-                <section >
+                <section>
                     <h2 className={glob.title}>Почему нам доверяют?</h2>
                     <ul className={sli.cards}>
                         <li className={cx(sli.card, sli.card__iphone)}>
@@ -109,7 +109,7 @@ class Home extends Component {
 
                 <section className={loc.container}>
                     <div className={loc.location}>
-                        <h2 className={glob.title} ref='scroll_here'>Ждем вас в гости</h2>
+                        <h2 className={glob.title} ><a id="scroll_here"></a>Ждем вас в гости</h2>
                         <div className={loc.card}>
                             <div className={loc.text}>
                                 <div className={loc.address}>
@@ -140,7 +140,8 @@ class Home extends Component {
                                             </div>
                                         </MarkerLayout>
                                     </Marker>
-                                </Map></div>
+                                </Map>
+                            </div>
                         </div>
                         <div className={loc.card}>
                             <div className={loc.text}>
@@ -179,11 +180,48 @@ class Home extends Component {
 
                             </div>
                         </div>
+                        <div className={loc.card}>
+                            <div className={loc.text}>
+                                <div className={loc.address}>
+                                    <div className={loc.city}>Горки-10</div>
+                                    <div className={loc.street}>Рублево-успенское шоссе 30а ТЦ Новый 2 этаж</div>
+                                </div>
+                                <div className={loc.contacts}>
+                                    <a href='tel:8(985)-070-80-80' className={loc.phone}>+7(985) 070-80-80</a>
+                                    {/*<a href='' className={loc.button}>
+                                     <div className={loc.button__title}>Записаться на ремонт</div>
+                                     </a>*/}
+                                </div>
+                            </div>
+                            <div className={loc.map} id='map'>
+                                <Map
+                                    ruler={false}
+                                    scrollZoom={false}
+                                    center={[55.706620, 37.020925]}
+                                    zoom={16}
+                                    width={362}
+                                    height={202}>
+
+                                    <Marker lat={55.706620} lon={37.020925}>
+                                        <MarkerLayout>
+                                            <div style={{width: '30px', height: '30px'}}>
+                                                <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'
+                                                     viewBox='0 0 24 24' fill='#0070D2'>
+                                                    <path
+                                                        d='M4 24h-2v-24h2v24zm6.161-23c-1.8 0-3.436 1.017-4.161 1.638v11.362c2.447-3.692 5.281-2.538 7.526-1.909 4.435 1.244 6.686-1.535 8.474-4.78-6.427 2.666-5.895-6.311-11.839-6.311z'/>
+                                                </svg>
+                                            </div>
+                                        </MarkerLayout>
+                                    </Marker>
+                                </Map>
+
+                            </div>
+                        </div>
                     </div>
                 </section>
             </div>
-    );
+        );
     }
-    }
+}
 
-    export default Home
+export default Home

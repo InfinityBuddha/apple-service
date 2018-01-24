@@ -11,7 +11,7 @@
   text-align: center; }
 
 .card {
-  padding: 24px 24px 24px 50px;
+  padding: 24px 24px 24px 30px;
   box-shadow: 0 1px 2px 0 #9B9B9B;
   width: 100%;
   margin-bottom: 16px; }
@@ -21,7 +21,7 @@
   justify-content: space-between; }
 
 .address {
-  width: 165px;
+  width: 200px;
   display: block; }
 
 .city {
@@ -72,7 +72,7 @@
     font-size: 1.5em; }
   .card {
     display: flex;
-    padding-left: 82px;
+    padding-left: 42px;
     flex-flow: row nowrap;
     justify-content: space-between; }
   .text {
@@ -86,6 +86,7 @@
     height: 202px;
     background-color: gainsboro; }
   .address {
+    width: 190px;
     margin-bottom: 20px; }
   .phone {
     font-size: 15px;

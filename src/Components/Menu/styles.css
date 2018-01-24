@@ -10,7 +10,7 @@
   top: 0;
   bottom: 0;
   color: white;
-  background-color: rgba(0, 112, 210, 0.95);
+  background-color: #333;
   z-index: 2; }
 
 .hidden {
@@ -24,6 +24,7 @@
   align-items: center; }
 
 .title {
+  display: none;
   font-size: 30px;
   margin-bottom: 6px;
   font-weight: 700; }
@@ -47,6 +48,7 @@
         color: #d9d9d9; }
 
 .itemGroup {
+  margin-top: 15px;
   width: 100%;
   text-align: center; }
 
@@ -86,6 +88,8 @@
         color: #333333; }
         .list .item a:hover {
           color: #737373; }
+  .activeCategory {
+    color: red; }
   .openedMenu {
     position: static; }
   .hidden {
@@ -106,6 +110,7 @@
   .closeIcon {
     display: none; }
   .title {
+    display: block;
     cursor: pointer;
     font-size: 1em;
     margin: 0;
@@ -113,6 +118,7 @@
     .title a {
       color: #333333; }
   .itemGroup {
+    margin-top: 0;
     position: relative;
     width: auto;
     margin-right: 46px;

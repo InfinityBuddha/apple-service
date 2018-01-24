@@ -52,8 +52,9 @@
 .ipad {
   width: 100%; }
   .ipad:before {
-    width: 180px;
+    width: 260px;
     right: 40px;
+    height: 150px;
     bottom: -18px;
     background-image: url("../../img/ipad.jpg"); }
 
@@ -110,8 +111,8 @@
     padding-top: 124px;
     padding-left: 18px; }
   .ipad:before {
-    height: 217px;
-    width: 310px;
+    height: 257px;
+    width: 460px;
     right: 50px; }
   .macbook:before {
     right: 10px;
@@ -138,10 +139,10 @@
   .other:before {
     right: 34px; }
   .ipad:before {
-    height: 287px;
-    width: 470px;
-    right: 50px;
-    bottom: -8px; }
+    height: 386px;
+    width: 820px;
+    right: -40px;
+    bottom: -28px; }
   .macbook:before {
     width: 310px; }
   .imac:before {

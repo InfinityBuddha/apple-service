@@ -19,13 +19,13 @@ class Footer extends Component {
                       <li>Ремонт MacBook</li>
                       <li>Ремонт iMac</li>
                       <li>Ремонт Samsung</li>
-                      <li>Ремонт Других устройств</li>
+                      <li><Link to='/other-devices'>Ремонт Других устройств</Link></li>
                   </ul>
               </div>
               <div className={f.sale}>
                   <h3 className={f.title}>Продажа</h3>
                   <ul className={f.list}>
-                      <li>iPhone</li>
+                      <li><Link to='/iphone-sell'>iPhone</Link></li>
                       <li>Дисплеи</li>
                   </ul>
               </div>

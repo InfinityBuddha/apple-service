@@ -4,6 +4,7 @@ import Home from '../Home'
 import iPhone from '../Tabs/Tabs-iphone'
 import Ipad from '../Tabs/Tabs-ipad'
 import Catalog from '../Catalog'
+import OtherDevices from '../OtherDevices/OtherDevices'
 
 const Main = () => (
     <Switch>
@@ -11,6 +12,7 @@ const Main = () => (
         <Route path='/iphone' component={iPhone}/>
         <Route path='/iphone-sell' component={Catalog}/>
         <Route path='/ipad' component={Ipad}/>
+        <Route path='/other-devices' component={OtherDevices}/>
     </Switch>
 )
 
