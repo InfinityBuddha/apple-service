@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 import f from './styles.css'
+import RepairBoxLogo from '../../img/icons/RepairBoxLogo'
 
 class Footer extends Component {
   render() {
@@ -9,7 +10,7 @@ class Footer extends Component {
       <div className={f.container}>
           <div className={f.footerInfo}>
               <div className={f.logo}>
-                  <Link to="/apple-service" className={f.title}>RepairBox</Link>
+                  <Link to="/apple-service" className={f.title}><RepairBoxLogo className={f.logoIcon}/></Link>
               </div>
               <div className={f.repair}>
                   <h3 className={f.title}>Ремонт</h3>

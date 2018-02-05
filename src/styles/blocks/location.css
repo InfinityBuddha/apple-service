@@ -26,7 +26,8 @@
 
 .city {
   color: #333333;
-  font-size: 15px; }
+  font-size: 15px;
+  white-space: nowrap; }
 
 .street {
   color: #333333;
@@ -34,7 +35,8 @@
 
 .contacts {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  flex-flow: column; }
 
 .phone {
   display: block;
