@@ -21,19 +21,28 @@
 }
 
 .logo {
+	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-pack: start;
 	justify-content: flex-start;
 	margin-right: 24px;
 	font-size: 1em;
+	-ms-flex-align: center;
 	align-items: center;
 	padding: 29px;
+	padding-bottom: 22px;
 	padding-left: 20px;
 
 	a {
+		width: 145px;
 		color: #333;
 		text-decoration: none;
 		font-weight: 700;
 	}
+}
+
+.iconLogo {
+	fill: #333;
 }
 
 .container {

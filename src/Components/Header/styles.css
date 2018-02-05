@@ -18,17 +18,25 @@
   box-shadow: 0 1px 2px 0 #9B9B9B; }
 
 .logo {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: start;
   justify-content: flex-start;
   margin-right: 24px;
   font-size: 1em;
+  -ms-flex-align: center;
   align-items: center;
   padding: 29px;
+  padding-bottom: 22px;
   padding-left: 20px; }
   .logo a {
+    width: 145px;
     color: #333;
     text-decoration: none;
     font-weight: 700; }
+
+.iconLogo {
+  fill: #333; }
 
 .container {
   position: relative;
