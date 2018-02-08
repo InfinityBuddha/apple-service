@@ -1,0 +1,181 @@
+.menu {
+	display: block;
+	position: fixed;
+	display: -ms-flexbox;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	color: white;
+	background-color: #333;
+	z-index: 2;
+}
+
+.hidden {
+	display: none;
+}
+
+.wrapper {
+	display: flex;
+	flex-flow: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	display: none;
+	font-size: 30px;
+	margin-bottom: 6px;
+	font-weight: 700;
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+.list {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 12px;
+	list-style: none;
+
+	.item {
+		font-size: 21px;
+		margin-bottom: 5px;
+		cursor: pointer;
+
+		a {
+			color: #fff;
+			text-decoration: none;
+
+			&:hover {
+				color: darken(#fff, 15%);
+			}
+		}
+	}
+}
+
+.itemGroup {
+	margin-top: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+.openedMenu {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+.closeIcon {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	z-index: 2;
+	cursor: pointer;
+	fill: white;
+	transition: all 0.5s ease;
+
+	&:hover {
+		fill: #EA1A21;
+	}
+}
+
+@media (min-width: 944px) {
+	.list {
+		display: none;
+		position: absolute;
+		top: 85px;
+		text-align: left;
+		border-radius: 5px;
+		width: 160px;
+		padding: 18px;
+		box-shadow: 0 14px 26px 2px rgba(0, 0, 0, 0.15);
+		background-color: #fff;
+
+		&.active {
+			display: block;
+		}
+
+		.item {
+			font-size: 14px;
+			a {
+				font-size: 14px;
+				color: #333333;
+
+				&:hover {
+					color: lighten(#333, 25%);
+				}
+			}
+		}
+	}
+
+	.activeCategory {
+		color: red;
+	}
+
+	.openedMenu {
+		position: static;
+	}
+
+	.hidden {
+		align-items: center;
+		display: flex;
+		flex-grow: 1;
+	}
+
+	.menu {
+		position: static;
+		background-color: transparent;
+		display: flex;
+		flex-grow: 1;
+		align-items: center;
+	}
+
+	.wrapper {
+		flex-flow: row;
+		align-items: center;
+		justify-content: flex-end;
+		height: 100%;
+	}
+
+	.closeIcon {
+		display: none;
+	}
+
+	.title {
+		display: block;
+		cursor: pointer;
+		font-size: 1em;
+		margin: 0;
+		color: #333333;
+		a {
+			color: #333333;
+		}
+	}
+
+	.itemGroup {
+		margin-top: 0;
+		position: relative;
+		width: auto;
+		margin-right: 46px;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		transition: all 0.5s ease;
+		border-bottom: 2px solid rgba(0, 112, 210, 0);
+
+		&:hover,
+		&.active {
+			border-bottom: 2px solid rgba(0, 112, 210, 0.95);
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
