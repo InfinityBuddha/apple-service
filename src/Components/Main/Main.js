@@ -8,9 +8,9 @@ import OtherDevices from '../OtherDevices/OtherDevices'
 
 const Main = () => (
     <Switch>
-        <Route exact path={process.env.PUBLIC_URL + '/'} component={Home}/>
+        <Route exact path='/' component={Home}/>
         <Route path='/iphone' component={iPhone}/>
-        <Route path='/iphone-sell' component={Catalog}/>
+        {/* <Route path='/iphone-sell' component={Catalog}/> */}
         <Route path='/ipad' component={Ipad}/>
         <Route path='/other-devices' component={OtherDevices}/>
     </Switch>

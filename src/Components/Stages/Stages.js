@@ -5,8 +5,8 @@ import SearchIcon from '../../img/icons/SearchIcon'
 import PhoneIcon from '../../img/icons/PhoneIcon'
 import cx from 'classnames'
 
-import s from './styles.css'
-import glob from '../../styles/global/global.css'
+import s from './styles.module.scss'
+import glob from '../../layouts/global/global.module.scss'
 
 class Slider extends Component {
 

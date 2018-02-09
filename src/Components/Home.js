@@ -1,15 +1,15 @@
 import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
+import Link from 'gatsby-link'
 import Slider from './Slider/Slider'
 import Stages from './Stages/Stages'
 import {Map, Marker, MarkerLayout} from 'yandex-map-react';
-import dev from '../styles/blocks/device.css'
-import dis from '../styles/blocks/displays.css'
-import loc from '../styles/blocks/location.css'
-import sli from './Slider/styles.css'
-import head from './Header/styles.css'
-import main from './Main/styles.css'
-import glob from '../styles/global/global.css'
+import dev from '../layouts/blocks/device.module.scss'
+import dis from '../layouts/blocks/displays.module.scss'
+import loc from '../layouts/blocks/location.module.scss'
+import sli from './Slider/styles.module.scss'
+import head from './Header/styles.module.scss'
+import main from './Main/styles.module.scss'
+import glob from '../layouts/global/global.module.scss'
 import cx from 'classnames'
 
 class Home extends Component {
@@ -129,6 +129,7 @@ class Home extends Component {
                                     zoom={16}
                                     width={362}
                                     height={202}>
+                                    
                                     <Marker lat={55.70343857} lon={36.20019100}>
                                         <MarkerLayout>
                                             <div>

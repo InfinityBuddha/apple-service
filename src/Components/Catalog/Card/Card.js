@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import s from './styles.css'
+import s from './styles.module.scss'
 
 export class Card extends Component {
     constructor() {

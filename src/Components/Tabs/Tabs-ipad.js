@@ -1,8 +1,8 @@
 import React from 'react'
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
-import tabs from './styles.css'
+import tabs from './styles.module.scss'
 
-const iPad = (props) => (
+const Ipad = (props) => (
 
     <div className={tabs.container}>
         <h1 className={tabs.title}>Ремонт iPad</h1>
@@ -1083,4 +1083,4 @@ const iPad = (props) => (
 
 );
 
-export default iPad
+export default Ipad

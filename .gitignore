@@ -1,8 +1,8 @@
-# Created by .ignore support plugin (hsz.mobi)
-/node_modules/
-/yarn.lock
+# Project dependencies
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+.cache/
+# Build directory
+public/
 .DS_Store
-/src/styles/*.css
-/src/styles/global/fonts.css
-.idea/*
-/build/*
+yarn-error.log

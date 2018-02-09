@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import cx from 'classnames'
 import { Carousel } from 'react-bootstrap'
-import s from './styles.css'
+import s from './styles.module.scss'
 
 class Slider extends Component {
 

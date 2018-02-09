@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs'
-import tabs from './styles.css'
+import tabs from './styles.module.scss'
 
-class iPhone extends Component {
+class Iphone extends Component {
     constructor() {
         super()
         this.state = {tabIndex: 0};
@@ -1114,4 +1114,4 @@ class iPhone extends Component {
         )
     }
 }
-export default iPhone
+export default Iphone

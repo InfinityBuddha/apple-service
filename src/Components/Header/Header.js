@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import head from './styles.css'
+import head from './styles.module.scss'
 import Menu from '../Menu/Menu.js'
 import HamburgerIcon from '../../img/icons/HamburgerIcon'
 import {Link} from 'react-router-dom'
 
-import menu from '../Menu/styles.css'
+import menu from '../Menu/styles.module.scss'
 import RepairBoxLogo from '../../img/icons/RepairBoxLogo'
 
 
@@ -33,7 +33,7 @@ class Header extends Component {
                 <header className={head.header}>
                     <div className={head.container}>
                         <div className={head.logo}>
-                            <Link to="/apple-service" className={head.title}><RepairBoxLogo className={head.iconLogo}/></Link>
+                            <Link to="/" className={head.title}><RepairBoxLogo className={head.iconLogo}/></Link>
                         </div>
                         {/*<div className={head.contacts__tablet}>
                             <div className={head.city}>г. Руза</div>

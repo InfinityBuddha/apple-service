@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import s from './styles.css'
+import s from './styles.module.scss'
 import phonePhoto from '../../img/other.jpg'
 
 export class OtherDevices extends Component {

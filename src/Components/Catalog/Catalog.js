@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import s from './styles.css'
+import s from './styles.module.scss'
 import Card from './Card/Card'
 import {base} from '../../config/base'
 
