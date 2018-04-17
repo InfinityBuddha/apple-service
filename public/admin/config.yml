@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: InfinityBuddha/apple-service
+  # name: test-repo
+
+# publish_mode: editorial_workflow
+
+media_folder: "static/img"
+public_folder: "/img"
+
+collections:
+  - name: "cards"
+    label: "Card"
+    folder: "src/pages/cards"
+    create: true
+    fields:
+      - { name: "path", label: "Path" }
+      - { name: "title", label: "Title" }
+      - { name: "price", label: "Price"}
+      - { name: "photo", label: "Photo", widget: "image"} 

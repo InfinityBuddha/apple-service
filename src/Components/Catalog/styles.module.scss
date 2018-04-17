@@ -1,0 +1,35 @@
+.container {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	margin-bottom: 24px;
+	margin-top: 40px;
+	flex-grow: 1;
+	padding: 20px;
+}
+
+.catalogWrapper {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.title {
+	font-size: 2em;
+	margin-bottom: 35px;
+}
+
+@media (min-width: 692px) { // tablets
+	.container {
+		width: 670px;
+	}
+}
+
+@media (min-width: 944px) {
+	.title {
+		font-size: 2.5em;
+	}
+
+	.container {
+		width: 924px;
+	}
+}

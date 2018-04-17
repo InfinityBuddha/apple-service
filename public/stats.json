@@ -1,0 +1,72 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-3010fdb6255f77458653.js",
+      "component---src-pages-index-js-3010fdb6255f77458653.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-other-js": [
+      "component---src-pages-other-js-ee35c13d0bbeaf6d1adf.js",
+      "component---src-pages-other-js-ee35c13d0bbeaf6d1adf.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-e54a474ba353ac7a6a5d.js",
+      "component---src-layouts-index-js-e54a474ba353ac7a6a5d.js.map"
+    ],
+    "path---ipad": [
+      "path---ipad-a0e39f21c11f6a62c5ab.js",
+      "path---ipad-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---other": [
+      "path---other-a0e39f21c11f6a62c5ab.js",
+      "path---other-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-ipad-js": [
+      "component---src-pages-ipad-js-bcbe87608491dc5f0410.js",
+      "component---src-pages-ipad-js-bcbe87608491dc5f0410.js.map"
+    ],
+    "commons": [
+      "commons-16fd84843ec08a3da873.js",
+      "build-js-styles.css",
+      "commons-16fd84843ec08a3da873.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---basket": [
+      "path---basket-a0e39f21c11f6a62c5ab.js",
+      "path---basket-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-basket-js": [
+      "component---src-pages-basket-js-4c9049a3c441afa85412.js",
+      "component---src-pages-basket-js-4c9049a3c441afa85412.js.map"
+    ],
+    "app": [
+      "app-c4fdb7fb043e47f4967b.js",
+      "build-js-styles.css",
+      "app-c4fdb7fb043e47f4967b.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---iphone-sell": [
+      "path---iphone-sell-c62d711fa922df48545a.js",
+      "path---iphone-sell-c62d711fa922df48545a.js.map"
+    ],
+    "component---src-pages-iphone-sell-js": [
+      "component---src-pages-iphone-sell-js-20902c88b78da060d1f7.js",
+      "component---src-pages-iphone-sell-js-20902c88b78da060d1f7.js.map"
+    ],
+    "component---src-pages-iphone-js": [
+      "component---src-pages-iphone-js-b25f89abbdbae2090d66.js",
+      "component---src-pages-iphone-js-b25f89abbdbae2090d66.js.map"
+    ],
+    "path---iphone": [
+      "path---iphone-a0e39f21c11f6a62c5ab.js",
+      "path---iphone-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}

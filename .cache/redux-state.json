@@ -1,0 +1,1656 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/maksimo/gatsby-apple-service/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "updatedAt": 1523985695162,
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/maksimo/gatsby-apple-service/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "58eb9fdcff4bf0b528123a43e5e09f0d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d456ac20980342f4b3f12c46b88e8df9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2eb521e2288d4da74d608cdf80c0eb75",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6078b2e38fa9e75950cc6cf3b8e0da8c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3c852b5fb4dd1822539f167c2a9eb58a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "23c7d34912c270f516d7bd1dbdeef60c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8274489e8d45be63030993bfe108e3a6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.24",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-116310225-1",
+        "head": false,
+        "anonymize": true,
+        "respectDNT": true
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1a464ba40f2737c329c06df4b557e09a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "2.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "867d482bbc986ad68323aa0cc3d346f3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.16",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.16",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.8"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "72f56d1c4633a2524d8b21505fbb9fac",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-css-modules": {
+      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-react-css-modules",
+      "id": "Plugin gatsby-plugin-react-css-modules",
+      "name": "gatsby-plugin-react-css-modules",
+      "version": "1.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "filetypes": {
+          ".scss": {
+            "syntax": "postcss-scss"
+          }
+        },
+        "exclude": "/global/"
+      },
+      "nodeAPIs": [
+        "modifyBabelrc"
+      ],
+      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-react-css-modules",
+      "packageJson": {
+        "name": "gatsby-plugin-react-css-modules",
+        "description": "Gatsby plugin that transforms styleName to className using compile time CSS module resolution",
+        "version": "1.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "babel",
+          "babel-plugin",
+          "react",
+          "css modules",
+          "styleName",
+          "className"
+        ],
+        "author": {
+          "name": "Ming Aldrich-Gan",
+          "email": "mingaldrichgan@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-plugin-react-css-modules",
+            "version": "^3.2.1"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.8"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ad8283f5bb8e9cefdaecb9598d066ac6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-contentful": {
+      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-source-contentful",
+      "id": "Plugin gatsby-source-contentful",
+      "name": "gatsby-source-contentful",
+      "version": "1.3.38",
+      "pluginOptions": {
+        "plugins": [],
+        "spaceId": "3afxhmr1xm65",
+        "accessToken": "c8cdb5066fb665984fa30eb15c75d2eb694e461647a9db057dbd27957647de8d"
+      },
+      "nodeAPIs": [
+        "setFieldsOnGraphQLNodeType",
+        "sourceNodes",
+        "onPreExtractQueries"
+      ],
+      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-source-contentful",
+      "packageJson": {
+        "name": "gatsby-source-contentful",
+        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
+        "version": "1.3.38",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": {
+          "name": "Marcus Ericsson",
+          "email": "mericsson@gmail.com",
+          "url": "mericsson.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "axios",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "base64-img",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "contentful",
+            "version": "^4.3.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "05cc71d0455b8b1efea99bf6692a21aa",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.18",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/maksimo/gatsby-apple-service/src/pages/",
+        "name": "cards"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.18",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "deb7b296d4cfebbd74b12db29ef46655",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.31",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.31",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "68945ca8f14ede1f32c7522e3f63a6a0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/maksimo/gatsby-apple-service",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "c0d23f6083851122c1435631d84e8181",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/maksimo/gatsby-apple-service",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "classnames",
+            "version": "^2.2.5"
+          },
+          {
+            "name": "contentful",
+            "version": "^5.1.1"
+          },
+          {
+            "name": "contentful-management",
+            "version": "^4.2.2"
+          },
+          {
+            "name": "firebase",
+            "version": "^4.9.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.158"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.34"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.24"
+          },
+          {
+            "name": "gatsby-plugin-postcss-sass",
+            "version": "^1.0.16"
+          },
+          {
+            "name": "gatsby-plugin-react-css-modules",
+            "version": "^1.0.12"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.3"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.16"
+          },
+          {
+            "name": "gatsby-source-contentful",
+            "version": "^1.3.38"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.18"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.31"
+          },
+          {
+            "name": "immutable",
+            "version": "^3.8.2"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^1.1.0"
+          },
+          {
+            "name": "postcss-scss",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "re-base",
+            "version": "^3.2.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.2.0"
+          },
+          {
+            "name": "react-bootstrap",
+            "version": "^0.32.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.2.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-responsive-carousel",
+            "version": "^3.1.33"
+          },
+          {
+            "name": "react-tabs",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.1.6"
+          },
+          {
+            "name": "yandex-map-react",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.10.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2bc25eff382d15dadb738e83f8e144b5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Default Starter"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-04-17T17:21:29.054Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "355c6d291f11cbdebfaa6eb8fd97521e",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "B": {
+      "id": "B",
+      "parent": null,
+      "children": [],
+      "name": "B",
+      "displayField": null,
+      "description": "a card of the product",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "cb9a5cec9bd5f6eb6115bb946d97ce52",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "Card": {
+      "id": "Card",
+      "parent": null,
+      "children": [],
+      "name": "Card",
+      "displayField": "title",
+      "description": "Карточка товара",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "a71838bd75e20a21a690e48e97cbd670",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "VWzmKMGiu4UqMY86wuiiO": {
+      "title": "Iphone 6",
+      "price": "15000",
+      "photo___NODE": [
+        "c5uaw45AlLGE2sq4gy6QE8u"
+      ],
+      "id": "VWzmKMGiu4UqMY86wuiiO",
+      "contentful_id": "VWzmKMGiu4UqMY86wuiiO",
+      "createdAt": "2018-03-21T08:54:31.547Z",
+      "updatedAt": "2018-03-21T09:46:32.957Z",
+      "parent": "Card",
+      "children": [],
+      "internal": {
+        "type": "ContentfulCard",
+        "contentDigest": "ba56a7b1c7554c0b5b623ddb955a23f8",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "ru-RU"
+    },
+    "c5ertGPwwwogeCGIiMuw6g6": {
+      "title": "Iphone 7",
+      "price": "2000",
+      "photo___NODE": [
+        "c7qssTaa8dUqwOMA4IgoEyK"
+      ],
+      "id": "c5ertGPwwwogeCGIiMuw6g6",
+      "contentful_id": "5ertGPwwwogeCGIiMuw6g6",
+      "createdAt": "2018-02-20T10:05:34.116Z",
+      "updatedAt": "2018-03-21T09:46:18.565Z",
+      "parent": "Card",
+      "children": [],
+      "internal": {
+        "type": "ContentfulCard",
+        "contentDigest": "f2507a953a59870d9b9ba6361232fe11",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "ru-RU"
+    },
+    "c1cY5aJwA1wWs26OkM6imkm": {
+      "title": "Iphone 8",
+      "price": "1344444",
+      "photo___NODE": [
+        "c5uaw45AlLGE2sq4gy6QE8u"
+      ],
+      "id": "c1cY5aJwA1wWs26OkM6imkm",
+      "contentful_id": "1cY5aJwA1wWs26OkM6imkm",
+      "createdAt": "2018-02-20T09:53:05.082Z",
+      "updatedAt": "2018-03-16T12:58:42.529Z",
+      "parent": "Card",
+      "children": [],
+      "internal": {
+        "type": "ContentfulCard",
+        "contentDigest": "b5cb0b000f1373d05bd7850e8a91da19",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "ru-RU"
+    },
+    "COAD3BswzQWmEmOmKW2uO": {
+      "title": "Iphone X",
+      "price": "100000",
+      "photo___NODE": [
+        "c1xQcJtgutGIMYiQos6mIGY"
+      ],
+      "id": "COAD3BswzQWmEmOmKW2uO",
+      "contentful_id": "COAD3BswzQWmEmOmKW2uO",
+      "createdAt": "2018-02-20T08:49:13.927Z",
+      "updatedAt": "2018-03-16T12:58:03.385Z",
+      "parent": "Card",
+      "children": [],
+      "internal": {
+        "type": "ContentfulCard",
+        "contentDigest": "2ba9712bf00f8cef6fb31b69331b28cf",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "ru-RU"
+    },
+    "Basket": {
+      "id": "Basket",
+      "parent": null,
+      "children": [],
+      "name": "Basket",
+      "displayField": "title",
+      "description": "Корзина",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "686c206d2e111260fec98a27d6a2ca5a",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c1vqacPwCNCkSwqwGSCsw8m": {
+      "title": "Iphone X",
+      "price": "100000",
+      "photo___NODE": [
+        "c1xQcJtgutGIMYiQos6mIGY"
+      ],
+      "id": "c1vqacPwCNCkSwqwGSCsw8m",
+      "contentful_id": "1vqacPwCNCkSwqwGSCsw8m",
+      "createdAt": "2018-03-20T16:48:41.795Z",
+      "updatedAt": "2018-03-20T16:48:41.795Z",
+      "parent": "Basket",
+      "children": [],
+      "internal": {
+        "type": "ContentfulBasket",
+        "contentDigest": "d6c1219a0267e97672a9ceff5cfe61c5",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "ru-RU"
+    },
+    "c5XzAZP9HTqYeeWiiKyIsaY": {
+      "title": "Iphone 8",
+      "price": "1344444",
+      "photo___NODE": [
+        "c5uaw45AlLGE2sq4gy6QE8u"
+      ],
+      "id": "c5XzAZP9HTqYeeWiiKyIsaY",
+      "contentful_id": "5XzAZP9HTqYeeWiiKyIsaY",
+      "createdAt": "2018-03-20T16:42:00.692Z",
+      "updatedAt": "2018-03-20T16:42:00.692Z",
+      "parent": "Basket",
+      "children": [],
+      "internal": {
+        "type": "ContentfulBasket",
+        "contentDigest": "72ad59c938e2b31bffbe640f1755c0e1",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "ru-RU"
+    },
+    "c7qssTaa8dUqwOMA4IgoEyK": {
+      "id": "c7qssTaa8dUqwOMA4IgoEyK",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/3afxhmr1xm65/7qssTaa8dUqwOMA4IgoEyK/a6986afd8c1ac2f9a252de88fc854ba0/other.jpg",
+        "details": {
+          "size": 48895,
+          "image": {
+            "width": 552,
+            "height": 552
+          }
+        },
+        "fileName": "other.jpg",
+        "contentType": "image/jpeg"
+      },
+      "title": "other",
+      "description": "",
+      "node_locale": "ru-RU",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "852f9c70a0ab3883c3f0d65f4c978e06",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c1xQcJtgutGIMYiQos6mIGY": {
+      "id": "c1xQcJtgutGIMYiQos6mIGY",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/3afxhmr1xm65/1xQcJtgutGIMYiQos6mIGY/443ebebfe16e7e570739e22a77209722/iphone.jpg",
+        "details": {
+          "size": 11439,
+          "image": {
+            "width": 219,
+            "height": 260
+          }
+        },
+        "fileName": "iphone.jpg",
+        "contentType": "image/jpeg"
+      },
+      "title": "iphone",
+      "description": "",
+      "node_locale": "ru-RU",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "cb84b57f8aa22759e25e62ce2294662b",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c5uaw45AlLGE2sq4gy6QE8u": {
+      "id": "c5uaw45AlLGE2sq4gy6QE8u",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/3afxhmr1xm65/5uaw45AlLGE2sq4gy6QE8u/9ccc8a6b0c8cd3ca4259b24f702cbb3d/samsung.jpg",
+        "details": {
+          "size": 41754,
+          "image": {
+            "width": 370,
+            "height": 468
+          }
+        },
+        "fileName": "samsung.jpg",
+        "contentType": "image/jpeg"
+      },
+      "title": "samsung",
+      "description": "",
+      "node_locale": "ru-RU",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "892832d8cc52b1ea4a2a800b2d0f5747",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "/Users/maksimo/gatsby-apple-service/src/pages/ absPath of file": {
+      "id": "/Users/maksimo/gatsby-apple-service/src/pages/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1e181a57a7bad9e2c4ae75e07dd46f45",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "cards",
+      "absolutePath": "/Users/maksimo/gatsby-apple-service/src/pages/",
+      "relativePath": "",
+      "extension": "",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2018-03-12T14:02:25.501Z",
+      "accessTime": "2018-04-17T17:21:34.665Z",
+      "changeTime": "2018-03-12T14:02:25.501Z",
+      "birthTime": "2018-02-08T19:32:30.000Z",
+      "root": "/",
+      "dir": "/Users/maksimo/gatsby-apple-service/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 8,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596304049,
+      "blocks": 0,
+      "atime": "2018-04-17T17:21:34.665Z",
+      "mtime": "2018-03-12T14:02:25.501Z",
+      "ctime": "2018-03-12T14:02:25.501Z",
+      "birthtime": "2018-02-08T19:32:30.000Z"
+    },
+    "/Users/maksimo/gatsby-apple-service/src/pages/ipad.js absPath of file": {
+      "id": "/Users/maksimo/gatsby-apple-service/src/pages/ipad.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9f4ad310358a17cb1220aa27cf913248",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "cards",
+      "absolutePath": "/Users/maksimo/gatsby-apple-service/src/pages/ipad.js",
+      "relativePath": "ipad.js",
+      "extension": "js",
+      "size": 137,
+      "prettySize": "137 B",
+      "modifiedTime": "2018-02-09T15:57:27.962Z",
+      "accessTime": "2018-03-23T09:08:28.451Z",
+      "changeTime": "2018-02-09T15:57:27.962Z",
+      "birthTime": "2018-02-09T15:57:27.962Z",
+      "root": "/",
+      "dir": "/Users/maksimo/gatsby-apple-service/src/pages",
+      "base": "ipad.js",
+      "ext": ".js",
+      "name": "ipad",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596313694,
+      "blocks": 8,
+      "atime": "2018-03-23T09:08:28.451Z",
+      "mtime": "2018-02-09T15:57:27.962Z",
+      "ctime": "2018-02-09T15:57:27.962Z",
+      "birthtime": "2018-02-09T15:57:27.962Z"
+    },
+    "/Users/maksimo/gatsby-apple-service/src/pages/basket.js absPath of file": {
+      "id": "/Users/maksimo/gatsby-apple-service/src/pages/basket.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5b7cd60884ecd8d338f1162305b475b3",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "cards",
+      "absolutePath": "/Users/maksimo/gatsby-apple-service/src/pages/basket.js",
+      "relativePath": "basket.js",
+      "extension": "js",
+      "size": 144,
+      "prettySize": "144 B",
+      "modifiedTime": "2018-02-14T09:03:57.181Z",
+      "accessTime": "2018-03-23T09:08:28.451Z",
+      "changeTime": "2018-02-14T09:03:57.181Z",
+      "birthTime": "2018-02-14T09:02:39.858Z",
+      "root": "/",
+      "dir": "/Users/maksimo/gatsby-apple-service/src/pages",
+      "base": "basket.js",
+      "ext": ".js",
+      "name": "basket",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596411216,
+      "blocks": 8,
+      "atime": "2018-03-23T09:08:28.451Z",
+      "mtime": "2018-02-14T09:03:57.181Z",
+      "ctime": "2018-02-14T09:03:57.181Z",
+      "birthtime": "2018-02-14T09:02:39.858Z"
+    },
+    "/Users/maksimo/gatsby-apple-service/src/pages/other.js absPath of file": {
+      "id": "/Users/maksimo/gatsby-apple-service/src/pages/other.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4799733abbe56d1f5795191005512be8",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "cards",
+      "absolutePath": "/Users/maksimo/gatsby-apple-service/src/pages/other.js",
+      "relativePath": "other.js",
+      "extension": "js",
+      "size": 172,
+      "prettySize": "172 B",
+      "modifiedTime": "2018-02-09T16:08:21.257Z",
+      "accessTime": "2018-03-23T09:08:28.451Z",
+      "changeTime": "2018-02-09T16:08:21.257Z",
+      "birthTime": "2018-02-09T16:06:48.193Z",
+      "root": "/",
+      "dir": "/Users/maksimo/gatsby-apple-service/src/pages",
+      "base": "other.js",
+      "ext": ".js",
+      "name": "other",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596313948,
+      "blocks": 8,
+      "atime": "2018-03-23T09:08:28.451Z",
+      "mtime": "2018-02-09T16:08:21.257Z",
+      "ctime": "2018-02-09T16:08:21.257Z",
+      "birthtime": "2018-02-09T16:06:48.193Z"
+    },
+    "/Users/maksimo/gatsby-apple-service/src/pages/iphone-sell.js absPath of file": {
+      "id": "/Users/maksimo/gatsby-apple-service/src/pages/iphone-sell.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "13b7c0e09bfa9e8871444f769a821d2d",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "cards",
+      "absolutePath": "/Users/maksimo/gatsby-apple-service/src/pages/iphone-sell.js",
+      "relativePath": "iphone-sell.js",
+      "extension": "js",
+      "size": 655,
+      "prettySize": "655 B",
+      "modifiedTime": "2018-03-12T12:40:14.346Z",
+      "accessTime": "2018-03-23T09:08:28.451Z",
+      "changeTime": "2018-03-12T12:40:14.346Z",
+      "birthTime": "2018-02-19T10:13:42.680Z",
+      "root": "/",
+      "dir": "/Users/maksimo/gatsby-apple-service/src/pages",
+      "base": "iphone-sell.js",
+      "ext": ".js",
+      "name": "iphone-sell",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596510055,
+      "blocks": 8,
+      "atime": "2018-03-23T09:08:28.451Z",
+      "mtime": "2018-03-12T12:40:14.346Z",
+      "ctime": "2018-03-12T12:40:14.346Z",
+      "birthtime": "2018-02-19T10:13:42.680Z"
+    },
+    "/Users/maksimo/gatsby-apple-service/src/pages/iphone.js absPath of file": {
+      "id": "/Users/maksimo/gatsby-apple-service/src/pages/iphone.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b7970c419858fafde484bc30bb5bd9b2",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "cards",
+      "absolutePath": "/Users/maksimo/gatsby-apple-service/src/pages/iphone.js",
+      "relativePath": "iphone.js",
+      "extension": "js",
+      "size": 178,
+      "prettySize": "178 B",
+      "modifiedTime": "2018-02-09T15:57:27.962Z",
+      "accessTime": "2018-03-23T09:08:28.451Z",
+      "changeTime": "2018-02-09T15:57:27.962Z",
+      "birthTime": "2018-02-09T15:57:27.962Z",
+      "root": "/",
+      "dir": "/Users/maksimo/gatsby-apple-service/src/pages",
+      "base": "iphone.js",
+      "ext": ".js",
+      "name": "iphone",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596313695,
+      "blocks": 8,
+      "atime": "2018-03-23T09:08:28.451Z",
+      "mtime": "2018-02-09T15:57:27.962Z",
+      "ctime": "2018-02-09T15:57:27.962Z",
+      "birthtime": "2018-02-09T15:57:27.962Z"
+    },
+    "/Users/maksimo/gatsby-apple-service/src/pages/index.js absPath of file": {
+      "id": "/Users/maksimo/gatsby-apple-service/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "418c407fb3ff98cf598a9fdf892f842a",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "cards",
+      "absolutePath": "/Users/maksimo/gatsby-apple-service/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 162,
+      "prettySize": "162 B",
+      "modifiedTime": "2018-02-19T10:16:38.632Z",
+      "accessTime": "2018-03-23T09:08:28.451Z",
+      "changeTime": "2018-02-19T10:16:38.632Z",
+      "birthTime": "2018-02-08T19:32:30.000Z",
+      "root": "/",
+      "dir": "/Users/maksimo/gatsby-apple-service/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8596304054,
+      "blocks": 8,
+      "atime": "2018-03-23T09:08:28.451Z",
+      "mtime": "2018-02-19T10:16:38.632Z",
+      "ctime": "2018-02-19T10:16:38.632Z",
+      "birthtime": "2018-02-08T19:32:30.000Z"
+    },
+    "SitePage /basket/": {
+      "layout": "index",
+      "jsonName": "basket.json",
+      "internalComponentName": "ComponentBasket",
+      "path": "/basket/",
+      "component": "/Users/maksimo/gatsby-apple-service/src/pages/basket.js",
+      "componentChunkName": "component---src-pages-basket-js",
+      "context": {},
+      "updatedAt": 1523985695173,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/maksimo/gatsby-apple-service/src/pages/basket.js",
+      "id": "SitePage /basket/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "47f7f0d31a910b71a8da89bf3cddd0ee",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/maksimo/gatsby-apple-service/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "updatedAt": 1523985695175,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/maksimo/gatsby-apple-service/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cb946aba963c801a8b984aa0b3b4a064",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /ipad/": {
+      "layout": "index",
+      "jsonName": "ipad.json",
+      "internalComponentName": "ComponentIpad",
+      "path": "/ipad/",
+      "component": "/Users/maksimo/gatsby-apple-service/src/pages/ipad.js",
+      "componentChunkName": "component---src-pages-ipad-js",
+      "context": {},
+      "updatedAt": 1523985695176,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/maksimo/gatsby-apple-service/src/pages/ipad.js",
+      "id": "SitePage /ipad/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e3abefd8a3050f2d59bf7c2d251e186f",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /iphone-sell/": {
+      "layout": "index",
+      "jsonName": "iphone-sell.json",
+      "internalComponentName": "ComponentIphoneSell",
+      "path": "/iphone-sell/",
+      "component": "/Users/maksimo/gatsby-apple-service/src/pages/iphone-sell.js",
+      "componentChunkName": "component---src-pages-iphone-sell-js",
+      "context": {},
+      "updatedAt": 1523985695176,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/maksimo/gatsby-apple-service/src/pages/iphone-sell.js",
+      "id": "SitePage /iphone-sell/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f7c76a7a89fbe806e8e02b4dde0506f6",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /iphone/": {
+      "layout": "index",
+      "jsonName": "iphone.json",
+      "internalComponentName": "ComponentIphone",
+      "path": "/iphone/",
+      "component": "/Users/maksimo/gatsby-apple-service/src/pages/iphone.js",
+      "componentChunkName": "component---src-pages-iphone-js",
+      "context": {},
+      "updatedAt": 1523985695178,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/maksimo/gatsby-apple-service/src/pages/iphone.js",
+      "id": "SitePage /iphone/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "48bf3db02f2e91e2730588f8ebad859d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /other/": {
+      "layout": "index",
+      "jsonName": "other.json",
+      "internalComponentName": "ComponentOther",
+      "path": "/other/",
+      "component": "/Users/maksimo/gatsby-apple-service/src/pages/other.js",
+      "componentChunkName": "component---src-pages-other-js",
+      "context": {},
+      "updatedAt": 1523985695179,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/maksimo/gatsby-apple-service/src/pages/other.js",
+      "id": "SitePage /other/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "38f157339ae52a11b18977f564f1cac9",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {
+      "gatsby-source-contentful": {
+        "3afxhmr1xm65": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZGw77Dq3jDqRw5WCgFwofCisOOAkBpGcO7w4DCqRsTGsKMwp7Dr8OVRmEBXsK4A8KFY3pcwqLCthjCm1zCih4cwoMJcsOwE8KqL1vDoMO7DUQHw6fDo8Omc8O0w50"
+      }
+    },
+    "PLUGINS_HASH": "06a802c662cb0f8bc83fa552781fcada"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "c5uaw45AlLGE2sq4gy6QE8u": [
+        "/iphone-sell/"
+      ],
+      "c7qssTaa8dUqwOMA4IgoEyK": [
+        "/iphone-sell/"
+      ],
+      "c1xQcJtgutGIMYiQos6mIGY": [
+        "/iphone-sell/"
+      ]
+    },
+    "connections": {
+      "ContentfulCard": [
+        "/iphone-sell/"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}

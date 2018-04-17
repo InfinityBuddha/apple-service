@@ -1,0 +1,48 @@
+{
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "contentful": "^5.1.1",
+    "contentful-management": "^4.2.2",
+    "firebase": "^4.9.1",
+    "gatsby": "^1.9.158",
+    "gatsby-link": "^1.6.34",
+    "gatsby-plugin-google-analytics": "^1.0.24",
+    "gatsby-plugin-postcss-sass": "^1.0.16",
+    "gatsby-plugin-react-css-modules": "^1.0.12",
+    "gatsby-plugin-react-helmet": "^2.0.3",
+    "gatsby-plugin-sass": "^1.0.16",
+    "gatsby-source-contentful": "^1.3.38",
+    "gatsby-source-filesystem": "^1.5.18",
+    "gatsby-transformer-remark": "^1.7.31",
+    "immutable": "^3.8.2",
+    "netlify-cms": "^1.1.0",
+    "postcss-scss": "^1.0.3",
+    "re-base": "^3.2.2",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "react-responsive-carousel": "^3.1.33",
+    "react-tabs": "^2.2.1",
+    "styled-components": "^3.1.6",
+    "yandex-map-react": "^1.1.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.10.2"
+  }
+}

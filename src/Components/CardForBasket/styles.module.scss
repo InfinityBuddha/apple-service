@@ -1,0 +1,34 @@
+.productCard {
+	display: flex;
+	border-bottom: 1px solid #ececec;
+  width: 100%;
+  align-items: center;
+}
+
+.productCard__container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.productCard__photoContainer {
+  height: 150px;
+  width: 150px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+
+.productCard__photoContainer img {
+  display: block;
+	width: auto;
+  height: 100%;
+}
+
+.productCard__remove {
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 20px;
+  color: red;
+}
