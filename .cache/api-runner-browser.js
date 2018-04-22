@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
+      plugin: require('/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
       options: {"plugins":[],"trackingId":"UA-116310225-1","head":false,"anonymize":true,"respectDNT":true},
     },{
-      plugin: require('/Users/maksimo/gatsby-apple-service/gatsby-browser.js'),
+      plugin: require('/Users/infinitybuddha/Documents/projects/apple-service/gatsby-browser.js'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks

@@ -2,6 +2,10 @@
 	font-family: Helvetica, sans-serif;
 }
 
+.carousel {
+	margin-top: -25px;
+}
+
 .cards__wrapper {
 	display: block;
 	margin: 0 auto;
@@ -50,7 +54,7 @@
 	font-size: 21px;
 	font-weight: 500;
 	color: #333333;
-	margin-bottom: 5px;
+	margin-bottom: 0;
 }
 
 .description {

@@ -5,24 +5,24 @@
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/maksimo/gatsby-apple-service/.cache/dev-404-page.js",
+      "component": "/Users/infinitybuddha/Documents/projects/apple-service/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1523985695162,
+      "updatedAt": 1524304217947,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/maksimo/gatsby-apple-service/.cache/dev-404-page.js",
+      "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "58eb9fdcff4bf0b528123a43e5e09f0d",
+        "contentDigest": "c187159c07a88dfa03aec44f0e6e5f1a",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -32,7 +32,7 @@
       "nodeAPIs": [
         "createPagesStatefully"
       ],
-      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -49,13 +49,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d456ac20980342f4b3f12c46b88e8df9",
+        "contentDigest": "2595ffcfb10892b65d84d0a6a0587ea1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-page-creator": {
-      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "resolve": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby/dist/internal-plugins/component-page-creator",
       "id": "Plugin component-page-creator",
       "name": "component-page-creator",
       "version": "1.0.0",
@@ -65,7 +65,7 @@
       "nodeAPIs": [
         "createPagesStatefully"
       ],
-      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "pluginFilepath": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby/dist/internal-plugins/component-page-creator",
       "packageJson": {
         "name": "component-page-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
@@ -86,13 +86,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2eb521e2288d4da74d608cdf80c0eb75",
+        "contentDigest": "acfdb1718bf2ba7b578da70b2712c588",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-layout-creator": {
-      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "resolve": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "id": "Plugin component-layout-creator",
       "name": "component-layout-creator",
       "version": "1.0.0",
@@ -102,7 +102,7 @@
       "nodeAPIs": [
         "createLayouts"
       ],
-      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
@@ -123,13 +123,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6078b2e38fa9e75950cc6cf3b8e0da8c",
+        "contentDigest": "41a13d91ec3136b4313d2bdc8a0c1f42",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -140,7 +140,7 @@
         "sourceNodes",
         "onCreatePage"
       ],
-      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -157,13 +157,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3c852b5fb4dd1822539f167c2a9eb58a",
+        "contentDigest": "60156211ef32b241fae40e73dd06b1b7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -173,7 +173,7 @@
       "nodeAPIs": [
         "onCreatePage"
       ],
-      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -190,13 +190,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "23c7d34912c270f516d7bd1dbdeef60c",
+        "contentDigest": "186f2ab33183e5dd813ebecfb55aa0c8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -207,7 +207,7 @@
         "onCreatePage",
         "onCreateLayout"
       ],
-      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -224,13 +224,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8274489e8d45be63030993bfe108e3a6",
+        "contentDigest": "f234190253d058838d0ba123a0860f4d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-google-analytics": {
-      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-google-analytics",
+      "resolve": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-plugin-google-analytics",
       "id": "Plugin gatsby-plugin-google-analytics",
       "name": "gatsby-plugin-google-analytics",
       "version": "1.0.24",
@@ -242,7 +242,7 @@
         "respectDNT": true
       },
       "nodeAPIs": [],
-      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-google-analytics",
+      "pluginFilepath": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-plugin-google-analytics",
       "packageJson": {
         "name": "gatsby-plugin-google-analytics",
         "description": "Gatsby plugin to add google analytics onto a site",
@@ -286,13 +286,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1a464ba40f2737c329c06df4b557e09a",
+        "contentDigest": "d70fd936511231a2100229681fedc2bf",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "2.0.4",
@@ -300,7 +300,7 @@
         "plugins": []
       },
       "nodeAPIs": [],
-      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Stub description for gatsby-plugin-react-helmet",
@@ -345,13 +345,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "867d482bbc986ad68323aa0cc3d346f3",
+        "contentDigest": "b82fdb912a4871f1847f1041d6147af3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-sass": {
-      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-sass",
+      "resolve": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-plugin-sass",
       "id": "Plugin gatsby-plugin-sass",
       "name": "gatsby-plugin-sass",
       "version": "1.0.16",
@@ -361,7 +361,7 @@
       "nodeAPIs": [
         "modifyWebpackConfig"
       ],
-      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-sass",
+      "pluginFilepath": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-plugin-sass",
       "packageJson": {
         "name": "gatsby-plugin-sass",
         "description": "Gatsby plugin to handle scss/sass files",
@@ -425,13 +425,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "72f56d1c4633a2524d8b21505fbb9fac",
+        "contentDigest": "53c68d05c6ccaac810d5d671ef588c58",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-css-modules": {
-      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-react-css-modules",
+      "resolve": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-plugin-react-css-modules",
       "id": "Plugin gatsby-plugin-react-css-modules",
       "name": "gatsby-plugin-react-css-modules",
       "version": "1.0.12",
@@ -447,7 +447,7 @@
       "nodeAPIs": [
         "modifyBabelrc"
       ],
-      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-plugin-react-css-modules",
+      "pluginFilepath": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-plugin-react-css-modules",
       "packageJson": {
         "name": "gatsby-plugin-react-css-modules",
         "description": "Gatsby plugin that transforms styleName to className using compile time CSS module resolution",
@@ -504,13 +504,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ad8283f5bb8e9cefdaecb9598d066ac6",
+        "contentDigest": "a7cb12f537531b278d17f0d0b8a5c02f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-source-contentful": {
-      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-source-contentful",
+      "resolve": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-source-contentful",
       "id": "Plugin gatsby-source-contentful",
       "name": "gatsby-source-contentful",
       "version": "1.3.38",
@@ -524,7 +524,7 @@
         "sourceNodes",
         "onPreExtractQueries"
       ],
-      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-source-contentful",
+      "pluginFilepath": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-source-contentful",
       "packageJson": {
         "name": "gatsby-source-contentful",
         "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
@@ -595,26 +595,26 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "05cc71d0455b8b1efea99bf6692a21aa",
+        "contentDigest": "07886a4d79bbb6eb73bea9d8e82fbb12",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-source-filesystem": {
-      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-source-filesystem",
+      "resolve": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-source-filesystem",
       "id": "Plugin gatsby-source-filesystem",
       "name": "gatsby-source-filesystem",
       "version": "1.5.18",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/maksimo/gatsby-apple-service/src/pages/",
+        "path": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/",
         "name": "cards"
       },
       "nodeAPIs": [
         "sourceNodes",
         "setFieldsOnGraphQLNodeType"
       ],
-      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-source-filesystem",
+      "pluginFilepath": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-source-filesystem",
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
@@ -687,13 +687,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "deb7b296d4cfebbd74b12db29ef46655",
+        "contentDigest": "a2e5a4ad3bb814891ec7ed4929d78174",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-transformer-remark": {
-      "resolve": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-transformer-remark",
+      "resolve": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-transformer-remark",
       "id": "Plugin gatsby-transformer-remark",
       "name": "gatsby-transformer-remark",
       "version": "1.7.31",
@@ -704,7 +704,7 @@
         "onCreateNode",
         "setFieldsOnGraphQLNodeType"
       ],
-      "pluginFilepath": "/Users/maksimo/gatsby-apple-service/node_modules/gatsby-transformer-remark",
+      "pluginFilepath": "/Users/infinitybuddha/Documents/projects/apple-service/node_modules/gatsby-transformer-remark",
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
@@ -823,13 +823,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "68945ca8f14ede1f32c7522e3f63a6a0",
+        "contentDigest": "4f9d8580c3b1e2322385d5df60aaf697",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/Users/maksimo/gatsby-apple-service",
+      "resolve": "/Users/infinitybuddha/Documents/projects/apple-service",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
       "version": "c0d23f6083851122c1435631d84e8181",
@@ -837,7 +837,7 @@
         "plugins": []
       },
       "nodeAPIs": [],
-      "pluginFilepath": "/Users/maksimo/gatsby-apple-service",
+      "pluginFilepath": "/Users/infinitybuddha/Documents/projects/apple-service",
       "packageJson": {
         "name": "gatsby-starter-default",
         "description": "Gatsby default starter",
@@ -967,7 +967,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2bc25eff382d15dadb738e83f8e144b5",
+        "contentDigest": "ec32732934f5f30984688c27fe6e8585",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -980,12 +980,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-04-17T17:21:29.054Z",
+      "buildTime": "2018-04-21T09:50:06.494Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "355c6d291f11cbdebfaa6eb8fd97521e",
+        "contentDigest": "4dc402778772b204226ff2ce8255e7f5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1124,25 +1124,6 @@
       },
       "node_locale": "ru-RU"
     },
-    "c5XzAZP9HTqYeeWiiKyIsaY": {
-      "title": "Iphone 8",
-      "price": "1344444",
-      "photo___NODE": [
-        "c5uaw45AlLGE2sq4gy6QE8u"
-      ],
-      "id": "c5XzAZP9HTqYeeWiiKyIsaY",
-      "contentful_id": "5XzAZP9HTqYeeWiiKyIsaY",
-      "createdAt": "2018-03-20T16:42:00.692Z",
-      "updatedAt": "2018-03-20T16:42:00.692Z",
-      "parent": "Basket",
-      "children": [],
-      "internal": {
-        "type": "ContentfulBasket",
-        "contentDigest": "72ad59c938e2b31bffbe640f1755c0e1",
-        "owner": "gatsby-source-contentful"
-      },
-      "node_locale": "ru-RU"
-    },
     "c7qssTaa8dUqwOMA4IgoEyK": {
       "id": "c7qssTaa8dUqwOMA4IgoEyK",
       "parent": null,
@@ -1218,27 +1199,65 @@
         "owner": "gatsby-source-contentful"
       }
     },
-    "/Users/maksimo/gatsby-apple-service/src/pages/ absPath of file": {
-      "id": "/Users/maksimo/gatsby-apple-service/src/pages/ absPath of file",
+    "c6eEkDsy1O0uwGwM2wGKMGS": {
+      "title": "Iphone 6",
+      "price": "15000",
+      "photo___NODE": [
+        "c5uaw45AlLGE2sq4gy6QE8u"
+      ],
+      "id": "c6eEkDsy1O0uwGwM2wGKMGS",
+      "contentful_id": "6eEkDsy1O0uwGwM2wGKMGS",
+      "createdAt": "2018-04-17T18:25:24.774Z",
+      "updatedAt": "2018-04-17T18:25:24.774Z",
+      "parent": "Basket",
+      "children": [],
+      "internal": {
+        "type": "ContentfulBasket",
+        "contentDigest": "0170f93d39d8e7e0bcefc5263dddce87",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "ru-RU"
+    },
+    "c6eHyTJXgasemcao288qeeG": {
+      "title": "Iphone 7",
+      "price": "2000",
+      "photo___NODE": [
+        "c7qssTaa8dUqwOMA4IgoEyK"
+      ],
+      "id": "c6eHyTJXgasemcao288qeeG",
+      "contentful_id": "6eHyTJXgasemcao288qeeG",
+      "createdAt": "2018-04-17T18:25:18.869Z",
+      "updatedAt": "2018-04-17T18:25:18.869Z",
+      "parent": "Basket",
+      "children": [],
+      "internal": {
+        "type": "ContentfulBasket",
+        "contentDigest": "e6cd7c419d5e6e8ffd6aafffae2ac172",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "ru-RU"
+    },
+    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ absPath of file": {
+      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1e181a57a7bad9e2c4ae75e07dd46f45",
+        "contentDigest": "afd123d440de748d6f474fb718ea18c3",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "cards",
-      "absolutePath": "/Users/maksimo/gatsby-apple-service/src/pages/",
+      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/",
       "relativePath": "",
       "extension": "",
       "size": 256,
       "prettySize": "256 B",
-      "modifiedTime": "2018-03-12T14:02:25.501Z",
-      "accessTime": "2018-04-17T17:21:34.665Z",
-      "changeTime": "2018-03-12T14:02:25.501Z",
-      "birthTime": "2018-02-08T19:32:30.000Z",
+      "modifiedTime": "2018-04-17T07:25:24.000Z",
+      "accessTime": "2018-04-21T09:50:17.613Z",
+      "changeTime": "2018-04-17T17:41:56.649Z",
+      "birthTime": "2018-04-17T07:25:24.000Z",
       "root": "/",
-      "dir": "/Users/maksimo/gatsby-apple-service/src",
+      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src",
       "base": "pages",
       "ext": "",
       "name": "pages",
@@ -1246,139 +1265,23 @@
       "dev": 16777220,
       "mode": 16877,
       "nlink": 8,
-      "uid": 501,
+      "uid": 502,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8596304049,
+      "ino": 6712854,
       "blocks": 0,
-      "atime": "2018-04-17T17:21:34.665Z",
-      "mtime": "2018-03-12T14:02:25.501Z",
-      "ctime": "2018-03-12T14:02:25.501Z",
-      "birthtime": "2018-02-08T19:32:30.000Z"
+      "atimeMs": 1524304217612.9614,
+      "mtimeMs": 1523949924000,
+      "ctimeMs": 1523986916649.2131,
+      "birthtimeMs": 1523949924000,
+      "atime": "2018-04-21T09:50:17.613Z",
+      "mtime": "2018-04-17T07:25:24.000Z",
+      "ctime": "2018-04-17T17:41:56.649Z",
+      "birthtime": "2018-04-17T07:25:24.000Z"
     },
-    "/Users/maksimo/gatsby-apple-service/src/pages/ipad.js absPath of file": {
-      "id": "/Users/maksimo/gatsby-apple-service/src/pages/ipad.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "9f4ad310358a17cb1220aa27cf913248",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "cards",
-      "absolutePath": "/Users/maksimo/gatsby-apple-service/src/pages/ipad.js",
-      "relativePath": "ipad.js",
-      "extension": "js",
-      "size": 137,
-      "prettySize": "137 B",
-      "modifiedTime": "2018-02-09T15:57:27.962Z",
-      "accessTime": "2018-03-23T09:08:28.451Z",
-      "changeTime": "2018-02-09T15:57:27.962Z",
-      "birthTime": "2018-02-09T15:57:27.962Z",
-      "root": "/",
-      "dir": "/Users/maksimo/gatsby-apple-service/src/pages",
-      "base": "ipad.js",
-      "ext": ".js",
-      "name": "ipad",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8596313694,
-      "blocks": 8,
-      "atime": "2018-03-23T09:08:28.451Z",
-      "mtime": "2018-02-09T15:57:27.962Z",
-      "ctime": "2018-02-09T15:57:27.962Z",
-      "birthtime": "2018-02-09T15:57:27.962Z"
-    },
-    "/Users/maksimo/gatsby-apple-service/src/pages/basket.js absPath of file": {
-      "id": "/Users/maksimo/gatsby-apple-service/src/pages/basket.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "5b7cd60884ecd8d338f1162305b475b3",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "cards",
-      "absolutePath": "/Users/maksimo/gatsby-apple-service/src/pages/basket.js",
-      "relativePath": "basket.js",
-      "extension": "js",
-      "size": 144,
-      "prettySize": "144 B",
-      "modifiedTime": "2018-02-14T09:03:57.181Z",
-      "accessTime": "2018-03-23T09:08:28.451Z",
-      "changeTime": "2018-02-14T09:03:57.181Z",
-      "birthTime": "2018-02-14T09:02:39.858Z",
-      "root": "/",
-      "dir": "/Users/maksimo/gatsby-apple-service/src/pages",
-      "base": "basket.js",
-      "ext": ".js",
-      "name": "basket",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8596411216,
-      "blocks": 8,
-      "atime": "2018-03-23T09:08:28.451Z",
-      "mtime": "2018-02-14T09:03:57.181Z",
-      "ctime": "2018-02-14T09:03:57.181Z",
-      "birthtime": "2018-02-14T09:02:39.858Z"
-    },
-    "/Users/maksimo/gatsby-apple-service/src/pages/other.js absPath of file": {
-      "id": "/Users/maksimo/gatsby-apple-service/src/pages/other.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "4799733abbe56d1f5795191005512be8",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "cards",
-      "absolutePath": "/Users/maksimo/gatsby-apple-service/src/pages/other.js",
-      "relativePath": "other.js",
-      "extension": "js",
-      "size": 172,
-      "prettySize": "172 B",
-      "modifiedTime": "2018-02-09T16:08:21.257Z",
-      "accessTime": "2018-03-23T09:08:28.451Z",
-      "changeTime": "2018-02-09T16:08:21.257Z",
-      "birthTime": "2018-02-09T16:06:48.193Z",
-      "root": "/",
-      "dir": "/Users/maksimo/gatsby-apple-service/src/pages",
-      "base": "other.js",
-      "ext": ".js",
-      "name": "other",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8596313948,
-      "blocks": 8,
-      "atime": "2018-03-23T09:08:28.451Z",
-      "mtime": "2018-02-09T16:08:21.257Z",
-      "ctime": "2018-02-09T16:08:21.257Z",
-      "birthtime": "2018-02-09T16:06:48.193Z"
-    },
-    "/Users/maksimo/gatsby-apple-service/src/pages/iphone-sell.js absPath of file": {
-      "id": "/Users/maksimo/gatsby-apple-service/src/pages/iphone-sell.js absPath of file",
+    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js absPath of file": {
+      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
@@ -1388,77 +1291,129 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "cards",
-      "absolutePath": "/Users/maksimo/gatsby-apple-service/src/pages/iphone-sell.js",
+      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js",
       "relativePath": "iphone-sell.js",
       "extension": "js",
       "size": 655,
       "prettySize": "655 B",
-      "modifiedTime": "2018-03-12T12:40:14.346Z",
-      "accessTime": "2018-03-23T09:08:28.451Z",
-      "changeTime": "2018-03-12T12:40:14.346Z",
-      "birthTime": "2018-02-19T10:13:42.680Z",
+      "modifiedTime": "2018-04-17T07:25:24.000Z",
+      "accessTime": "2018-04-19T16:45:08.897Z",
+      "changeTime": "2018-04-17T17:41:56.645Z",
+      "birthTime": "2018-04-17T07:25:24.000Z",
       "root": "/",
-      "dir": "/Users/maksimo/gatsby-apple-service/src/pages",
+      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages",
       "base": "iphone-sell.js",
       "ext": ".js",
       "name": "iphone-sell",
       "relativeDirectory": "",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
-      "uid": 501,
+      "uid": 502,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8596510055,
+      "ino": 6712857,
       "blocks": 8,
-      "atime": "2018-03-23T09:08:28.451Z",
-      "mtime": "2018-03-12T12:40:14.346Z",
-      "ctime": "2018-03-12T12:40:14.346Z",
-      "birthtime": "2018-02-19T10:13:42.680Z"
+      "atimeMs": 1524156308897.4976,
+      "mtimeMs": 1523949924000,
+      "ctimeMs": 1523986916644.6375,
+      "birthtimeMs": 1523949924000,
+      "atime": "2018-04-19T16:45:08.897Z",
+      "mtime": "2018-04-17T07:25:24.000Z",
+      "ctime": "2018-04-17T17:41:56.645Z",
+      "birthtime": "2018-04-17T07:25:24.000Z"
     },
-    "/Users/maksimo/gatsby-apple-service/src/pages/iphone.js absPath of file": {
-      "id": "/Users/maksimo/gatsby-apple-service/src/pages/iphone.js absPath of file",
+    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js absPath of file": {
+      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b7970c419858fafde484bc30bb5bd9b2",
+        "contentDigest": "9f4ad310358a17cb1220aa27cf913248",
         "mediaType": "application/javascript",
         "type": "File",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "cards",
-      "absolutePath": "/Users/maksimo/gatsby-apple-service/src/pages/iphone.js",
-      "relativePath": "iphone.js",
+      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js",
+      "relativePath": "ipad.js",
       "extension": "js",
-      "size": 178,
-      "prettySize": "178 B",
-      "modifiedTime": "2018-02-09T15:57:27.962Z",
-      "accessTime": "2018-03-23T09:08:28.451Z",
-      "changeTime": "2018-02-09T15:57:27.962Z",
-      "birthTime": "2018-02-09T15:57:27.962Z",
+      "size": 137,
+      "prettySize": "137 B",
+      "modifiedTime": "2018-04-17T07:25:24.000Z",
+      "accessTime": "2018-04-19T18:53:44.998Z",
+      "changeTime": "2018-04-17T17:41:56.648Z",
+      "birthTime": "2018-04-17T07:25:24.000Z",
       "root": "/",
-      "dir": "/Users/maksimo/gatsby-apple-service/src/pages",
-      "base": "iphone.js",
+      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages",
+      "base": "ipad.js",
       "ext": ".js",
-      "name": "iphone",
+      "name": "ipad",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33261,
       "nlink": 1,
-      "uid": 501,
+      "uid": 502,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8596313695,
+      "ino": 6712859,
       "blocks": 8,
-      "atime": "2018-03-23T09:08:28.451Z",
-      "mtime": "2018-02-09T15:57:27.962Z",
-      "ctime": "2018-02-09T15:57:27.962Z",
-      "birthtime": "2018-02-09T15:57:27.962Z"
+      "atimeMs": 1524164024998.3726,
+      "mtimeMs": 1523949924000,
+      "ctimeMs": 1523986916647.7488,
+      "birthtimeMs": 1523949924000,
+      "atime": "2018-04-19T18:53:44.998Z",
+      "mtime": "2018-04-17T07:25:24.000Z",
+      "ctime": "2018-04-17T17:41:56.648Z",
+      "birthtime": "2018-04-17T07:25:24.000Z"
     },
-    "/Users/maksimo/gatsby-apple-service/src/pages/index.js absPath of file": {
-      "id": "/Users/maksimo/gatsby-apple-service/src/pages/index.js absPath of file",
+    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js absPath of file": {
+      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4799733abbe56d1f5795191005512be8",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "cards",
+      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js",
+      "relativePath": "other.js",
+      "extension": "js",
+      "size": 172,
+      "prettySize": "172 B",
+      "modifiedTime": "2018-04-17T07:25:24.000Z",
+      "accessTime": "2018-04-19T05:40:47.935Z",
+      "changeTime": "2018-04-17T17:41:56.642Z",
+      "birthTime": "2018-04-17T07:25:24.000Z",
+      "root": "/",
+      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages",
+      "base": "other.js",
+      "ext": ".js",
+      "name": "other",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 6712855,
+      "blocks": 8,
+      "atimeMs": 1524116447934.817,
+      "mtimeMs": 1523949924000,
+      "ctimeMs": 1523986916641.9795,
+      "birthtimeMs": 1523949924000,
+      "atime": "2018-04-19T05:40:47.935Z",
+      "mtime": "2018-04-17T07:25:24.000Z",
+      "ctime": "2018-04-17T17:41:56.642Z",
+      "birthtime": "2018-04-17T07:25:24.000Z"
+    },
+    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/index.js absPath of file": {
+      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/index.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
@@ -1468,17 +1423,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "cards",
-      "absolutePath": "/Users/maksimo/gatsby-apple-service/src/pages/index.js",
+      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/index.js",
       "relativePath": "index.js",
       "extension": "js",
       "size": 162,
       "prettySize": "162 B",
-      "modifiedTime": "2018-02-19T10:16:38.632Z",
-      "accessTime": "2018-03-23T09:08:28.451Z",
-      "changeTime": "2018-02-19T10:16:38.632Z",
-      "birthTime": "2018-02-08T19:32:30.000Z",
+      "modifiedTime": "2018-04-17T07:25:24.000Z",
+      "accessTime": "2018-04-19T16:45:08.897Z",
+      "changeTime": "2018-04-17T17:41:56.643Z",
+      "birthTime": "2018-04-17T07:25:24.000Z",
       "root": "/",
-      "dir": "/Users/maksimo/gatsby-apple-service/src/pages",
+      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages",
       "base": "index.js",
       "ext": ".js",
       "name": "index",
@@ -1486,35 +1441,127 @@
       "dev": 16777220,
       "mode": 33261,
       "nlink": 1,
-      "uid": 501,
+      "uid": 502,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8596304054,
+      "ino": 6712856,
       "blocks": 8,
-      "atime": "2018-03-23T09:08:28.451Z",
-      "mtime": "2018-02-19T10:16:38.632Z",
-      "ctime": "2018-02-19T10:16:38.632Z",
-      "birthtime": "2018-02-08T19:32:30.000Z"
+      "atimeMs": 1524156308896.9944,
+      "mtimeMs": 1523949924000,
+      "ctimeMs": 1523986916643.4575,
+      "birthtimeMs": 1523949924000,
+      "atime": "2018-04-19T16:45:08.897Z",
+      "mtime": "2018-04-17T07:25:24.000Z",
+      "ctime": "2018-04-17T17:41:56.643Z",
+      "birthtime": "2018-04-17T07:25:24.000Z"
+    },
+    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js absPath of file": {
+      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5b7cd60884ecd8d338f1162305b475b3",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "cards",
+      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js",
+      "relativePath": "basket.js",
+      "extension": "js",
+      "size": 144,
+      "prettySize": "144 B",
+      "modifiedTime": "2018-04-17T07:25:24.000Z",
+      "accessTime": "2018-04-19T19:12:16.108Z",
+      "changeTime": "2018-04-17T17:41:56.649Z",
+      "birthTime": "2018-04-17T07:25:24.000Z",
+      "root": "/",
+      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages",
+      "base": "basket.js",
+      "ext": ".js",
+      "name": "basket",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 6712860,
+      "blocks": 8,
+      "atimeMs": 1524165136108.216,
+      "mtimeMs": 1523949924000,
+      "ctimeMs": 1523986916649.1377,
+      "birthtimeMs": 1523949924000,
+      "atime": "2018-04-19T19:12:16.108Z",
+      "mtime": "2018-04-17T07:25:24.000Z",
+      "ctime": "2018-04-17T17:41:56.649Z",
+      "birthtime": "2018-04-17T07:25:24.000Z"
+    },
+    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone.js absPath of file": {
+      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b7970c419858fafde484bc30bb5bd9b2",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "cards",
+      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone.js",
+      "relativePath": "iphone.js",
+      "extension": "js",
+      "size": 178,
+      "prettySize": "178 B",
+      "modifiedTime": "2018-04-17T07:25:24.000Z",
+      "accessTime": "2018-04-19T17:41:13.429Z",
+      "changeTime": "2018-04-17T17:41:56.646Z",
+      "birthTime": "2018-04-17T07:25:24.000Z",
+      "root": "/",
+      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages",
+      "base": "iphone.js",
+      "ext": ".js",
+      "name": "iphone",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 6712858,
+      "blocks": 8,
+      "atimeMs": 1524159673428.7756,
+      "mtimeMs": 1523949924000,
+      "ctimeMs": 1523986916646.1028,
+      "birthtimeMs": 1523949924000,
+      "atime": "2018-04-19T17:41:13.429Z",
+      "mtime": "2018-04-17T07:25:24.000Z",
+      "ctime": "2018-04-17T17:41:56.646Z",
+      "birthtime": "2018-04-17T07:25:24.000Z"
     },
     "SitePage /basket/": {
       "layout": "index",
       "jsonName": "basket.json",
       "internalComponentName": "ComponentBasket",
       "path": "/basket/",
-      "component": "/Users/maksimo/gatsby-apple-service/src/pages/basket.js",
+      "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js",
       "componentChunkName": "component---src-pages-basket-js",
       "context": {},
-      "updatedAt": 1523985695173,
+      "updatedAt": 1524304217952,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/maksimo/gatsby-apple-service/src/pages/basket.js",
+      "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js",
       "id": "SitePage /basket/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "47f7f0d31a910b71a8da89bf3cddd0ee",
+        "contentDigest": "525699d45fe915f521d5f3151a6bbd78",
         "owner": "internal-data-bridge"
       }
     },
@@ -1523,19 +1570,19 @@
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/maksimo/gatsby-apple-service/src/pages/index.js",
+      "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1523985695175,
+      "updatedAt": 1524304217953,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/maksimo/gatsby-apple-service/src/pages/index.js",
+      "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cb946aba963c801a8b984aa0b3b4a064",
+        "contentDigest": "a18237a73d9d1e8a6b638d2dfce0ca71",
         "owner": "internal-data-bridge"
       }
     },
@@ -1544,19 +1591,19 @@
       "jsonName": "ipad.json",
       "internalComponentName": "ComponentIpad",
       "path": "/ipad/",
-      "component": "/Users/maksimo/gatsby-apple-service/src/pages/ipad.js",
+      "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js",
       "componentChunkName": "component---src-pages-ipad-js",
       "context": {},
-      "updatedAt": 1523985695176,
+      "updatedAt": 1524304217953,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/maksimo/gatsby-apple-service/src/pages/ipad.js",
+      "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js",
       "id": "SitePage /ipad/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e3abefd8a3050f2d59bf7c2d251e186f",
+        "contentDigest": "ff728408c567c8d3f0ae0b9f78d31714",
         "owner": "internal-data-bridge"
       }
     },
@@ -1565,19 +1612,19 @@
       "jsonName": "iphone-sell.json",
       "internalComponentName": "ComponentIphoneSell",
       "path": "/iphone-sell/",
-      "component": "/Users/maksimo/gatsby-apple-service/src/pages/iphone-sell.js",
+      "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js",
       "componentChunkName": "component---src-pages-iphone-sell-js",
       "context": {},
-      "updatedAt": 1523985695176,
+      "updatedAt": 1524304217954,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/maksimo/gatsby-apple-service/src/pages/iphone-sell.js",
+      "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js",
       "id": "SitePage /iphone-sell/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f7c76a7a89fbe806e8e02b4dde0506f6",
+        "contentDigest": "19b2f785ee0e72cd73466e87a55704eb",
         "owner": "internal-data-bridge"
       }
     },
@@ -1586,19 +1633,19 @@
       "jsonName": "iphone.json",
       "internalComponentName": "ComponentIphone",
       "path": "/iphone/",
-      "component": "/Users/maksimo/gatsby-apple-service/src/pages/iphone.js",
+      "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone.js",
       "componentChunkName": "component---src-pages-iphone-js",
       "context": {},
-      "updatedAt": 1523985695178,
+      "updatedAt": 1524304217955,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/maksimo/gatsby-apple-service/src/pages/iphone.js",
+      "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone.js",
       "id": "SitePage /iphone/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "48bf3db02f2e91e2730588f8ebad859d",
+        "contentDigest": "c934c8bc98f9720d483232c4852ad850",
         "owner": "internal-data-bridge"
       }
     },
@@ -1607,19 +1654,19 @@
       "jsonName": "other.json",
       "internalComponentName": "ComponentOther",
       "path": "/other/",
-      "component": "/Users/maksimo/gatsby-apple-service/src/pages/other.js",
+      "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js",
       "componentChunkName": "component---src-pages-other-js",
       "context": {},
-      "updatedAt": 1523985695179,
+      "updatedAt": 1524304217955,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/maksimo/gatsby-apple-service/src/pages/other.js",
+      "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js",
       "id": "SitePage /other/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "38f157339ae52a11b18977f564f1cac9",
+        "contentDigest": "3d8d69bda56d0e1329d9c178a6dca918",
         "owner": "internal-data-bridge"
       }
     }
@@ -1627,7 +1674,7 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "3afxhmr1xm65": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZGw77Dq3jDqRw5WCgFwofCisOOAkBpGcO7w4DCqRsTGsKMwp7Dr8OVRmEBXsK4A8KFY3pcwqLCthjCm1zCih4cwoMJcsOwE8KqL1vDoMO7DUQHw6fDo8Omc8O0w50"
+        "3afxhmr1xm65": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZjwpE0Awh8BF3DuHHDv34hw5VAwpTDq37DvyzDo3tdYcKbfMKMwoFrwpt6aUUQwpI3IMKUwo0oXgfDr8Kfwqx3w5HCrsOSw61fw6EGw7h5w4vDoA3CpcKSw6Bmw6_Cgw"
       }
     },
     "PLUGINS_HASH": "06a802c662cb0f8bc83fa552781fcada"
