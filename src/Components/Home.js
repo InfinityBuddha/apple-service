@@ -256,6 +256,44 @@ class Home extends Component {
 
               </div>
             </div>
+            <div className={loc.card}>
+              <div className={loc.text}>
+                <div className={loc.address}>
+                  <div className={loc.city}>Голицыно</div>
+                  <div className={loc.street}>ТК "Новый" Привокзальная площадь, д.5</div>
+                </div>
+                <div className={loc.contacts}>
+                  <a href='tel:8(916)6115550' className={loc.phone}>+7 (916) 611-55-50</a>
+                  <a href='tel:8(985)2415000' className={loc.phone}>+7 (985) 241-50-00</a>
+                  {/*<a href='' className={loc.button}>
+                                     <div className={loc.button__title}>Записаться на ремонт</div>
+                                     </a>*/}
+                </div>
+              </div>
+              <div className={loc.map} id='map'>
+                <Map
+                  ruler={false}
+                  scrollZoom={false}
+                  center={[55.616161, 36.989356]}
+                  zoom={16}
+                  width={362}
+                  height={202}>
+
+                  <Marker lat={55.616161} lon={36.989356}>
+                    <MarkerLayout>
+                      <div style={{ width: "30px", height: "30px" }}>
+                        <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'
+                             viewBox='0 0 24 24' fill='#0070D2'>
+                          <path
+                            d='M4 24h-2v-24h2v24zm6.161-23c-1.8 0-3.436 1.017-4.161 1.638v11.362c2.447-3.692 5.281-2.538 7.526-1.909 4.435 1.244 6.686-1.535 8.474-4.78-6.427 2.666-5.895-6.311-11.839-6.311z'/>
+                        </svg>
+                      </div>
+                    </MarkerLayout>
+                  </Marker>
+                </Map>
+
+              </div>
+            </div>
           </div>
         </section>
       </div>

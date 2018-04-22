@@ -8,7 +8,7 @@
       "component": "/Users/infinitybuddha/Documents/projects/apple-service/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1524304217947,
+      "updatedAt": 1524418145423,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c187159c07a88dfa03aec44f0e6e5f1a",
+        "contentDigest": "a91a9486ce15d32abc6868b6031cf9eb",
         "owner": "internal-data-bridge"
       }
     },
@@ -980,12 +980,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-04-21T09:50:06.494Z",
+      "buildTime": "2018-04-22T17:28:54.089Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4dc402778772b204226ff2ce8255e7f5",
+        "contentDigest": "93c81a3020a3ab7d9b0105e9da65f93d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1242,7 +1242,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "afd123d440de748d6f474fb718ea18c3",
+        "contentDigest": "e56ead0942f9520680a2a23a92d598be",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1253,7 +1253,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2018-04-17T07:25:24.000Z",
-      "accessTime": "2018-04-21T09:50:17.613Z",
+      "accessTime": "2018-04-22T17:29:05.183Z",
       "changeTime": "2018-04-17T17:41:56.649Z",
       "birthTime": "2018-04-17T07:25:24.000Z",
       "root": "/",
@@ -1271,11 +1271,11 @@
       "blksize": 4194304,
       "ino": 6712854,
       "blocks": 0,
-      "atimeMs": 1524304217612.9614,
+      "atimeMs": 1524418145183.4446,
       "mtimeMs": 1523949924000,
       "ctimeMs": 1523986916649.2131,
       "birthtimeMs": 1523949924000,
-      "atime": "2018-04-21T09:50:17.613Z",
+      "atime": "2018-04-22T17:29:05.183Z",
       "mtime": "2018-04-17T07:25:24.000Z",
       "ctime": "2018-04-17T17:41:56.649Z",
       "birthtime": "2018-04-17T07:25:24.000Z"
@@ -1552,7 +1552,7 @@
       "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js",
       "componentChunkName": "component---src-pages-basket-js",
       "context": {},
-      "updatedAt": 1524304217952,
+      "updatedAt": 1524418145428,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js",
@@ -1561,7 +1561,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "525699d45fe915f521d5f3151a6bbd78",
+        "contentDigest": "72f63dcc1445e472a490e47489bf40cb",
         "owner": "internal-data-bridge"
       }
     },
@@ -1573,7 +1573,7 @@
       "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1524304217953,
+      "updatedAt": 1524418145428,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/index.js",
@@ -1582,7 +1582,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a18237a73d9d1e8a6b638d2dfce0ca71",
+        "contentDigest": "04c5e2ff7a1d2dbd59c074090b1ade12",
         "owner": "internal-data-bridge"
       }
     },
@@ -1594,7 +1594,7 @@
       "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js",
       "componentChunkName": "component---src-pages-ipad-js",
       "context": {},
-      "updatedAt": 1524304217953,
+      "updatedAt": 1524418145428,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js",
@@ -1603,7 +1603,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ff728408c567c8d3f0ae0b9f78d31714",
+        "contentDigest": "435f5be251561633a37d17f2ab8af726",
         "owner": "internal-data-bridge"
       }
     },
@@ -1615,7 +1615,7 @@
       "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js",
       "componentChunkName": "component---src-pages-iphone-sell-js",
       "context": {},
-      "updatedAt": 1524304217954,
+      "updatedAt": 1524418145429,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js",
@@ -1624,7 +1624,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "19b2f785ee0e72cd73466e87a55704eb",
+        "contentDigest": "dcede2cff4170154de992ccdb981ccc3",
         "owner": "internal-data-bridge"
       }
     },
@@ -1636,7 +1636,7 @@
       "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone.js",
       "componentChunkName": "component---src-pages-iphone-js",
       "context": {},
-      "updatedAt": 1524304217955,
+      "updatedAt": 1524418145429,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone.js",
@@ -1645,7 +1645,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c934c8bc98f9720d483232c4852ad850",
+        "contentDigest": "0b4719cc56aa1c85c7f69492155afa8f",
         "owner": "internal-data-bridge"
       }
     },
@@ -1657,7 +1657,7 @@
       "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js",
       "componentChunkName": "component---src-pages-other-js",
       "context": {},
-      "updatedAt": 1524304217955,
+      "updatedAt": 1524418145430,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js",
@@ -1666,7 +1666,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3d8d69bda56d0e1329d9c178a6dca918",
+        "contentDigest": "80bd6510aeb3330b216e3afadaaef457",
         "owner": "internal-data-bridge"
       }
     }
