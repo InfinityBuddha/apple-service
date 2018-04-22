@@ -274,12 +274,12 @@ class Home extends Component {
                 <Map
                   ruler={false}
                   scrollZoom={false}
-                  center={[55.616161, 36.989356]}
+                  center={[55.616184, 36.988440]}
                   zoom={16}
                   width={362}
                   height={202}>
 
-                  <Marker lat={55.616161} lon={36.989356}>
+                  <Marker lat={55.616161} lon={36.988440}>
                     <MarkerLayout>
                       <div style={{ width: "30px", height: "30px" }}>
                         <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'
