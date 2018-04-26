@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import head from './styles.module.scss';
-import Menu from '../Menu/Menu.js';
-import HamburgerIcon from '../../img/icons/HamburgerIcon';
-import { Link } from 'react-router-dom';
-import menu from '../Menu/styles.module.scss';
-import RepairBoxLogo from '../../img/icons/RepairBoxLogo';
-import { anonymousAuth } from '../../ducks/auth';
-import { connect } from 'react-redux';
+import React, { Component } from "react";
+import head from "./styles.module.scss";
+import Menu from "../Menu/Menu.js";
+import HamburgerIcon from "../../img/icons/HamburgerIcon";
+import { Link } from "react-router-dom";
+import menu from "../Menu/styles.module.scss";
+import RepairBoxLogo from "../../img/icons/RepairBoxLogo";
+import { anonymousAuth } from "../../ducks/auth";
+import { connect } from "react-redux";
 
 export class Header extends Component {
   constructor() {
@@ -22,7 +22,7 @@ export class Header extends Component {
   }
 
   toggleMenu = () => {
-    const body = document.getElementsByTagName('body')[0];
+    const body = document.getElementsByTagName("body")[0];
     if (body.classList.contains(menu.openedMenu)) {
       body.classList.remove(menu.openedMenu);
     } else {
@@ -67,5 +67,5 @@ export class Header extends Component {
 
 const mapDispatchToProps = {
   anonymousAuth
-}
+};
 export default connect(null, mapDispatchToProps)(Header);

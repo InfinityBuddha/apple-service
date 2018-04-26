@@ -1,4 +1,5 @@
 import {take, all} from 'redux-saga/effects'
+import { getCurrentUserData } from "../api/auth";
 
 export const ADD_TO_CART = 'ADD_TO_CART'
 
@@ -26,6 +27,7 @@ export function increment() {
 export const testSaga = function* () {
   while (true) {
     yield take(ADD_TO_CART)
+    getCurrentUserData()
   }
 }
 
