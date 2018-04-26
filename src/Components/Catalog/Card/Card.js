@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import s from './styles.module.scss'
 import PropTypes from 'prop-types'
+import {increment} from '../../../ducks/store'
 
 class Card extends Component {
     constructor() {
@@ -55,15 +56,13 @@ class Card extends Component {
                 <div className={s.productCard__container}>
                     <a className={s.productCard__link}>{data.fields.title}</a>
                     <span className={s.productCard__price}>{data.fields.price} Р</span>
-                    <button >Добавить в корзину</button>
+                    <button onClick={() => this.props.increment()}>Добавить в корзину</button>
                 </div>
             </article>
         )
     }
 }
 
-Card.propTypes = {
-    card: PropTypes.object
-}
+const mapDispatchToProps = {increment}
 
-export default Card;
+export default connect(null, mapDispatchToProps)(Card)
