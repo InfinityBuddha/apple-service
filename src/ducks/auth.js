@@ -1,13 +1,13 @@
 import {take, all} from 'redux-saga/effects'
 
-export const ADD_TO_CART = 'ADD_TO_CART'
+export const ANONYMOUS_AUTH_REQ = 'ANONYMOUS_AUTH_REQ'
 
 const initialState = { count: 0 }
 
 export default function reducer(state = initialState, action) {
   const {type} = action
   switch (type) {
-    case ADD_TO_CART:
+    case ANONYMOUS_AUTH_REQ:
       return {
         ...state
       }
@@ -17,20 +17,20 @@ export default function reducer(state = initialState, action) {
   }
 }
 
-export function increment() {
+export function anonymousAuth() {
   return {
-    type: ADD_TO_CART
+    type: ANONYMOUS_AUTH_REQ
   }
 }
 
-export const testSaga = function* () {
+export const anonymousAuthSaga = function* () {
   while (true) {
-    yield take(ADD_TO_CART)
+    yield take(ANONYMOUS_AUTH_REQ)
   }
 }
 
 export function* saga() {
   yield all([
-    testSaga()
+    anonymousAuthSaga()
   ])
 }

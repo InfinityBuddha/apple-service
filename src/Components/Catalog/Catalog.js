@@ -35,19 +35,6 @@ export class Catalog extends Component {
       })
       .catch(console.error);
 */
-    skygear.config({
-      'endPoint': 'https://repairbox.skygeario.com/',
-      'apiKey': '391a5c8f42a046adb8e1b6e04464fbdd'
-    }).then(() => {
-      console.log('skygear container is now ready for making API calls.');
-    }).then(() => skygear.auth.signupAnonymously())
-      .then(() => {
-        const Test = skygear.Record.extend('test');
-        return skygear.publicDB.save(new Test({
-          'content': 'Hello World'
-        }));
-      })
-      .catch(console.error)
   }
 
   render() {
