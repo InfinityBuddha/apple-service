@@ -8,7 +8,7 @@
       "component": "/Users/infinitybuddha/Documents/projects/apple-service/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1524418145423,
+      "updatedAt": 1524764610181,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a91a9486ce15d32abc6868b6031cf9eb",
+        "contentDigest": "64967a5ec4b8398d8050c19b1ee9b191",
         "owner": "internal-data-bridge"
       }
     },
@@ -946,6 +946,10 @@
             "version": "^2.2.1"
           },
           {
+            "name": "skygear",
+            "version": "^1.5.0"
+          },
+          {
             "name": "styled-components",
             "version": "^3.1.6"
           },
@@ -980,12 +984,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-04-22T17:28:54.089Z",
+      "buildTime": "2018-04-26T17:43:20.045Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "93c81a3020a3ab7d9b0105e9da65f93d",
+        "contentDigest": "cce03812ca25227c71137ad9f076816a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1105,6 +1109,44 @@
         "owner": "gatsby-source-contentful"
       }
     },
+    "c6eEkDsy1O0uwGwM2wGKMGS": {
+      "title": "Iphone 6",
+      "price": "15000",
+      "photo___NODE": [
+        "c5uaw45AlLGE2sq4gy6QE8u"
+      ],
+      "id": "c6eEkDsy1O0uwGwM2wGKMGS",
+      "contentful_id": "6eEkDsy1O0uwGwM2wGKMGS",
+      "createdAt": "2018-04-17T18:25:24.774Z",
+      "updatedAt": "2018-04-17T18:25:24.774Z",
+      "parent": "Basket",
+      "children": [],
+      "internal": {
+        "type": "ContentfulBasket",
+        "contentDigest": "0170f93d39d8e7e0bcefc5263dddce87",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "ru-RU"
+    },
+    "c6eHyTJXgasemcao288qeeG": {
+      "title": "Iphone 7",
+      "price": "2000",
+      "photo___NODE": [
+        "c7qssTaa8dUqwOMA4IgoEyK"
+      ],
+      "id": "c6eHyTJXgasemcao288qeeG",
+      "contentful_id": "6eHyTJXgasemcao288qeeG",
+      "createdAt": "2018-04-17T18:25:18.869Z",
+      "updatedAt": "2018-04-17T18:25:18.869Z",
+      "parent": "Basket",
+      "children": [],
+      "internal": {
+        "type": "ContentfulBasket",
+        "contentDigest": "e6cd7c419d5e6e8ffd6aafffae2ac172",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "ru-RU"
+    },
     "c1vqacPwCNCkSwqwGSCsw8m": {
       "title": "Iphone X",
       "price": "100000",
@@ -1199,50 +1241,12 @@
         "owner": "gatsby-source-contentful"
       }
     },
-    "c6eEkDsy1O0uwGwM2wGKMGS": {
-      "title": "Iphone 6",
-      "price": "15000",
-      "photo___NODE": [
-        "c5uaw45AlLGE2sq4gy6QE8u"
-      ],
-      "id": "c6eEkDsy1O0uwGwM2wGKMGS",
-      "contentful_id": "6eEkDsy1O0uwGwM2wGKMGS",
-      "createdAt": "2018-04-17T18:25:24.774Z",
-      "updatedAt": "2018-04-17T18:25:24.774Z",
-      "parent": "Basket",
-      "children": [],
-      "internal": {
-        "type": "ContentfulBasket",
-        "contentDigest": "0170f93d39d8e7e0bcefc5263dddce87",
-        "owner": "gatsby-source-contentful"
-      },
-      "node_locale": "ru-RU"
-    },
-    "c6eHyTJXgasemcao288qeeG": {
-      "title": "Iphone 7",
-      "price": "2000",
-      "photo___NODE": [
-        "c7qssTaa8dUqwOMA4IgoEyK"
-      ],
-      "id": "c6eHyTJXgasemcao288qeeG",
-      "contentful_id": "6eHyTJXgasemcao288qeeG",
-      "createdAt": "2018-04-17T18:25:18.869Z",
-      "updatedAt": "2018-04-17T18:25:18.869Z",
-      "parent": "Basket",
-      "children": [],
-      "internal": {
-        "type": "ContentfulBasket",
-        "contentDigest": "e6cd7c419d5e6e8ffd6aafffae2ac172",
-        "owner": "gatsby-source-contentful"
-      },
-      "node_locale": "ru-RU"
-    },
     "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ absPath of file": {
       "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e56ead0942f9520680a2a23a92d598be",
+        "contentDigest": "b3198895865b5c614fb2ffd3f63b49fa",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1253,7 +1257,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2018-04-17T07:25:24.000Z",
-      "accessTime": "2018-04-22T17:29:05.183Z",
+      "accessTime": "2018-04-26T17:43:29.967Z",
       "changeTime": "2018-04-17T17:41:56.649Z",
       "birthTime": "2018-04-17T07:25:24.000Z",
       "root": "/",
@@ -1271,145 +1275,13 @@
       "blksize": 4194304,
       "ino": 6712854,
       "blocks": 0,
-      "atimeMs": 1524418145183.4446,
+      "atimeMs": 1524764609967.222,
       "mtimeMs": 1523949924000,
       "ctimeMs": 1523986916649.2131,
       "birthtimeMs": 1523949924000,
-      "atime": "2018-04-22T17:29:05.183Z",
+      "atime": "2018-04-26T17:43:29.967Z",
       "mtime": "2018-04-17T07:25:24.000Z",
       "ctime": "2018-04-17T17:41:56.649Z",
-      "birthtime": "2018-04-17T07:25:24.000Z"
-    },
-    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js absPath of file": {
-      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "13b7c0e09bfa9e8871444f769a821d2d",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "cards",
-      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js",
-      "relativePath": "iphone-sell.js",
-      "extension": "js",
-      "size": 655,
-      "prettySize": "655 B",
-      "modifiedTime": "2018-04-17T07:25:24.000Z",
-      "accessTime": "2018-04-19T16:45:08.897Z",
-      "changeTime": "2018-04-17T17:41:56.645Z",
-      "birthTime": "2018-04-17T07:25:24.000Z",
-      "root": "/",
-      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages",
-      "base": "iphone-sell.js",
-      "ext": ".js",
-      "name": "iphone-sell",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 502,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 6712857,
-      "blocks": 8,
-      "atimeMs": 1524156308897.4976,
-      "mtimeMs": 1523949924000,
-      "ctimeMs": 1523986916644.6375,
-      "birthtimeMs": 1523949924000,
-      "atime": "2018-04-19T16:45:08.897Z",
-      "mtime": "2018-04-17T07:25:24.000Z",
-      "ctime": "2018-04-17T17:41:56.645Z",
-      "birthtime": "2018-04-17T07:25:24.000Z"
-    },
-    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js absPath of file": {
-      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "9f4ad310358a17cb1220aa27cf913248",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "cards",
-      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js",
-      "relativePath": "ipad.js",
-      "extension": "js",
-      "size": 137,
-      "prettySize": "137 B",
-      "modifiedTime": "2018-04-17T07:25:24.000Z",
-      "accessTime": "2018-04-19T18:53:44.998Z",
-      "changeTime": "2018-04-17T17:41:56.648Z",
-      "birthTime": "2018-04-17T07:25:24.000Z",
-      "root": "/",
-      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages",
-      "base": "ipad.js",
-      "ext": ".js",
-      "name": "ipad",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 502,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 6712859,
-      "blocks": 8,
-      "atimeMs": 1524164024998.3726,
-      "mtimeMs": 1523949924000,
-      "ctimeMs": 1523986916647.7488,
-      "birthtimeMs": 1523949924000,
-      "atime": "2018-04-19T18:53:44.998Z",
-      "mtime": "2018-04-17T07:25:24.000Z",
-      "ctime": "2018-04-17T17:41:56.648Z",
-      "birthtime": "2018-04-17T07:25:24.000Z"
-    },
-    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js absPath of file": {
-      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "4799733abbe56d1f5795191005512be8",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "cards",
-      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js",
-      "relativePath": "other.js",
-      "extension": "js",
-      "size": 172,
-      "prettySize": "172 B",
-      "modifiedTime": "2018-04-17T07:25:24.000Z",
-      "accessTime": "2018-04-19T05:40:47.935Z",
-      "changeTime": "2018-04-17T17:41:56.642Z",
-      "birthTime": "2018-04-17T07:25:24.000Z",
-      "root": "/",
-      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages",
-      "base": "other.js",
-      "ext": ".js",
-      "name": "other",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 502,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 6712855,
-      "blocks": 8,
-      "atimeMs": 1524116447934.817,
-      "mtimeMs": 1523949924000,
-      "ctimeMs": 1523986916641.9795,
-      "birthtimeMs": 1523949924000,
-      "atime": "2018-04-19T05:40:47.935Z",
-      "mtime": "2018-04-17T07:25:24.000Z",
-      "ctime": "2018-04-17T17:41:56.642Z",
       "birthtime": "2018-04-17T07:25:24.000Z"
     },
     "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/index.js absPath of file": {
@@ -1429,7 +1301,7 @@
       "size": 162,
       "prettySize": "162 B",
       "modifiedTime": "2018-04-17T07:25:24.000Z",
-      "accessTime": "2018-04-19T16:45:08.897Z",
+      "accessTime": "2018-04-26T17:31:34.300Z",
       "changeTime": "2018-04-17T17:41:56.643Z",
       "birthTime": "2018-04-17T07:25:24.000Z",
       "root": "/",
@@ -1447,57 +1319,13 @@
       "blksize": 4194304,
       "ino": 6712856,
       "blocks": 8,
-      "atimeMs": 1524156308896.9944,
+      "atimeMs": 1524763894299.5632,
       "mtimeMs": 1523949924000,
       "ctimeMs": 1523986916643.4575,
       "birthtimeMs": 1523949924000,
-      "atime": "2018-04-19T16:45:08.897Z",
+      "atime": "2018-04-26T17:31:34.300Z",
       "mtime": "2018-04-17T07:25:24.000Z",
       "ctime": "2018-04-17T17:41:56.643Z",
-      "birthtime": "2018-04-17T07:25:24.000Z"
-    },
-    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js absPath of file": {
-      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "5b7cd60884ecd8d338f1162305b475b3",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "cards",
-      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js",
-      "relativePath": "basket.js",
-      "extension": "js",
-      "size": 144,
-      "prettySize": "144 B",
-      "modifiedTime": "2018-04-17T07:25:24.000Z",
-      "accessTime": "2018-04-19T19:12:16.108Z",
-      "changeTime": "2018-04-17T17:41:56.649Z",
-      "birthTime": "2018-04-17T07:25:24.000Z",
-      "root": "/",
-      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages",
-      "base": "basket.js",
-      "ext": ".js",
-      "name": "basket",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 502,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 6712860,
-      "blocks": 8,
-      "atimeMs": 1524165136108.216,
-      "mtimeMs": 1523949924000,
-      "ctimeMs": 1523986916649.1377,
-      "birthtimeMs": 1523949924000,
-      "atime": "2018-04-19T19:12:16.108Z",
-      "mtime": "2018-04-17T07:25:24.000Z",
-      "ctime": "2018-04-17T17:41:56.649Z",
       "birthtime": "2018-04-17T07:25:24.000Z"
     },
     "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone.js absPath of file": {
@@ -1517,7 +1345,7 @@
       "size": 178,
       "prettySize": "178 B",
       "modifiedTime": "2018-04-17T07:25:24.000Z",
-      "accessTime": "2018-04-19T17:41:13.429Z",
+      "accessTime": "2018-04-26T17:31:34.300Z",
       "changeTime": "2018-04-17T17:41:56.646Z",
       "birthTime": "2018-04-17T07:25:24.000Z",
       "root": "/",
@@ -1535,13 +1363,189 @@
       "blksize": 4194304,
       "ino": 6712858,
       "blocks": 8,
-      "atimeMs": 1524159673428.7756,
+      "atimeMs": 1524763894299.5925,
       "mtimeMs": 1523949924000,
       "ctimeMs": 1523986916646.1028,
       "birthtimeMs": 1523949924000,
-      "atime": "2018-04-19T17:41:13.429Z",
+      "atime": "2018-04-26T17:31:34.300Z",
       "mtime": "2018-04-17T07:25:24.000Z",
       "ctime": "2018-04-17T17:41:56.646Z",
+      "birthtime": "2018-04-17T07:25:24.000Z"
+    },
+    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js absPath of file": {
+      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "13b7c0e09bfa9e8871444f769a821d2d",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "cards",
+      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js",
+      "relativePath": "iphone-sell.js",
+      "extension": "js",
+      "size": 655,
+      "prettySize": "655 B",
+      "modifiedTime": "2018-04-17T07:25:24.000Z",
+      "accessTime": "2018-04-26T17:31:34.300Z",
+      "changeTime": "2018-04-17T17:41:56.645Z",
+      "birthTime": "2018-04-17T07:25:24.000Z",
+      "root": "/",
+      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages",
+      "base": "iphone-sell.js",
+      "ext": ".js",
+      "name": "iphone-sell",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 6712857,
+      "blocks": 8,
+      "atimeMs": 1524763894299.585,
+      "mtimeMs": 1523949924000,
+      "ctimeMs": 1523986916644.6375,
+      "birthtimeMs": 1523949924000,
+      "atime": "2018-04-26T17:31:34.300Z",
+      "mtime": "2018-04-17T07:25:24.000Z",
+      "ctime": "2018-04-17T17:41:56.645Z",
+      "birthtime": "2018-04-17T07:25:24.000Z"
+    },
+    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js absPath of file": {
+      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4799733abbe56d1f5795191005512be8",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "cards",
+      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js",
+      "relativePath": "other.js",
+      "extension": "js",
+      "size": 172,
+      "prettySize": "172 B",
+      "modifiedTime": "2018-04-17T07:25:24.000Z",
+      "accessTime": "2018-04-26T17:31:34.300Z",
+      "changeTime": "2018-04-17T17:41:56.642Z",
+      "birthTime": "2018-04-17T07:25:24.000Z",
+      "root": "/",
+      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages",
+      "base": "other.js",
+      "ext": ".js",
+      "name": "other",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 6712855,
+      "blocks": 8,
+      "atimeMs": 1524763894299.6008,
+      "mtimeMs": 1523949924000,
+      "ctimeMs": 1523986916641.9795,
+      "birthtimeMs": 1523949924000,
+      "atime": "2018-04-26T17:31:34.300Z",
+      "mtime": "2018-04-17T07:25:24.000Z",
+      "ctime": "2018-04-17T17:41:56.642Z",
+      "birthtime": "2018-04-17T07:25:24.000Z"
+    },
+    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js absPath of file": {
+      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5b7cd60884ecd8d338f1162305b475b3",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "cards",
+      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js",
+      "relativePath": "basket.js",
+      "extension": "js",
+      "size": 144,
+      "prettySize": "144 B",
+      "modifiedTime": "2018-04-17T07:25:24.000Z",
+      "accessTime": "2018-04-26T17:31:34.300Z",
+      "changeTime": "2018-04-17T17:41:56.649Z",
+      "birthTime": "2018-04-17T07:25:24.000Z",
+      "root": "/",
+      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages",
+      "base": "basket.js",
+      "ext": ".js",
+      "name": "basket",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 6712860,
+      "blocks": 8,
+      "atimeMs": 1524763894299.559,
+      "mtimeMs": 1523949924000,
+      "ctimeMs": 1523986916649.1377,
+      "birthtimeMs": 1523949924000,
+      "atime": "2018-04-26T17:31:34.300Z",
+      "mtime": "2018-04-17T07:25:24.000Z",
+      "ctime": "2018-04-17T17:41:56.649Z",
+      "birthtime": "2018-04-17T07:25:24.000Z"
+    },
+    "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js absPath of file": {
+      "id": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9f4ad310358a17cb1220aa27cf913248",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "cards",
+      "absolutePath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js",
+      "relativePath": "ipad.js",
+      "extension": "js",
+      "size": 137,
+      "prettySize": "137 B",
+      "modifiedTime": "2018-04-17T07:25:24.000Z",
+      "accessTime": "2018-04-26T17:31:34.300Z",
+      "changeTime": "2018-04-17T17:41:56.648Z",
+      "birthTime": "2018-04-17T07:25:24.000Z",
+      "root": "/",
+      "dir": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages",
+      "base": "ipad.js",
+      "ext": ".js",
+      "name": "ipad",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 6712859,
+      "blocks": 8,
+      "atimeMs": 1524763894299.5754,
+      "mtimeMs": 1523949924000,
+      "ctimeMs": 1523986916647.7488,
+      "birthtimeMs": 1523949924000,
+      "atime": "2018-04-26T17:31:34.300Z",
+      "mtime": "2018-04-17T07:25:24.000Z",
+      "ctime": "2018-04-17T17:41:56.648Z",
       "birthtime": "2018-04-17T07:25:24.000Z"
     },
     "SitePage /basket/": {
@@ -1552,7 +1556,7 @@
       "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js",
       "componentChunkName": "component---src-pages-basket-js",
       "context": {},
-      "updatedAt": 1524418145428,
+      "updatedAt": 1524764610186,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/basket.js",
@@ -1561,7 +1565,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "72f63dcc1445e472a490e47489bf40cb",
+        "contentDigest": "6a6c37ca76bb20d314e5076268b87bf9",
         "owner": "internal-data-bridge"
       }
     },
@@ -1573,7 +1577,7 @@
       "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1524418145428,
+      "updatedAt": 1524764610186,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/index.js",
@@ -1582,7 +1586,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "04c5e2ff7a1d2dbd59c074090b1ade12",
+        "contentDigest": "bc49ae2b4b3a823aba04b21e96c9d2a4",
         "owner": "internal-data-bridge"
       }
     },
@@ -1594,7 +1598,7 @@
       "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js",
       "componentChunkName": "component---src-pages-ipad-js",
       "context": {},
-      "updatedAt": 1524418145428,
+      "updatedAt": 1524764610187,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/ipad.js",
@@ -1603,7 +1607,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "435f5be251561633a37d17f2ab8af726",
+        "contentDigest": "2e63c6e8d8b42787238dd172d72e88f4",
         "owner": "internal-data-bridge"
       }
     },
@@ -1615,7 +1619,7 @@
       "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js",
       "componentChunkName": "component---src-pages-iphone-sell-js",
       "context": {},
-      "updatedAt": 1524418145429,
+      "updatedAt": 1524764610187,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone-sell.js",
@@ -1624,7 +1628,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dcede2cff4170154de992ccdb981ccc3",
+        "contentDigest": "3794c75625952b77570dc74efe793662",
         "owner": "internal-data-bridge"
       }
     },
@@ -1636,7 +1640,7 @@
       "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone.js",
       "componentChunkName": "component---src-pages-iphone-js",
       "context": {},
-      "updatedAt": 1524418145429,
+      "updatedAt": 1524764610188,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/iphone.js",
@@ -1645,7 +1649,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0b4719cc56aa1c85c7f69492155afa8f",
+        "contentDigest": "647b239f1e3617a6c2c95d7eb7e10dcb",
         "owner": "internal-data-bridge"
       }
     },
@@ -1657,7 +1661,7 @@
       "component": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js",
       "componentChunkName": "component---src-pages-other-js",
       "context": {},
-      "updatedAt": 1524418145430,
+      "updatedAt": 1524764610188,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/infinitybuddha/Documents/projects/apple-service/src/pages/other.js",
@@ -1666,7 +1670,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "80bd6510aeb3330b216e3afadaaef457",
+        "contentDigest": "e70444cb047f52bd74c2e348e0bb2e66",
         "owner": "internal-data-bridge"
       }
     }
@@ -1677,7 +1681,7 @@
         "3afxhmr1xm65": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZjwpE0Awh8BF3DuHHDv34hw5VAwpTDq37DvyzDo3tdYcKbfMKMwoFrwpt6aUUQwpI3IMKUwo0oXgfDr8Kfwqx3w5HCrsOSw61fw6EGw7h5w4vDoA3CpcKSw6Bmw6_Cgw"
       }
     },
-    "PLUGINS_HASH": "06a802c662cb0f8bc83fa552781fcada"
+    "PLUGINS_HASH": "8a5fe1fd497db4618c77a98bd5fd294b"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1692,11 +1696,11 @@
       ]
     },
     "connections": {
-      "ContentfulCard": [
-        "/iphone-sell/"
-      ],
       "SitePage": [
         "/dev-404-page/"
+      ],
+      "ContentfulCard": [
+        "/iphone-sell/"
       ]
     }
   }
