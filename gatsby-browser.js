@@ -4,9 +4,17 @@ import { Provider } from 'react-redux'
 import { applyMiddleware, createStore} from 'redux'
 import rootReducer from './src/reducers'
 import logger from 'redux-logger'
+import createSagaMiddleware from 'redux-saga'
+import saga from './src/redux/saga'
 
 exports.replaceRouterComponent = ({ history }) => {
-  const store = createStore(rootReducer, applyMiddleware(logger))
+  const sagaMiddleware = createSagaMiddleware()
+
+  const enhancer = applyMiddleware(sagaMiddleware, logger)
+
+  const store = createStore(rootReducer, enhancer)
+
+  sagaMiddleware.run(saga)
 
   const ConnectedRouterWrapper = ({ children }) => (
     <Provider store={store}>

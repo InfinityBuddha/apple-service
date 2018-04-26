@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import s from './styles.module.scss'
-import PropTypes from 'prop-types'
 import {increment} from '../../../ducks/store'
+import {connect} from 'react-redux'
 
 class Card extends Component {
     constructor() {
