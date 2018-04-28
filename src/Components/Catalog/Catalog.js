@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import s from "./styles.module.scss";
 import Card from "./Card/Card";
-import skygear from "skygear";
+import {connect} from 'react-redux'
+import {getCatalog} from "../../ducks/store"
 
 export class Catalog extends Component {
   constructor() {
@@ -12,7 +13,7 @@ export class Catalog extends Component {
   }
 
   componentDidMount() {
-    const contentful = require("contentful");
+    /*const contentful = require("contentful");
 
     const client = contentful.createClient({
       space: "3afxhmr1xm65",
@@ -33,8 +34,8 @@ export class Catalog extends Component {
           cards: response.items
         });
       })
-      .catch(console.error);
-
+      .catch(console.error);*/
+    this.props.getCatalog()
   }
 
   render() {
@@ -51,4 +52,4 @@ export class Catalog extends Component {
   }
 }
 
-export default Catalog;
+export default connect(null, {getCatalog})(Catalog);

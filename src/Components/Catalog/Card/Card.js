@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import s from './styles.module.scss'
-import {increment} from '../../../ducks/store'
+import {addToCart} from '../../../ducks/store'
 import {connect} from 'react-redux'
 
 class Card extends Component {
     constructor() {
-        super()
+        super();
         this.state = {
         }
     }
@@ -56,13 +56,11 @@ class Card extends Component {
                 <div className={s.productCard__container}>
                     <a className={s.productCard__link}>{data.fields.title}</a>
                     <span className={s.productCard__price}>{data.fields.price} Р</span>
-                    <button onClick={() => this.props.increment()}>Добавить в корзину</button>
+                    <button onClick={() => this.props.addToCart(data.fields.title, data.fields.price, 'makita', 'Дрель')}>Добавить в корзину</button>
                 </div>
             </article>
         )
     }
 }
 
-const mapDispatchToProps = {increment}
-
-export default connect(null, mapDispatchToProps)(Card)
+export default connect(null, {addToCart})(Card)

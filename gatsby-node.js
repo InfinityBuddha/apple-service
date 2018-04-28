@@ -35,4 +35,10 @@
 //     )
 //   })
 // }
+const webpack = require('webpack');
+exports.modifyWebpackConfig = ({ config, stage }) => {
+  config.plugin("webpack-define", webpack.DefinePlugin, [{ "global.GENTLY": false }])
+
+  return config;
+};
 
